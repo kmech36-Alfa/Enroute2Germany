@@ -1,0 +1,37 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "Organization",
+            "name": "Enroute2Germany",
+            "url": "https://enroute2germany.com",
+            "logo": "https://images.unsplash.com/photo-1599946347371-68eb71b16afc?auto=format&fit=crop&q=80&w=1200",
+            "email": "kmech36@gmail.com",
+            "telephone": "+49 176 74415998",
+            "sameAs": [
+                "https://www.linkedin.com/",
+                "https://www.instagram.com/"
+            ]
+        },
+        {
+            "@type": "Service",
+            "name": "Premium Study in Germany Consulting",
+            "description": "Direct consulting for Indian students aiming for German public and TU9 universities, including SOP review, visa planning, and admission strategy.",
+            "provider": {
+                "@type": "Organization",
+                "name": "Enroute2Germany"
+            },
+            "serviceType": "Educational Consulting"
+        },
+        {
+            "@type": "WebSite",
+            "url": "https://enroute2germany.com",
+            "name": "Enroute2Germany",
+            "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://enroute2germany.com/?s={search_term_string}",
+                "query-input": "required name=search_term_string"
+            }
+        }
+    ]
+}
