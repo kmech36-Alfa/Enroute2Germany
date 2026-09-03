@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="A practical Enroute2Germany guide to learning German, opening a bank account, health insurance and essential financial protection in Germany.">
+  <title>Learn German, Money & Insurance | Enroute2Germany</title>
+  <style>
+:root{
+  --e2gm-ink:#101827;
+  --e2gm-muted:#5e6775;
+  --e2gm-paper:#fffdf8;
+  --e2gm-surface:#ffffff;
+  --e2gm-soft:#f3efe6;
+  --e2gm-line:#e7dfd1;
+  --e2gm-red:#d91f2d;
+  --e2gm-gold:#f4bd2e;
+  --e2gm-black:#171717;
+  --e2gm-green:#0f766e;
+  --e2gm-blue:#2457d6;
+  --e2gm-purple:#7139b8;
+  --e2gm-shadow:0 24px 70px rgba(15,23,42,.12);
+  --e2gm-radius:28px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--e2gm-paper);color:var(--e2gm-ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.62}
+a{color:inherit}
+button{font:inherit}
+.e2gm-page{overflow:hidden;background:radial-gradient(circle at 8% 1%,rgba(244,189,46,.18),transparent 29rem),radial-gradient(circle at 95% 9%,rgba(217,31,45,.11),transparent 28rem),var(--e2gm-paper)}
+.e2gm-wrap{width:min(1180px,calc(100% - 32px));margin-inline:auto}
+.e2gm-nav{position:sticky;top:0;z-index:80;border-bottom:1px solid rgba(231,223,209,.84);background:rgba(255,253,248,.9);backdrop-filter:blur(18px)}
+.e2gm-nav-inner{display:flex;align-items:center;justify-content:space-between;gap:18px;min-height:70px}
+.e2gm-brand{display:flex;align-items:center;gap:11px;text-decoration:none;font-weight:950;letter-spacing:-.035em}
+.e2gm-brand-mark{display:grid;place-items:center;width:42px;height:42px;border-radius:14px;background:linear-gradient(145deg,#111,#303030);color:#fff;box-shadow:0 8px 22px rgba(22,22,22,.18);font-size:.75rem}
+.e2gm-brand-mark b{color:var(--e2gm-gold)}
+.e2gm-navlinks{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.e2gm-navlinks a{padding:.55rem .72rem;border-radius:10px;text-decoration:none;color:#505966;font-size:.82rem;font-weight:800}
+.e2gm-navlinks a:hover,.e2gm-navlinks a:focus-visible{background:#fff;color:#111;outline:none}
+.e2gm-navlinks .e2gm-nav-cta{background:var(--e2gm-black);color:#fff}
+.e2gm-hero{padding:clamp(72px,9vw,126px) 0 42px}
+.e2gm-hero-grid{display:grid;grid-template-columns:minmax(0,1.03fr) minmax(370px,.97fr);gap:clamp(34px,5vw,72px);align-items:center}
+.e2gm-kicker{display:inline-flex;align-items:center;gap:.55rem;margin:0 0 1rem;padding:.46rem .78rem;border:1px solid rgba(217,31,45,.20);border-radius:999px;background:rgba(255,255,255,.86);color:#a8111d;font-size:.76rem;font-weight:900;letter-spacing:.095em;text-transform:uppercase}
+.e2gm-kicker::before{content:"";width:.56rem;height:.56rem;border-radius:50%;background:linear-gradient(135deg,var(--e2gm-red),var(--e2gm-gold));box-shadow:0 0 0 .28rem rgba(217,31,45,.08)}
+.e2gm-display{max-width:900px;margin:0;font-size:clamp(2.65rem,6.2vw,5.9rem);line-height:.98;letter-spacing:-.058em;font-weight:950}
+.e2gm-display em{font-style:normal;color:var(--e2gm-red)}
+.e2gm-lead{max-width:760px;margin:1.45rem 0 0;color:var(--e2gm-muted);font-size:clamp(1.02rem,1.7vw,1.22rem)}
+.e2gm-btns{display:flex;flex-wrap:wrap;gap:.82rem;margin-top:1.75rem}
+.e2gm-btn{display:inline-flex;align-items:center;justify-content:center;gap:.55rem;min-height:50px;padding:.76rem 1.1rem;border-radius:14px;text-decoration:none;font-weight:850;border:1px solid transparent;transition:.22s ease}
+.e2gm-btn-primary{background:var(--e2gm-black);color:#fff;box-shadow:0 12px 28px rgba(22,22,22,.20)}
+.e2gm-btn-primary:hover{transform:translateY(-2px);background:var(--e2gm-red)}
+.e2gm-btn-secondary{background:#fff;border-color:var(--e2gm-line)}
+.e2gm-btn-secondary:hover{transform:translateY(-2px);border-color:#bcb3a4}
+.e2gm-hero-art{position:relative;min-height:620px;border-radius:42px;background:linear-gradient(155deg,#101010 0%,#242424 58%,#4a1117 100%);box-shadow:var(--e2gm-shadow);overflow:hidden;isolation:isolate;border:1px solid rgba(255,255,255,.8)}
+.e2gm-hero-art::before{content:"";position:absolute;inset:-30%;background:conic-gradient(from 160deg,transparent,rgba(244,189,46,.32),transparent 35%,rgba(217,31,45,.3),transparent 70%);filter:blur(28px);animation:e2gm-spin 24s linear infinite;z-index:-2}
+.e2gm-hero-art::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 56%,rgba(0,0,0,.48));pointer-events:none}
+@keyframes e2gm-spin{to{transform:rotate(360deg)}}
+.e2gm-art-label{position:absolute;left:28px;top:26px;z-index:3;color:#fff;max-width:60%}
+.e2gm-art-label small{display:block;color:var(--e2gm-gold);font-size:.74rem;font-weight:900;letter-spacing:.13em;text-transform:uppercase}
+.e2gm-art-label strong{display:block;margin-top:.32rem;font-size:1.25rem;line-height:1.2}
+.e2gm-art-pill{position:absolute;right:24px;top:25px;z-index:4;padding:11px 14px;border:1px solid rgba(255,255,255,.17);border-radius:18px;background:rgba(255,255,255,.1);backdrop-filter:blur(14px);color:#fff;font-size:.78rem;font-weight:800}
+.e2gm-art-svg{position:absolute;inset:70px 10px 45px;width:calc(100% - 20px);height:calc(100% - 115px);z-index:1;filter:drop-shadow(0 30px 42px rgba(0,0,0,.35))}
+.e2gm-art-note{position:absolute;left:24px;right:24px;bottom:24px;z-index:4;display:grid;grid-template-columns:auto 1fr;gap:13px;align-items:center;padding:16px 17px;border-radius:20px;background:rgba(255,255,255,.11);border:1px solid rgba(255,255,255,.16);backdrop-filter:blur(16px);color:#fff}
+.e2gm-art-note i{display:grid;place-items:center;width:44px;height:44px;border-radius:14px;background:var(--e2gm-gold);color:#191919;font-style:normal;font-weight:950}
+.e2gm-art-note strong{display:block;font-size:.95rem}.e2gm-art-note span{display:block;margin-top:.12rem;color:#d8d8d8;font-size:.82rem}
+.e2gm-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:42px}
+.e2gm-stat{padding:19px;border:1px solid var(--e2gm-line);border-radius:20px;background:rgba(255,255,255,.84);box-shadow:0 10px 30px rgba(17,24,39,.045)}
+.e2gm-stat strong{display:block;font-size:1.42rem;line-height:1.1}.e2gm-stat span{display:block;margin-top:.42rem;color:var(--e2gm-muted);font-size:.86rem}
+.e2gm-section{padding:clamp(70px,8vw,112px) 0}
+.e2gm-section.alt{background:var(--e2gm-soft)}
+.e2gm-section.dark{background:#161616;color:#fff}
+.e2gm-section-head{display:flex;justify-content:space-between;gap:30px;align-items:end;margin-bottom:34px}
+.e2gm-section-head h2{max-width:820px;margin:0;font-size:clamp(2rem,4vw,3.72rem);line-height:1.04;letter-spacing:-.046em}
+.e2gm-section-head p{max-width:500px;margin:0;color:var(--e2gm-muted)}
+.e2gm-section.dark .e2gm-section-head p{color:#c7c7c7}
+.e2gm-paths{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.e2gm-path{position:relative;min-height:330px;padding:32px;border-radius:30px;border:1px solid var(--e2gm-line);background:#fff;overflow:hidden;box-shadow:0 14px 40px rgba(15,23,42,.055)}
+.e2gm-path:nth-child(2){background:#171717;color:#fff;border-color:#171717}
+.e2gm-path::after{content:"";position:absolute;right:-80px;bottom:-90px;width:260px;height:260px;border-radius:50%;background:var(--e2gm-gold);opacity:.15}
+.e2gm-path:nth-child(2)::after{background:var(--e2gm-red);opacity:.22}
+.e2gm-path-icon{display:grid;place-items:center;width:58px;height:58px;border-radius:18px;background:var(--e2gm-soft);font-size:1.55rem}
+.e2gm-path:nth-child(2) .e2gm-path-icon{background:rgba(255,255,255,.11)}
+.e2gm-path h3{position:relative;z-index:1;margin:1.15rem 0 .55rem;font-size:1.65rem;letter-spacing:-.025em}
+.e2gm-path p{position:relative;z-index:1;margin:0;color:var(--e2gm-muted)}
+.e2gm-path:nth-child(2) p{color:#d4d4d4}
+.e2gm-path ul{position:relative;z-index:1;margin:1.2rem 0 0;padding:0;list-style:none;display:grid;gap:.6rem}
+.e2gm-path li{display:flex;gap:.6rem;align-items:flex-start;font-size:.91rem}.e2gm-path li::before{content:"✓";font-weight:950;color:var(--e2gm-green)}
+.e2gm-path:nth-child(2) li::before{color:var(--e2gm-gold)}
+.e2gm-cards{display:grid;grid-template-columns:repeat(12,1fr);gap:16px}
+.e2gm-card{grid-column:span 4;padding:25px;border-radius:25px;background:#fff;border:1px solid var(--e2gm-line);box-shadow:0 12px 30px rgba(15,23,42,.045)}
+.e2gm-card.feature{grid-column:span 6;background:#171717;color:#fff;border-color:#171717}
+.e2gm-card-icon{display:grid;place-items:center;width:50px;height:50px;border-radius:16px;background:var(--e2gm-soft);font-size:1.35rem}
+.e2gm-card.feature .e2gm-card-icon{background:rgba(255,255,255,.11)}
+.e2gm-card h3{margin:1rem 0 .5rem;font-size:1.23rem}.e2gm-card p{margin:0;color:var(--e2gm-muted);font-size:.93rem}.e2gm-card.feature p{color:#d1d1d1}
+.e2gm-levels{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}
+.e2gm-level{position:relative;padding:19px 15px 18px;border-radius:21px;background:#fff;border:1px solid var(--e2gm-line);cursor:pointer;transition:.2s ease;text-align:left}
+.e2gm-level:hover,.e2gm-level[aria-selected="true"]{transform:translateY(-4px);box-shadow:0 17px 35px rgba(15,23,42,.12);border-color:transparent}
+.e2gm-level[aria-selected="true"]{background:#171717;color:#fff}
+.e2gm-level b{display:grid;place-items:center;width:46px;height:46px;border-radius:15px;background:var(--level-color);color:#fff;font-size:1.05rem}
+.e2gm-level strong{display:block;margin-top:.85rem}.e2gm-level span{display:block;margin-top:.18rem;color:#7a828d;font-size:.78rem}.e2gm-level[aria-selected="true"] span{color:#c6c8cb}
+.e2gm-level-detail{margin-top:18px;padding:29px;border:1px solid var(--e2gm-line);border-radius:28px;background:#fff;box-shadow:0 18px 48px rgba(15,23,42,.07)}
+.e2gm-level-detail-top{display:flex;align-items:flex-start;justify-content:space-between;gap:22px}
+.e2gm-level-detail h3{margin:0;font-size:clamp(1.7rem,3.2vw,2.75rem);letter-spacing:-.035em}.e2gm-level-detail .e2gm-level-big{font-size:4.3rem;line-height:1;font-weight:950;color:var(--active-color,var(--e2gm-red));letter-spacing:-.08em}
+.e2gm-level-detail-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:22px}
+.e2gm-mini{padding:16px;border-radius:17px;background:#f7f4ee;border:1px solid #ece5da}.e2gm-mini b{display:block;font-size:.76rem;text-transform:uppercase;letter-spacing:.08em}.e2gm-mini p{margin:.45rem 0 0;color:var(--e2gm-muted);font-size:.89rem}
+.e2gm-table-wrap{overflow-x:auto;border:1px solid var(--e2gm-line);border-radius:26px;background:#fff;box-shadow:0 14px 38px rgba(15,23,42,.055)}
+.e2gm-table{width:100%;border-collapse:collapse;min-width:820px}
+.e2gm-table th,.e2gm-table td{padding:16px 18px;text-align:left;vertical-align:top;border-bottom:1px solid #eee8de}
+.e2gm-table th{background:#171717;color:#fff;font-size:.82rem;text-transform:uppercase;letter-spacing:.065em}
+.e2gm-table tr:last-child td{border-bottom:0}.e2gm-table td{font-size:.91rem}.e2gm-table td:nth-child(1){font-weight:800}.e2gm-pill{display:inline-flex;padding:.35rem .62rem;border-radius:999px;background:#f2efe9;color:#3f4853;font-size:.76rem;font-weight:850;white-space:nowrap}
+.e2gm-steps{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.e2gm-step{position:relative;padding:24px;border-radius:24px;background:#fff;border:1px solid var(--e2gm-line);min-height:220px}
+.e2gm-step-num{display:grid;place-items:center;width:42px;height:42px;border-radius:14px;background:#171717;color:#fff;font-weight:950}.e2gm-step h3{margin:1rem 0 .5rem;font-size:1.15rem}.e2gm-step p{margin:0;color:var(--e2gm-muted);font-size:.9rem}
+.e2gm-step::after{content:"";position:absolute;right:-11px;top:47px;width:22px;height:2px;background:#d2cabb}.e2gm-step:last-child::after{display:none}
+.e2gm-split{display:grid;grid-template-columns:1fr 1fr;gap:18px;align-items:stretch}
+.e2gm-panel{padding:30px;border:1px solid var(--e2gm-line);border-radius:29px;background:#fff;box-shadow:0 14px 40px rgba(15,23,42,.055)}
+.e2gm-panel.dark{background:#171717;color:#fff;border-color:#171717}
+.e2gm-panel h3{margin:0;font-size:1.55rem;letter-spacing:-.026em}.e2gm-panel>p{margin:.65rem 0 0;color:var(--e2gm-muted)}.e2gm-panel.dark>p{color:#c9c9c9}
+.e2gm-checks{display:grid;gap:.72rem;margin-top:1.2rem;padding:0;list-style:none}.e2gm-checks li{display:flex;gap:.68rem;align-items:flex-start;font-size:.91rem}.e2gm-checks li::before{content:"✓";display:grid;place-items:center;flex:0 0 24px;height:24px;border-radius:8px;background:rgba(15,118,110,.12);color:var(--e2gm-green);font-weight:950}.e2gm-panel.dark .e2gm-checks li::before{background:rgba(244,189,46,.13);color:var(--e2gm-gold)}
+.e2gm-insurance-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:13px}
+.e2gm-ins{padding:20px;border-radius:21px;background:#fff;color:var(--e2gm-ink);border:1px solid rgba(255,255,255,.12)}
+.e2gm-ins i{font-style:normal;font-size:1.35rem}.e2gm-ins h3{margin:.8rem 0 .42rem;font-size:1rem}.e2gm-ins p{margin:0;color:#636c79;font-size:.82rem}
+.e2gm-checklist{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.e2gm-check-item{display:flex;gap:12px;padding:18px;border-radius:19px;background:#fff;border:1px solid var(--e2gm-line)}
+.e2gm-check-item input{margin-top:.28rem;accent-color:var(--e2gm-red);width:18px;height:18px}.e2gm-check-item strong{display:block}.e2gm-check-item span{display:block;margin-top:.25rem;color:var(--e2gm-muted);font-size:.83rem}
+.e2gm-faq{display:grid;gap:11px}
+.e2gm-faq details{border:1px solid var(--e2gm-line);border-radius:19px;background:#fff;overflow:hidden}
+.e2gm-faq summary{cursor:pointer;list-style:none;padding:18px 20px;font-weight:850;display:flex;justify-content:space-between;gap:15px}.e2gm-faq summary::-webkit-details-marker{display:none}.e2gm-faq summary::after{content:"+";font-size:1.2rem}.e2gm-faq details[open] summary::after{content:"–"}.e2gm-faq details p{margin:0;padding:0 20px 20px;color:var(--e2gm-muted);font-size:.92rem}
+.e2gm-note{display:grid;grid-template-columns:auto 1fr;gap:14px;margin-top:20px;padding:20px;border:1px solid #ead7a4;border-radius:20px;background:#fff8dc}.e2gm-note i{display:grid;place-items:center;width:42px;height:42px;border-radius:14px;background:var(--e2gm-gold);font-style:normal;font-weight:950}.e2gm-note h3{margin:0;font-size:1rem}.e2gm-note p{margin:.3rem 0 0;color:#695d3b;font-size:.88rem}
+.e2gm-sources{display:grid;grid-template-columns:1fr 1fr;gap:14px}.e2gm-source{padding:18px;border:1px solid var(--e2gm-line);border-radius:18px;background:#fff}.e2gm-source strong{display:block}.e2gm-source a{display:inline-block;margin-top:.5rem;color:var(--e2gm-red);font-size:.84rem;font-weight:850;text-decoration:none}.e2gm-source a:hover{text-decoration:underline}
+.e2gm-cta{position:relative;padding:clamp(48px,7vw,82px);border-radius:36px;background:linear-gradient(135deg,#151515,#282828 60%,#4b1118);color:#fff;overflow:hidden;box-shadow:var(--e2gm-shadow)}
+.e2gm-cta::after{content:"";position:absolute;right:-100px;bottom:-130px;width:360px;height:360px;border-radius:50%;background:var(--e2gm-gold);opacity:.16}.e2gm-cta>*{position:relative;z-index:1}.e2gm-cta h2{max-width:780px;margin:0;font-size:clamp(2.2rem,4.5vw,4.1rem);line-height:1.02;letter-spacing:-.048em}.e2gm-cta p{max-width:700px;color:#d3d3d3}.e2gm-footer{padding:34px 0 46px;color:#6c7480;font-size:.82rem}.e2gm-footer-inner{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.e2gm-footer a{color:var(--e2gm-red);font-weight:800;text-decoration:none}
+.e2gm-backtop{position:fixed;right:18px;bottom:18px;z-index:60;display:grid;place-items:center;width:46px;height:46px;border-radius:15px;background:#171717;color:#fff;text-decoration:none;box-shadow:0 12px 28px rgba(0,0,0,.22)}
+@media(max-width:980px){.e2gm-navlinks a:not(.e2gm-nav-cta){display:none}.e2gm-hero-grid{grid-template-columns:1fr}.e2gm-hero-art{min-height:570px}.e2gm-levels{grid-template-columns:repeat(3,1fr)}.e2gm-steps{grid-template-columns:1fr 1fr}.e2gm-step::after{display:none}.e2gm-insurance-grid{grid-template-columns:repeat(2,1fr)}.e2gm-ins:last-child{grid-column:span 2}.e2gm-checklist{grid-template-columns:1fr 1fr}}
+@media(max-width:720px){.e2gm-wrap{width:min(100% - 22px,1180px)}.e2gm-nav-inner{min-height:64px}.e2gm-brand{font-size:.92rem}.e2gm-brand-mark{width:38px;height:38px}.e2gm-hero{padding-top:58px}.e2gm-display{font-size:clamp(2.45rem,13vw,4.3rem)}.e2gm-hero-art{min-height:500px;border-radius:28px}.e2gm-art-label{left:20px;top:20px}.e2gm-art-pill{right:18px;top:18px}.e2gm-art-note{left:16px;right:16px;bottom:16px}.e2gm-stats{grid-template-columns:1fr 1fr}.e2gm-section-head{display:block}.e2gm-section-head p{margin-top:1rem}.e2gm-paths,.e2gm-split,.e2gm-sources{grid-template-columns:1fr}.e2gm-card,.e2gm-card.feature{grid-column:span 12}.e2gm-levels{grid-template-columns:1fr 1fr}.e2gm-level-detail-grid{grid-template-columns:1fr}.e2gm-level-detail-top{align-items:center}.e2gm-level-detail .e2gm-level-big{font-size:3rem}.e2gm-steps,.e2gm-checklist{grid-template-columns:1fr}.e2gm-insurance-grid{grid-template-columns:1fr}.e2gm-ins:last-child{grid-column:auto}.e2gm-cta{padding:38px 26px;border-radius:28px}.e2gm-footer-inner{display:block}.e2gm-footer-inner div+div{margin-top:.6rem}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.e2gm-hero-art::before{animation:none}.e2gm-btn,.e2gm-level,.e2gm-card{transition:none}}
+  </style>
+</head>
+<body>
+<div class="e2gm-page" id="e2gm-top">
+  <nav class="e2gm-nav" aria-label="Page navigation">
+    <div class="e2gm-wrap e2gm-nav-inner">
+      <a class="e2gm-brand" href="https://www.enroute2germany.com/" aria-label="Enroute2Germany home"><span class="e2gm-brand-mark"><b>DE</b></span><span>Enroute2Germany</span></a>
+      <div class="e2gm-navlinks">
+        <a href="#e2gm-german">Learn German</a><a href="#e2gm-money">Money</a><a href="#e2gm-health">Insurance</a><a href="#e2gm-checklist">Checklist</a><a href="#e2gm-faq">FAQ</a><a class="e2gm-nav-cta" href="#e2gm-contact">Get guidance</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="e2gm-hero">
+    <div class="e2gm-wrap">
+      <div class="e2gm-hero-grid">
+        <div>
+          <p class="e2gm-kicker">Living confidently in Germany</p>
+          <h1 class="e2gm-display">Speak clearly. Manage money. <em>Settle smarter.</em></h1>
+          <p class="e2gm-lead">A practical one-page guide to German language learning, bank accounts, health insurance and essential financial protection—designed for international students, professionals and families moving to Germany.</p>
+          <div class="e2gm-btns"><a class="e2gm-btn e2gm-btn-primary" href="#e2gm-start">Explore the guide ↓</a><a class="e2gm-btn e2gm-btn-secondary" href="#e2gm-checklist">First-month checklist</a></div>
+        </div>
+        <div class="e2gm-hero-art" aria-label="Illustration of German learning, banking and health insurance">
+          <div class="e2gm-art-label"><small>Two essentials. One clear roadmap.</small><strong>Language confidence + financial security</strong></div>
+          <div class="e2gm-art-pill">Enroute2Germany Guide</div>
+          <svg class="e2gm-art-svg" viewBox="0 0 640 540" role="img" aria-label="Custom illustration showing language learning, a bank card and health insurance">
+            <defs>
+              <linearGradient id="e2gm-goldgrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffe07a"/><stop offset="1" stop-color="#f4bd2e"/></linearGradient>
+              <linearGradient id="e2gm-redgrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ef5260"/><stop offset="1" stop-color="#b50f1d"/></linearGradient>
+            </defs>
+            <circle cx="324" cy="282" r="210" fill="#fff" opacity=".045"/>
+            <circle cx="324" cy="282" r="151" fill="#fff" opacity=".045"/>
+            <g transform="translate(58 92)">
+              <rect x="0" y="40" width="250" height="148" rx="31" fill="#fff" opacity=".96"/>
+              <path d="M42 187 21 222l7-46" fill="#fff" opacity=".96"/>
+              <circle cx="54" cy="86" r="22" fill="#171717"/><text x="54" y="93" text-anchor="middle" fill="#f4bd2e" font-size="19" font-weight="800">A1</text>
+              <text x="91" y="82" fill="#171717" font-size="19" font-weight="800">Guten Tag!</text>
+              <text x="91" y="110" fill="#667085" font-size="15">Start speaking from day one.</text>
+              <rect x="43" y="137" width="164" height="14" rx="7" fill="#eae5dc"/>
+              <rect x="43" y="137" width="108" height="14" rx="7" fill="url(#e2gm-redgrad)"/>
+            </g>
+            <g transform="translate(302 116) rotate(5 130 100)">
+              <rect x="0" y="0" width="263" height="172" rx="27" fill="url(#e2gm-goldgrad)"/>
+              <circle cx="217" cy="42" r="19" fill="#171717" opacity=".9"/><circle cx="232" cy="42" r="19" fill="#d91f2d" opacity=".88"/>
+              <text x="30" y="45" fill="#171717" font-size="15" font-weight="900" letter-spacing="2">GIROKONTO</text>
+              <rect x="31" y="69" width="47" height="35" rx="8" fill="#171717" opacity=".82"/>
+              <text x="31" y="132" fill="#171717" font-size="19" font-weight="850">DE •••• •••• 2026</text>
+              <text x="31" y="154" fill="#5e4b13" font-size="13">Everyday banking in Germany</text>
+            </g>
+            <g transform="translate(196 318)">
+              <rect x="0" y="0" width="285" height="142" rx="29" fill="#f8fbff"/>
+              <rect x="22" y="22" width="62" height="62" rx="19" fill="#2457d6"/>
+              <path d="M53 34v38M34 53h38" stroke="#fff" stroke-width="11" stroke-linecap="round"/>
+              <text x="104" y="50" fill="#171717" font-size="17" font-weight="900">Health insurance</text>
+              <text x="104" y="75" fill="#667085" font-size="14">Required for life in Germany</text>
+              <rect x="23" y="104" width="238" height="10" rx="5" fill="#e1e7f0"/>
+              <rect x="23" y="104" width="176" height="10" rx="5" fill="#0f766e"/>
+            </g>
+            <g transform="translate(501 352)"><circle cx="0" cy="0" r="47" fill="url(#e2gm-redgrad)"/><path d="M-20-5h40M0-25v40" stroke="#fff" stroke-width="11" stroke-linecap="round"/></g>
+          </svg>
+          <div class="e2gm-art-note"><i>✓</i><div><strong>Original, licence-safe website design</strong><span>Custom SVG illustration, fresh copy and no copied commercial photographs.</span></div></div>
+        </div>
+      </div>
+      <div class="e2gm-stats" aria-label="Quick facts">
+        <div class="e2gm-stat"><strong>A1–C2</strong><span>six recognised CEFR language levels</span></div>
+        <div class="e2gm-stat"><strong>600 + 100</strong><span>standard integration-course lesson units</span></div>
+        <div class="e2gm-stat"><strong>Girokonto</strong><span>the account used for salary and daily payments</span></div>
+        <div class="e2gm-stat"><strong>Required</strong><span>health insurance is compulsory in Germany</span></div>
+      </div>
+    </div>
+  </header>
+
+  <section class="e2gm-section" id="e2gm-start">
+    <div class="e2gm-wrap">
+      <div class="e2gm-section-head"><div><p class="e2gm-kicker">Start here</p><h2>Two foundations for a smoother life in Germany.</h2></div><p>German helps you communicate and integrate. A reliable financial and insurance setup protects your daily life, salary, health and household.</p></div>
+      <div class="e2gm-paths">
+        <article class="e2gm-path"><div class="e2gm-path-icon">🗣️</div><h3>Learn German</h3><p>Build confidence for work, university, authorities, healthcare and everyday relationships.</p><ul><li>Understand A1–C2 levels</li><li>Check visa and study requirements</li><li>Find courses and recognised exams</li><li>Use integration and workplace courses</li></ul><div class="e2gm-btns"><a class="e2gm-btn e2gm-btn-secondary" href="#e2gm-german">Explore German learning</a></div></article>
+        <article class="e2gm-path"><div class="e2gm-path-icon">💳</div><h3>Money & Insurance</h3><p>Set up practical banking, compulsory health cover and sensible protection for your new life.</p><ul><li>Open a current account</li><li>Compare statutory and private health insurance</li><li>Understand the health card and EHIC</li><li>Prioritise additional insurance</li></ul><div class="e2gm-btns"><a class="e2gm-btn e2gm-btn-primary" href="#e2gm-money">Explore money & insurance</a></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="e2gm-section alt" id="e2gm-german">
+    <div class="e2gm-wrap">
+      <div class="e2gm-section-head"><div><p class="e2gm-kicker">Learn German</p><h2>German is your everyday advantage—not only a certificate.</h2></div><p>English may be enough in some international settings, but German becomes increasingly valuable when you work with local teams, visit authorities, speak to doctors, rent a home or build a long-term life.</p></div>
+      <div class="e2gm-cards">
+        <article class="e2gm-card feature"><div class="e2gm-card-icon">💼</div><h3>Open more career doors</h3><p>German expands the range of roles you can apply for and makes collaboration with customers, suppliers and colleagues easier.</p></article>
+        <article class="e2gm-card"><div class="e2gm-card-icon">🏛️</div><h3>Handle official matters</h3><p>Read letters, attend appointments and understand forms from authorities, insurers and public services.</p></article>
+        <article class="e2gm-card"><div class="e2gm-card-icon">🎓</div><h3>Access study and training</h3><p>German-taught degrees and vocational training commonly require documented language ability.</p></article>
+        <article class="e2gm-card"><div class="e2gm-card-icon">🩺</div><h3>Enter regulated professions</h3><p>Healthcare, teaching, law and other regulated professions may require general or specialist German.</p></article>
+        <article class="e2gm-card"><div class="e2gm-card-icon">🤝</div><h3>Build a local network</h3><p>Join clubs, speak with neighbours and participate more confidently in your community.</p></article>
+        <article class="e2gm-card feature"><div class="e2gm-card-icon">🏡</div><h3>Prepare for long-term settlement</h3><p>German supports integration and is relevant to several residence and citizenship pathways, depending on your individual case.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="e2gm-section">
+    <div class="e2gm-wrap">
+      <div class="e2gm-section-head"><div><p class="e2gm-kicker">CEFR roadmap</p><h2>What A1, A2, B1, B2, C1 and C2 mean.</h2></div><p>Select a level to see a practical interpretation. The CEFR assesses listening, reading, speaking and writing.</p></div>
+      <div class="e2gm-levels" role="tablist" aria-label="German language levels">
+        <button class="e2gm-level" role="tab" aria-selected="true" data-level="A1" style="--level-color:#d91f2d"><b>A1</b><strong>Beginner</strong><span>Basic survival German</span></button>
+        <button class="e2gm-level" role="tab" aria-selected="false" data-level="A2" style="--level-color:#e88422"><b>A2</b><strong>Elementary</strong><span>Routine communication</span></button>
+        <button class="e2gm-level" role="tab" aria-selected="false" data-level="B1" style="--level-color:#0f766e"><b>B1</b><strong>Independent</strong><span>Daily life and work</span></button>
+        <button class="e2gm-level" role="tab" aria-selected="false" data-level="B2" style="--level-color:#2457d6"><b>B2</b><strong>Upper intermediate</strong><span>Professional confidence</span></button>
+        <button class="e2gm-level" role="tab" aria-selected="false" data-level="C1" style="--level-color:#7139b8"><b>C1</b><strong>Advanced</strong><span>Precise communication</span></button>
+        <button class="e2gm-level" role="tab" aria-selected="false" data-level="C2" style="--level-color:#171717"><b>C2</b><strong>Mastery</strong><span>Near-complete command</span></button>
+      </div>
+      <div class="e2gm-level-detail" id="e2gm-level-detail" style="--active-color:#d91f2d" role="tabpanel" tabindex="0">
+        <div class="e2gm-level-detail-top"><div><p class="e2gm-kicker" id="e2gm-level-label">A1 · Beginner</p><h3 id="e2gm-level-title">Start with essential everyday German.</h3></div><div class="e2gm-level-big" id="e2gm-level-big">A1</div></div>
+        <div class="e2gm-level-detail-grid"><div class="e2gm-mini"><b>Understand</b><p id="e2gm-level-understand">Familiar words, simple signs and slow questions about personal information.</p></div><div class="e2gm-mini"><b>Communicate</b><p id="e2gm-level-communicate">Introduce yourself, order something and ask basic questions with support.</p></div><div class="e2gm-mini"><b>Typical goal</b><p id="e2gm-level-goal">Manage short introductions, simple shopping and basic appointments.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="e2gm-section alt">
+    <div class="e2gm-wrap">
+      <div class="e2gm-section-head"><div><p class="e2gm-kicker">Language requirements</p><h2>How much German might your pathway require?</h2></div><p>Residence-law requirements, university admission, employer expectations and professional recognition are separate questions. Check the current rule for your exact case.</p></div>
+      <div class="e2gm-table-wrap"><table class="e2gm-table"><thead><tr><th>Pathway</th><th>General legal language position</th><th>Practical note</th></tr></thead><tbody>
+        <tr><td>Qualified-professional work visa</td><td><span class="e2gm-pill">No general legal minimum</span></td><td>Employers or recognition authorities may still require German.</td></tr>
+        <tr><td>EU Blue Card</td><td><span class="e2gm-pill">No general legal minimum</span></td><td>German supports workplace integration and may affect later settlement timelines.</td></tr>
+        <tr><td>Opportunity Card – points route</td><td><span class="e2gm-pill">A1 German or B2 English</span></td><td>Different rules may apply where the qualification is already recognised in Germany.</td></tr>
+        <tr><td>Recognition of foreign qualifications</td><td><span class="e2gm-pill">Usually at least A2</span></td><td>The profession-specific procedure may require a higher level.</td></tr>
+        <tr><td>Vocational training</td><td><span class="e2gm-pill">At least B1</span></td><td>Training normally takes place in German at work and vocational school.</td></tr>
+        <tr><td>German-language university study</td><td><span class="e2gm-pill">Often B2 or higher</span></td><td>The university decides which certificate and result it accepts.</td></tr>
+        <tr><td>Research residence route</td><td><span class="e2gm-pill">No general legal minimum</span></td><td>The institution and project language determine practical needs.</td></tr>
+        <tr><td>Healthcare and regulated professions</td><td><span class="e2gm-pill">Often B1/B2 or specialist level</span></td><td>Requirements vary by profession, recognition body and federal state.</td></tr>
+      </tbody></table></div>
+      <div class="e2gm-note"><i>!</i><div><h3>No legal minimum does not mean no German is needed.</h3><p>An employer, university or professional-recognition authority may apply requirements that are separate from the visa rule.</p></div></div>
+    </div>
+  </section>
+
+  <section class="e2gm-section">
+    <div class="e2gm-wrap">
+      <div class="e2gm-section-head"><div><p class="e2gm-kicker">Learning routes</p><h2>Start before arrival. Continue after arrival.</h2></div><p>Combine structured lessons with daily practice. Recognised certificates are important when proof is required for a visa, university or professional procedure.</p></div>
+      <div class="e2gm-steps">
+        <article class="e2gm-step"><div class="e2gm-step-num">1</div><h3>Choose a target level</h3><p>Connect the language goal to your visa, degree, training, profession and expected workplace.</p></article>
+        <article class="e2gm-step"><div class="e2gm-step-num">2</div><h3>Build all four skills</h3><p>Practise listening, speaking, reading and writing rather than focusing only on grammar.</p></article>
+        <article class="e2gm-step"><div class="e2gm-step-num">3</div><h3>Take recognised exams</h3><p>Common providers include Goethe-Institut, telc, ÖSD, TestDaF and DSH where applicable.</p></article>
+        <article class="e2gm-step"><div class="e2gm-step-num">4</div><h3>Use German every day</h3><p>Language cafés, clubs, tandem partners, workplace courses and real conversations accelerate progress.</p></article>
+      </div>
+      <div class="e2gm-split" style="margin-top:18px">
+        <article class="e2gm-panel"><h3>Integration courses</h3><p>Official courses combine language learning with orientation about German society, institutions, values and daily life.</p><ul class="e2gm-checks"><li>Standard language course: 600 lesson units</li><li>Orientation course: usually 100 lesson units</li><li>Everyday topics, authorities, job interviews and written communication</li><li>Special formats may be available for women, parents and younger participants</li><li>BAMF-NAvI helps locate approved providers</li></ul></article>
+        <article class="e2gm-panel dark"><h3>Useful learning resources</h3><p>Use a mix of structured and free resources to practise consistently.</p><ul class="e2gm-checks"><li>Goethe-Institut courses, exercises and examinations</li><li>Deutsche Welle: Nicos Weg, Deutschtrainer and slowly spoken news</li><li>VHS-Lernportal courses from A1 to B2</li><li>Vocational German courses and workplace exercises</li><li>Adult education centres, language cafés and tandem learning</li></ul></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="e2gm-section alt" id="e2gm-money">
+    <div class="e2gm-wrap">
+      <div class="e2gm-section-head"><div><p class="e2gm-kicker">Money in Germany</p><h2>Set up everyday banking without confusion.</h2></div><p>A German current account is commonly used for salary payments, rent, direct debits and everyday card transactions.</p></div>
+      <div class="e2gm-split">
+        <article class="e2gm-panel dark"><h3>Opening a Girokonto</h3><p>The exact documents depend on the bank and account type, but these are commonly requested.</p><ul class="e2gm-checks"><li>Valid passport or recognised identification</li><li>Residence permit, where applicable</li><li>German registration certificate (Anmeldebescheinigung)</li><li>Payslip or proof of income for some account types</li><li>German tax identification number may be requested later</li></ul></article>
+        <article class="e2gm-panel"><h3>Compare before choosing</h3><p>Look beyond a promotional offer and check the complete fee and service structure.</p><ul class="e2gm-checks"><li>Monthly account-maintenance fee</li><li>Girocard or debit-card conditions</li><li>ATM network and cash-withdrawal charges</li><li>International transfer and foreign-currency fees</li><li>English-language support and branch availability</li></ul></article>
+      </div>
+      <div class="e2gm-cards" style="margin-top:18px">
+        <article class="e2gm-card"><div class="e2gm-card-icon">💳</div><h3>Girocard / debit card</h3><p>Suitable for many everyday purchases. Debit-card payments are generally taken directly from the account.</p></article>
+        <article class="e2gm-card"><div class="e2gm-card-icon">🏨</div><h3>Credit card</h3><p>Useful for transactions that require a deposit, including some hotel bookings and car rentals.</p></article>
+        <article class="e2gm-card"><div class="e2gm-card-icon">📱</div><h3>Online banking</h3><p>Direct banks are often cost-effective; branch banks may offer cash deposits and face-to-face advice.</p></article>
+        <article class="e2gm-card"><div class="e2gm-card-icon">💶</div><h3>Carry some cash</h3><p>Germany uses cards widely, but smaller shops, kiosks and some machines may still prefer or require cash.</p></article>
+        <article class="e2gm-card feature"><div class="e2gm-card-icon">🔐</div><h3>Protect your banking access</h3><p>Use strong authentication, never share PIN or TAN codes, and verify payment requests before approving them.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="e2gm-section" id="e2gm-health">
+    <div class="e2gm-wrap">
+      <div class="e2gm-section-head"><div><p class="e2gm-kicker">Health insurance</p><h2>Health insurance is compulsory in Germany.</h2></div><p>Germany has statutory and private systems. Eligibility, contributions and benefits differ, and switching between systems is not always simple.</p></div>
+      <div class="e2gm-split">
+        <article class="e2gm-panel"><h3>Statutory health insurance (GKV)</h3><p>Most employees are covered by statutory health insurance. Contributions are generally linked to income.</p><ul class="e2gm-checks"><li>Doctor and hospital treatment under the statutory benefit catalogue</li><li>Prescription medication and medical aids, subject to rules and co-payments</li><li>Pregnancy, childbirth and medically necessary rehabilitation</li><li>Eligible non-working spouses and children may be included through family insurance</li><li>Long-term care insurance is normally linked to health insurance</li></ul></article>
+        <article class="e2gm-panel dark"><h3>Private health insurance (PKV)</h3><p>Private insurance may be available to eligible high earners, self-employed people and civil servants.</p><ul class="e2gm-checks"><li>Premiums are based on the tariff and personal risk factors rather than income alone</li><li>Patients commonly receive bills and claim reimbursement</li><li>Each family member usually needs a separate policy</li><li>Coverage varies significantly by tariff</li><li>Returning to statutory insurance can be difficult, especially later in life</li></ul></article>
+      </div>
+      <div class="e2gm-cards" style="margin-top:18px">
+        <article class="e2gm-card feature"><div class="e2gm-card-icon">🪪</div><h3>Electronic health card (eGK)</h3><p>Members of statutory insurance receive an electronic health card and should take it to medical appointments.</p></article>
+        <article class="e2gm-card"><div class="e2gm-card-icon">🇪🇺</div><h3>EHIC</h3><p>The European Health Insurance Card is normally printed on the back of the German statutory health card for temporary stays in participating countries.</p></article>
+        <article class="e2gm-card"><div class="e2gm-card-icon">🧳</div><h3>Cover before arrival</h3><p>Temporary international or incoming insurance may be needed until your regular German cover begins and can also be relevant for the visa process.</p></article>
+        <article class="e2gm-card"><div class="e2gm-card-icon">🎓</div><h3>Students and trainees</h3><p>Students, apprentices and interns are generally required to hold suitable health insurance; special rules and exceptions apply.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="e2gm-section dark">
+    <div class="e2gm-wrap">
+      <div class="e2gm-section-head"><div><p class="e2gm-kicker">Additional protection</p><h2>Which optional insurance deserves attention?</h2></div><p>Not every policy is necessary for everyone. Start with risks that could seriously affect your finances, then evaluate coverage, exclusions and insured limits.</p></div>
+      <div class="e2gm-insurance-grid">
+        <article class="e2gm-ins"><i>🛡️</i><h3>Private liability</h3><p>Covers eligible claims when you accidentally injure someone or damage another person’s property. Often considered a high-priority policy.</p></article>
+        <article class="e2gm-ins"><i>🏠</i><h3>Household contents</h3><p>Protects household belongings against insured risks such as theft, fire, storm or water damage.</p></article>
+        <article class="e2gm-ins"><i>🚲</i><h3>Private accident</h3><p>Can provide financial protection for certain serious accidents outside work and the commute.</p></article>
+        <article class="e2gm-ins"><i>💼</i><h3>Occupational disability</h3><p>May pay an agreed income if health problems prevent you from continuing your occupation, subject to policy conditions.</p></article>
+        <article class="e2gm-ins"><i>🌱</i><h3>Retirement planning</h3><p>The statutory pension is a central pillar, but additional long-term saving may help maintain your desired standard of living.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="e2gm-section alt" id="e2gm-checklist">
+    <div class="e2gm-wrap">
+      <div class="e2gm-section-head"><div><p class="e2gm-kicker">First-month checklist</p><h2>Your practical setup after arriving in Germany.</h2></div><p>Tick the items in your browser. The selections are saved locally on the device and can be reset at any time.</p></div>
+      <div class="e2gm-checklist" id="e2gm-checklist-grid">
+        <label class="e2gm-check-item"><input type="checkbox" data-check="register"><span><strong>Register your address</strong><span>Complete Anmeldung and keep the registration certificate.</span></span></label>
+        <label class="e2gm-check-item"><input type="checkbox" data-check="bank"><span><strong>Open a current account</strong><span>Compare fees, cards, ATMs and support.</span></span></label>
+        <label class="e2gm-check-item"><input type="checkbox" data-check="health"><span><strong>Confirm health insurance</strong><span>Make sure coverage starts at the correct date.</span></span></label>
+        <label class="e2gm-check-item"><input type="checkbox" data-check="card"><span><strong>Receive your health card</strong><span>Keep it ready for medical appointments.</span></span></label>
+        <label class="e2gm-check-item"><input type="checkbox" data-check="liability"><span><strong>Review liability insurance</strong><span>Compare insured sums, exclusions and family cover.</span></span></label>
+        <label class="e2gm-check-item"><input type="checkbox" data-check="german"><span><strong>Book a German course</strong><span>Select a realistic target level and weekly schedule.</span></span></label>
+        <label class="e2gm-check-item"><input type="checkbox" data-check="exam"><span><strong>Check recognised certificates</strong><span>Confirm the exact exam accepted for your purpose.</span></span></label>
+        <label class="e2gm-check-item"><input type="checkbox" data-check="cash"><span><strong>Prepare daily payments</strong><span>Set up banking access and carry a small amount of cash.</span></span></label>
+        <label class="e2gm-check-item"><input type="checkbox" data-check="documents"><span><strong>Store important documents</strong><span>Keep secure digital and physical copies.</span></span></label>
+      </div>
+      <div class="e2gm-btns"><button class="e2gm-btn e2gm-btn-secondary" type="button" id="e2gm-reset">Reset checklist</button></div>
+    </div>
+  </section>
+
+  <section class="e2gm-section" id="e2gm-faq">
+    <div class="e2gm-wrap">
+      <div class="e2gm-section-head"><div><p class="e2gm-kicker">Frequently asked questions</p><h2>Clear answers to common first steps.</h2></div><p>These answers are general orientation. Exact rules depend on your residence status, employer, university, profession and personal circumstances.</p></div>
+      <div class="e2gm-faq">
+        <details><summary>Can I work in Germany without German?</summary><p>Some international roles operate mainly in English, and several work residence routes have no general statutory German minimum. Employers may nevertheless require German, and the language is highly valuable for everyday life and long-term career development.</p></details>
+        <details><summary>Which German certificate is accepted?</summary><p>The answer depends on the purpose. Visa procedures generally require certificates from recognised providers. Universities and professional-recognition authorities may specify a particular exam, level or score.</p></details>
+        <details><summary>Is a German bank account legally compulsory?</summary><p>A German account is not universally required by law, but it is extremely practical and commonly needed for salary payments, rent, direct debits and other everyday transactions.</p></details>
+        <details><summary>Can I choose any health insurer?</summary><p>Within the statutory system, eligible members can generally choose among statutory providers. Private insurance is only available to certain groups and requires careful comparison because benefits, premiums and future switching options differ.</p></details>
+        <details><summary>Is private liability insurance mandatory?</summary><p>It is voluntary, but it is widely considered important because a serious liability claim can be financially significant. Always check exclusions, insured limits and whether family members are included.</p></details>
+        <details><summary>Does EHIC replace travel insurance?</summary><p>No. EHIC provides access to medically necessary state healthcare during temporary stays in participating countries under local rules. It does not necessarily cover repatriation, all private treatment or every travel-related risk.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <section class="e2gm-section alt">
+    <div class="e2gm-wrap">
+      <div class="e2gm-section-head"><div><p class="e2gm-kicker">Official references</p><h2>Check current information before acting.</h2></div><p>The page is an independent Enroute2Germany summary. The official sources below remain the authority for current rules and programme details.</p></div>
+      <div class="e2gm-sources">
+        <div class="e2gm-source"><strong>Learning German</strong><span>Language requirements, learning options and integration courses.</span><br><a href="https://www.make-it-in-germany.com/en/living-in-germany/learn-german" target="_blank" rel="noopener">Open official information ↗</a></div>
+        <div class="e2gm-source"><strong>Money & Insurance</strong><span>Bank account, compulsory health insurance and additional protection.</span><br><a href="https://www.make-it-in-germany.com/en/living-in-germany/money-insurance" target="_blank" rel="noopener">Open official information ↗</a></div>
+        <div class="e2gm-source"><strong>BAMF Integration Courses</strong><span>Eligibility, providers, course formats and current conditions.</span><br><a href="https://www.bamf.de/EN/Themen/Integration/ZugewanderteTeilnehmende/Integrationskurse/integrationskurse-node.html" target="_blank" rel="noopener">Open BAMF guidance ↗</a></div>
+        <div class="e2gm-source"><strong>Consumer advice</strong><span>Independent comparisons and practical guidance for financial and insurance products.</span><br><a href="https://www.verbraucherzentrale.de/" target="_blank" rel="noopener">Open consumer centre ↗</a></div>
+      </div>
+      <div class="e2gm-note"><i>i</i><div><h3>Information, not individual legal or financial advice</h3><p>Requirements and product conditions can change. Confirm your case with the responsible authority, university, insurer, bank, recognition body or qualified adviser before making a decision. Content last reviewed: July 2026.</p></div></div>
+    </div>
+  </section>
+
+  <section class="e2gm-section" id="e2gm-contact">
+    <div class="e2gm-wrap"><div class="e2gm-cta"><p class="e2gm-kicker">Your Germany journey</p><h2>Turn information into a clear personal plan.</h2><p>Enroute2Germany can help you organise your study, career and relocation steps—from language preparation and admissions to arrival planning and settling in.</p><div class="e2gm-btns"><a class="e2gm-btn e2gm-btn-primary" href="https://www.enroute2germany.com/#contact">Contact Enroute2Germany</a><a class="e2gm-btn e2gm-btn-secondary" href="https://www.enroute2germany.com/">Return to homepage</a></div></div></div>
+  </section>
+
+  <footer class="e2gm-footer"><div class="e2gm-wrap e2gm-footer-inner"><div>© Enroute2Germany · Independent information guide</div><div>Designed for students, professionals and families relocating to Germany.</div></div></footer>
+  <a class="e2gm-backtop" href="#e2gm-top" aria-label="Back to top">↑</a>
+</div>
+<script>
+(function(){
+  const data={
+    A1:{name:'Beginner',title:'Start with essential everyday German.',understand:'Familiar words, simple signs and slow questions about personal information.',communicate:'Introduce yourself, order something and ask basic questions with support.',goal:'Manage short introductions, simple shopping and basic appointments.',color:'#d91f2d'},
+    A2:{name:'Elementary',title:'Handle familiar routines with simple sentences.',understand:'Common expressions about family, shopping, work and the immediate environment.',communicate:'Exchange basic information in predictable everyday situations.',goal:'Arrange appointments, describe your background and manage routine errands.',color:'#e88422'},
+    B1:{name:'Independent',title:'Function independently in many daily situations.',understand:'The main points of clear standard speech about work, school, leisure and travel.',communicate:'Explain experiences, goals and opinions in connected, straightforward language.',goal:'Manage most everyday tasks, many workplace conversations and longer interactions.',color:'#0f766e'},
+    B2:{name:'Upper intermediate',title:'Communicate confidently in professional contexts.',understand:'Complex texts and detailed discussions in familiar professional or academic fields.',communicate:'Interact with fluency and explain viewpoints, advantages and disadvantages.',goal:'Participate actively in meetings, studies and demanding everyday conversations.',color:'#2457d6'},
+    C1:{name:'Advanced',title:'Use German flexibly, precisely and effectively.',understand:'Long, demanding texts and implicit meaning across professional and academic contexts.',communicate:'Express ideas fluently with strong control of structure, tone and nuance.',goal:'Work or study at a high level and manage complex formal communication.',color:'#7139b8'},
+    C2:{name:'Mastery',title:'Understand and express almost everything with ease.',understand:'Virtually all spoken and written German, including subtle differences in meaning.',communicate:'Summarise, reconstruct and present complex information with precision.',goal:'Operate with near-native flexibility across specialist and demanding situations.',color:'#171717'}
+  };
+  const buttons=document.querySelectorAll('.e2gm-level');
+  const detail=document.getElementById('e2gm-level-detail');
+  const label=document.getElementById('e2gm-level-label');
+  const title=document.getElementById('e2gm-level-title');
+  const big=document.getElementById('e2gm-level-big');
+  const understand=document.getElementById('e2gm-level-understand');
+  const communicate=document.getElementById('e2gm-level-communicate');
+  const goal=document.getElementById('e2gm-level-goal');
+  buttons.forEach(btn=>btn.addEventListener('click',()=>{
+    buttons.forEach(b=>b.setAttribute('aria-selected','false'));
+    btn.setAttribute('aria-selected','true');
+    const code=btn.dataset.level,d=data[code];
+    detail.style.setProperty('--active-color',d.color);
+    label.textContent=code+' · '+d.name;title.textContent=d.title;big.textContent=code;understand.textContent=d.understand;communicate.textContent=d.communicate;goal.textContent=d.goal;
+  }));
+  const checks=document.querySelectorAll('[data-check]');
+  checks.forEach(box=>{try{box.checked=localStorage.getItem('e2gm-'+box.dataset.check)==='1'}catch(e){}box.addEventListener('change',()=>{try{localStorage.setItem('e2gm-'+box.dataset.check,box.checked?'1':'0')}catch(e){}})});
+  const reset=document.getElementById('e2gm-reset');
+  if(reset) reset.addEventListener('click',()=>{checks.forEach(box=>{box.checked=false;try{localStorage.removeItem('e2gm-'+box.dataset.check)}catch(e){}})});
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Why Study in Germany | Enroute2Germany</title>
+<meta name="description" content="Discover why Germany is a leading study destination, compare university types, understand Master's and PhD pathways, and explore 25 leading universities across Germany.">
+<style>
+:root{
+  --e2g-ink:#111827;
+  --e2g-muted:#5b6473;
+  --e2g-paper:#fffdf8;
+  --e2g-surface:#ffffff;
+  --e2g-line:#e8e3d8;
+  --e2g-red:#d81f2a;
+  --e2g-gold:#f5bd2f;
+  --e2g-black:#171717;
+  --e2g-green:#166534;
+  --e2g-shadow:0 22px 60px rgba(17,24,39,.12);
+  --e2g-radius:26px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--e2g-paper);color:var(--e2g-ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.6}
+a{color:inherit}
+button{font:inherit}
+.e2g-page{overflow:hidden;background:
+ radial-gradient(circle at 12% 4%,rgba(245,189,47,.17),transparent 25rem),
+ radial-gradient(circle at 92% 13%,rgba(216,31,42,.10),transparent 25rem),
+ var(--e2g-paper)}
+.e2g-wrap{width:min(1180px,calc(100% - 32px));margin-inline:auto}
+.e2g-kicker{display:inline-flex;align-items:center;gap:.55rem;margin:0 0 1rem;padding:.48rem .78rem;border:1px solid rgba(216,31,42,.2);border-radius:999px;background:rgba(255,255,255,.78);color:#9d111b;font-size:.78rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+.e2g-kicker::before{content:"";width:.55rem;height:.55rem;border-radius:50%;background:linear-gradient(135deg,var(--e2g-red),var(--e2g-gold));box-shadow:0 0 0 .28rem rgba(216,31,42,.08)}
+.e2g-display{max-width:900px;margin:0;font-size:clamp(2.45rem,6vw,5.7rem);line-height:.98;letter-spacing:-.055em;font-weight:900}
+.e2g-display em{font-style:normal;color:var(--e2g-red)}
+.e2g-lead{max-width:720px;margin:1.35rem 0 0;color:var(--e2g-muted);font-size:clamp(1.02rem,1.7vw,1.22rem)}
+.e2g-btns{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:1.7rem}
+.e2g-btn{display:inline-flex;align-items:center;justify-content:center;gap:.55rem;min-height:50px;padding:.75rem 1.05rem;border-radius:14px;text-decoration:none;font-weight:800;border:1px solid transparent;transition:.25s ease}
+.e2g-btn-primary{background:var(--e2g-black);color:white;box-shadow:0 12px 28px rgba(17,17,17,.2)}
+.e2g-btn-primary:hover{transform:translateY(-2px);background:var(--e2g-red)}
+.e2g-btn-secondary{background:white;border-color:var(--e2g-line)}
+.e2g-btn-secondary:hover{transform:translateY(-2px);border-color:#b9b2a4}
+.e2g-hero{padding:clamp(76px,9vw,130px) 0 30px}
+.e2g-hero-grid{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(340px,.92fr);gap:clamp(30px,6vw,78px);align-items:center}
+.e2g-hero-art{position:relative;min-height:590px;border:1px solid rgba(255,255,255,.9);border-radius:38px;background:linear-gradient(145deg,#151515 0%,#242424 63%,#4c1014 100%);box-shadow:var(--e2g-shadow);overflow:hidden;isolation:isolate}
+.e2g-hero-art::before{content:"";position:absolute;inset:-25%;background:conic-gradient(from 180deg at 50% 50%,transparent,rgba(245,189,47,.32),transparent 28%,rgba(216,31,42,.24),transparent 58%);filter:blur(18px);animation:e2g-spin 18s linear infinite;z-index:-1}
+@keyframes e2g-spin{to{transform:rotate(360deg)}}
+.e2g-germany-outline{position:absolute;inset:34px 54px 84px;width:calc(100% - 108px);height:calc(100% - 118px);filter:drop-shadow(0 28px 34px rgba(0,0,0,.42))}
+.e2g-flag-band{position:absolute;left:0;right:0;bottom:0;display:grid;grid-template-columns:1fr 1fr 1fr;height:14px}
+.e2g-flag-band span:nth-child(1){background:#111}.e2g-flag-band span:nth-child(2){background:#d81f2a}.e2g-flag-band span:nth-child(3){background:#f5bd2f}
+.e2g-orbit{position:absolute;border:1px solid rgba(255,255,255,.16);border-radius:50%}
+.e2g-orbit.one{width:410px;height:410px;right:-170px;top:-120px}
+.e2g-orbit.two{width:280px;height:280px;left:-115px;bottom:62px}
+.e2g-art-label{position:absolute;left:28px;top:28px;color:white}
+.e2g-art-label small{display:block;color:#f5bd2f;font-weight:800;letter-spacing:.13em;text-transform:uppercase}
+.e2g-art-label strong{display:block;margin-top:.3rem;font-size:1.3rem}
+.e2g-floating-card{position:absolute;right:22px;bottom:34px;width:min(280px,74%);padding:18px;border:1px solid rgba(255,255,255,.18);border-radius:20px;background:rgba(255,255,255,.10);backdrop-filter:blur(14px);color:white}
+.e2g-floating-card b{display:block;font-size:2rem;line-height:1;color:var(--e2g-gold)}
+.e2g-floating-card span{display:block;margin-top:.45rem;font-size:.9rem;color:#eee}
+.e2g-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:42px}
+.e2g-stat{padding:19px;border:1px solid var(--e2g-line);border-radius:20px;background:rgba(255,255,255,.78);box-shadow:0 10px 30px rgba(17,24,39,.045)}
+.e2g-stat strong{display:block;font-size:1.55rem;line-height:1.1}
+.e2g-stat span{display:block;margin-top:.4rem;color:var(--e2g-muted);font-size:.88rem}
+.e2g-section{padding:clamp(70px,8vw,112px) 0}
+.e2g-section-head{display:flex;justify-content:space-between;gap:28px;align-items:end;margin-bottom:34px}
+.e2g-section-head h2{max-width:780px;margin:0;font-size:clamp(2rem,4vw,3.65rem);line-height:1.04;letter-spacing:-.045em}
+.e2g-section-head p{max-width:460px;margin:0;color:var(--e2g-muted)}
+.e2g-facts{display:grid;grid-template-columns:repeat(12,1fr);gap:16px}
+.e2g-fact{position:relative;min-height:258px;padding:26px;border:1px solid var(--e2g-line);border-radius:var(--e2g-radius);background:var(--e2g-surface);box-shadow:0 12px 34px rgba(17,24,39,.055);overflow:hidden;transition:.25s ease}
+.e2g-fact:hover{transform:translateY(-5px);box-shadow:0 22px 44px rgba(17,24,39,.11)}
+.e2g-fact:nth-child(1),.e2g-fact:nth-child(4){grid-column:span 7}
+.e2g-fact:nth-child(2),.e2g-fact:nth-child(3){grid-column:span 5}
+.e2g-fact:nth-child(5),.e2g-fact:nth-child(6),.e2g-fact:nth-child(7){grid-column:span 4}
+.e2g-fact.dark{background:#171717;color:white;border-color:#171717}
+.e2g-fact.red{background:linear-gradient(145deg,#b10e18,#e62b35);color:white;border-color:transparent}
+.e2g-fact.gold{background:linear-gradient(145deg,#ffe39a,#f5bd2f);border-color:transparent}
+.e2g-fact-index{font-size:.76rem;font-weight:900;letter-spacing:.11em;text-transform:uppercase;opacity:.7}
+.e2g-fact-icon{display:grid;place-items:center;width:48px;height:48px;margin:28px 0 18px;border-radius:15px;background:rgba(17,24,39,.07);font-size:1.55rem}
+.dark .e2g-fact-icon,.red .e2g-fact-icon{background:rgba(255,255,255,.13)}
+.e2g-fact h3{margin:0;font-size:1.42rem;line-height:1.15}
+.e2g-fact p{margin:.8rem 0 0;color:var(--e2g-muted)}
+.dark p,.red p{color:rgba(255,255,255,.78)}
+.e2g-fact-big{position:absolute;right:20px;top:12px;font-size:clamp(3.3rem,8vw,6.5rem);font-weight:950;line-height:1;letter-spacing:-.08em;opacity:.075}
+.e2g-pathway-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.e2g-pathway{padding:32px;border:1px solid var(--e2g-line);border-radius:32px;background:white;box-shadow:0 16px 42px rgba(17,24,39,.06)}
+.e2g-pathway:nth-child(2){background:#171717;color:white;border-color:#171717}
+.e2g-pathway-top{display:flex;justify-content:space-between;gap:20px;align-items:start}
+.e2g-pathway h3{margin:0;font-size:2rem;letter-spacing:-.03em}
+.e2g-duration{white-space:nowrap;padding:.42rem .68rem;border-radius:999px;background:#fff1c4;color:#5c4200;font-size:.82rem;font-weight:900}
+.e2g-pathway:nth-child(2) .e2g-duration{background:rgba(245,189,47,.16);color:#ffd869}
+.e2g-pathway>p{color:var(--e2g-muted)}
+.e2g-pathway:nth-child(2)>p{color:#c7cbd2}
+.e2g-steps{display:grid;gap:10px;margin-top:22px}
+.e2g-step{display:grid;grid-template-columns:36px 1fr;gap:12px;align-items:start;padding:14px;border-radius:16px;background:#f7f5ef}
+.e2g-pathway:nth-child(2) .e2g-step{background:rgba(255,255,255,.07)}
+.e2g-step b{display:grid;place-items:center;width:36px;height:36px;border-radius:12px;background:white;box-shadow:0 6px 16px rgba(17,24,39,.08)}
+.e2g-pathway:nth-child(2) .e2g-step b{background:#2b2b2b;color:#f5bd2f}
+.e2g-step h4{margin:0;font-size:1rem}
+.e2g-step p{margin:.2rem 0 0;color:var(--e2g-muted);font-size:.9rem}
+.e2g-pathway:nth-child(2) .e2g-step p{color:#bfc3ca}
+.e2g-types{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:30px}
+.e2g-type{padding:27px;border-radius:26px;background:#fff;border:1px solid var(--e2g-line)}
+.e2g-type-tag{display:inline-flex;padding:.35rem .6rem;border-radius:999px;background:#f2efe8;font-size:.76rem;font-weight:900;text-transform:uppercase;letter-spacing:.07em}
+.e2g-type h3{margin:1.15rem 0 .55rem;font-size:1.35rem}
+.e2g-type p{margin:0;color:var(--e2g-muted)}
+.e2g-type ul{padding-left:1.1rem;margin:1rem 0 0;color:var(--e2g-muted)}
+.e2g-cost-note{display:grid;grid-template-columns:auto 1fr;gap:16px;margin-top:18px;padding:22px;border-radius:22px;background:#fff8df;border:1px solid #f0d98e}
+.e2g-cost-note .icon{display:grid;place-items:center;width:46px;height:46px;border-radius:14px;background:#171717;color:#f5bd2f;font-size:1.2rem}
+.e2g-cost-note h3{margin:0;font-size:1.05rem}
+.e2g-cost-note p{margin:.35rem 0 0;color:#665c43}
+.e2g-map-layout{display:grid;grid-template-columns:minmax(340px,.94fr) minmax(0,1.06fr);gap:26px;align-items:start}
+.e2g-map-panel{position:sticky;top:18px;padding:22px;border-radius:34px;background:linear-gradient(160deg,#171717,#2a2424);box-shadow:var(--e2g-shadow)}
+.e2g-map-shell{position:relative;aspect-ratio:520/640;max-height:730px;margin:auto}
+.e2g-map-shell svg{width:100%;height:100%;display:block;pointer-events:none}
+.e2g-pin{position:absolute;left:calc(var(--x) + var(--dx,0px));top:calc(var(--y) + var(--dy,0px));transform:translate(-50%,-50%);display:grid;place-items:center;width:27px;height:27px;padding:0;border:2px solid white;border-radius:50%;background:var(--e2g-red);color:white;box-shadow:0 7px 16px rgba(0,0,0,.38);cursor:pointer;transition:.2s ease;z-index:2}
+.e2g-pin span{font-size:.62rem;font-weight:900}
+.e2g-pin:hover,.e2g-pin:focus-visible,.e2g-pin.active{transform:translate(-50%,-50%) scale(1.3);background:var(--e2g-gold);color:#171717;z-index:4}
+.e2g-pin.dim{opacity:.12;pointer-events:none}
+.e2g-tooltip{position:absolute;left:18px;right:18px;bottom:18px;min-height:88px;padding:15px 17px;border:1px solid rgba(255,255,255,.15);border-radius:18px;background:rgba(255,255,255,.1);backdrop-filter:blur(12px);color:white}
+.e2g-tooltip small{display:block;color:#f5bd2f;font-weight:800;text-transform:uppercase;letter-spacing:.08em}
+.e2g-tooltip strong{display:block;margin:.25rem 0;font-size:1.05rem}
+.e2g-tooltip span{color:#d4d4d4;font-size:.86rem}
+.e2g-map-content{padding-top:6px}
+.e2g-filter-row{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px}
+.e2g-filter{padding:.58rem .8rem;border:1px solid var(--e2g-line);border-radius:999px;background:white;color:var(--e2g-ink);font-weight:800;cursor:pointer}
+.e2g-filter.active{background:#171717;color:white;border-color:#171717}
+.e2g-university-list{display:grid;grid-template-columns:1fr 1fr;gap:10px;max-height:none;overflow:visible;padding-right:0}
+.e2g-uni-card{display:grid;grid-template-columns:42px 1fr;gap:12px;align-items:center;padding:15px;border:1px solid var(--e2g-line);border-radius:17px;background:white;transition:.2s ease}
+.e2g-uni-card:hover{transform:translateY(-2px);border-color:#cac3b6;box-shadow:0 10px 24px rgba(17,24,39,.07)}
+.e2g-uni-card.hidden{display:none}
+.e2g-uni-number{display:grid;place-items:center;width:42px;height:42px;border-radius:13px;background:#f6f2e9;font-weight:900;color:#a5121c}
+.e2g-uni-card h4{margin:0;font-size:.94rem;line-height:1.25}
+.e2g-uni-card p{margin:.25rem 0 0;color:var(--e2g-muted);font-size:.78rem}
+.e2g-map-disclaimer{margin:14px 0 0;color:var(--e2g-muted);font-size:.82rem}
+.e2g-cta{padding-bottom:clamp(80px,10vw,135px)}
+.e2g-cta-box{position:relative;padding:clamp(34px,6vw,72px);border-radius:38px;background:#171717;color:white;overflow:hidden;box-shadow:var(--e2g-shadow)}
+.e2g-cta-box::after{content:"";position:absolute;width:380px;height:380px;right:-100px;top:-190px;border-radius:50%;background:radial-gradient(circle,#d81f2a,transparent 68%);opacity:.8}
+.e2g-cta-box h2{position:relative;z-index:1;max-width:760px;margin:0;font-size:clamp(2.1rem,4.8vw,4.6rem);line-height:1.02;letter-spacing:-.05em}
+.e2g-cta-box p{position:relative;z-index:1;max-width:680px;color:#c8cbd0}
+.e2g-cta-box .e2g-btn{position:relative;z-index:1;background:var(--e2g-gold);color:#171717}
+.e2g-sources{margin-top:25px;color:#7a7468;font-size:.77rem}
+.e2g-sources a{text-underline-offset:3px}
+@media (max-width:960px){
+ .e2g-hero-grid,.e2g-map-layout{grid-template-columns:1fr}
+ .e2g-hero-art{min-height:520px}
+ .e2g-stats{grid-template-columns:1fr 1fr}
+ .e2g-section-head{display:block}
+ .e2g-section-head p{margin-top:1rem}
+ .e2g-map-panel{position:relative;top:auto;max-width:620px;width:100%;margin:auto}
+ .e2g-university-list{max-height:none}
+}
+@media (max-width:720px){
+ .e2g-hero{padding-top:58px}
+ .e2g-display{font-size:clamp(2.35rem,13vw,4rem)}
+ .e2g-hero-art{min-height:460px;border-radius:28px}
+ .e2g-germany-outline{inset:58px 46px 82px;width:calc(100% - 92px);height:calc(100% - 140px)}
+ .e2g-stats,.e2g-pathway-grid,.e2g-types,.e2g-university-list{grid-template-columns:1fr}
+ .e2g-facts{display:grid;grid-template-columns:1fr}
+ .e2g-fact:nth-child(n){grid-column:auto}
+ .e2g-section{padding:72px 0}
+ .e2g-pathway{padding:24px}
+ .e2g-pathway-top{display:block}
+ .e2g-duration{display:inline-flex;margin-top:12px}
+ .e2g-map-panel{padding:12px;border-radius:26px}
+ .e2g-pin{width:24px;height:24px}
+}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<main class="e2g-page" id="why-study-germany">
+  <section class="e2g-hero">
+    <div class="e2g-wrap">
+      <div class="e2g-hero-grid">
+        <div>
+          <p class="e2g-kicker">Study · Build · Belong</p>
+          <h1 class="e2g-display">Your future has a <em>German address.</em></h1>
+          <p class="e2g-lead">Globally respected degrees, research-led universities, application-focused Hochschulen and direct links to one of Europe’s strongest industrial ecosystems—all in one destination.</p>
+          <div class="e2g-btns">
+            <a class="e2g-btn e2g-btn-primary" href="https://www.enroute2germany.com/#contact">Plan your Germany journey <span aria-hidden="true">→</span></a>
+            <a class="e2g-btn e2g-btn-secondary" href="#e2g-study-pathways">Explore study pathways</a>
+          </div>
+        </div>
+        <div class="e2g-hero-art" aria-label="Stylised map of Germany">
+          <div class="e2g-orbit one"></div><div class="e2g-orbit two"></div>
+          <div class="e2g-art-label"><small>Destination Germany</small><strong>Ideas become careers.</strong></div>
+          <svg class="e2g-germany-outline" viewBox="0 0 520 640" role="img" aria-label="Germany map silhouette">
+            <defs>
+              <linearGradient id="e2gHeroMap" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff7d7"/><stop offset=".5" stop-color="#f5bd2f"/><stop offset="1" stop-color="#d81f2a"/></linearGradient>
+              <pattern id="e2gDots" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.6" fill="rgba(255,255,255,.34)"/></pattern>
+            </defs>
+            <path d="M 445.88 185.64 L 457.89 211.80 L 443.56 225.51 L 462.22 243.83 L 474.94 271.32 L 470.93 289.04 L 492.00 321.86 L 469.06 327.22 L 455.51 321.31 L 442.62 331.09 L 405.72 341.05 L 386.63 353.85 L 349.29 365.04 L 358.28 380.32 L 363.72 401.99 L 389.95 414.34 L 418.97 436.44 L 400.85 460.13 L 382.38 466.66 L 389.67 500.15 L 384.88 508.88 L 368.85 498.36 L 344.21 496.78 L 307.47 506.00 L 262.14 503.80 L 254.82 517.37 L 228.82 503.10 L 213.30 505.93 L 158.23 490.21 L 147.68 501.38 L 103.97 501.02 L 110.49 464.40 L 136.47 429.21 L 62.41 419.75 L 38.16 406.29 L 41.06 383.76 L 30.80 372.15 L 36.63 337.43 L 28.00 283.57 L 58.87 283.55 L 71.90 264.20 L 84.71 217.15 L 75.10 199.77 L 85.14 188.89 L 128.09 186.09 L 137.63 197.43 L 172.52 172.09 L 160.77 152.82 L 158.42 123.68 L 197.26 130.46 L 230.14 122.63 L 231.05 142.49 L 282.99 154.47 L 282.44 172.71 L 334.70 163.06 L 363.59 148.98 L 421.61 169.28 L 445.88 185.64 Z" fill="url(#e2gHeroMap)" stroke="rgba(255,255,255,.75)" stroke-width="3"/>
+            <path d="M 445.88 185.64 L 457.89 211.80 L 443.56 225.51 L 462.22 243.83 L 474.94 271.32 L 470.93 289.04 L 492.00 321.86 L 469.06 327.22 L 455.51 321.31 L 442.62 331.09 L 405.72 341.05 L 386.63 353.85 L 349.29 365.04 L 358.28 380.32 L 363.72 401.99 L 389.95 414.34 L 418.97 436.44 L 400.85 460.13 L 382.38 466.66 L 389.67 500.15 L 384.88 508.88 L 368.85 498.36 L 344.21 496.78 L 307.47 506.00 L 262.14 503.80 L 254.82 517.37 L 228.82 503.10 L 213.30 505.93 L 158.23 490.21 L 147.68 501.38 L 103.97 501.02 L 110.49 464.40 L 136.47 429.21 L 62.41 419.75 L 38.16 406.29 L 41.06 383.76 L 30.80 372.15 L 36.63 337.43 L 28.00 283.57 L 58.87 283.55 L 71.90 264.20 L 84.71 217.15 L 75.10 199.77 L 85.14 188.89 L 128.09 186.09 L 137.63 197.43 L 172.52 172.09 L 160.77 152.82 L 158.42 123.68 L 197.26 130.46 L 230.14 122.63 L 231.05 142.49 L 282.99 154.47 L 282.44 172.71 L 334.70 163.06 L 363.59 148.98 L 421.61 169.28 L 445.88 185.64 Z" fill="url(#e2gDots)" opacity=".62"/>
+          </svg>
+          <div class="e2g-floating-card"><b>21,000+</b><span>degree programmes listed through Germany’s Higher Education Compass.</span></div>
+          <div class="e2g-flag-band"><span></span><span></span><span></span></div>
+        </div>
+      </div>
+      <div class="e2g-stats" aria-label="Germany study facts">
+        <div class="e2g-stat"><strong>420+</strong><span>higher-education institutions</span></div>
+        <div class="e2g-stat"><strong>€70–430</strong><span>typical semester contribution range</span></div>
+        <div class="e2g-stat"><strong>18 months</strong><span>post-study job-search residence option</span></div>
+        <div class="e2g-stat"><strong>1.5–2 years</strong><span>typical Master’s duration</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="e2g-section" id="e2g-germany-facts">
+    <div class="e2g-wrap">
+      <div class="e2g-section-head">
+        <div><p class="e2g-kicker">Seven fascinating facts</p><h2>Germany is more than a degree. It is an experience.</h2></div>
+        <p>Use these conversation-starting facts to show students the culture, engineering, mobility and academic heritage waiting beyond the classroom.</p>
+      </div>
+      <div class="e2g-facts">
+        <article class="e2g-fact dark"><span class="e2g-fact-index">01 · Mobility</span><div class="e2g-fact-icon">⌁</div><h3>The Autobahn legend—accurately told</h3><p>Germany has no blanket speed limit on every Autobahn section. Where no local limit is posted, 130 km/h remains the official advisory speed.</p><div class="e2g-fact-big">130</div></article>
+        <article class="e2g-fact gold"><span class="e2g-fact-index">02 · Engineering</span><div class="e2g-fact-icon">⚙</div><h3>Home of iconic car engineering</h3><p>Mercedes-Benz, BMW, Porsche, Audi and Volkswagen grew from Germany’s deep automotive and manufacturing culture.</p></article>
+        <article class="e2g-fact"><span class="e2g-fact-index">03 · Heritage</span><div class="e2g-fact-icon">♜</div><h3>A country of castles</h3><p>Germany’s tourism board counts roughly 25,000 castles, palaces and manor houses—from medieval ruins to Neuschwanstein.</p></article>
+        <article class="e2g-fact red"><span class="e2g-fact-index">04 · Culture</span><div class="e2g-fact-icon">◒</div><h3>Bread is living heritage</h3><p>German bread culture is recognised in the national register of intangible cultural heritage, reflecting centuries of regional craft and variety.</p><div class="e2g-fact-big">BROT</div></article>
+        <article class="e2g-fact"><span class="e2g-fact-index">05 · Academia</span><div class="e2g-fact-icon">✦</div><h3>Centuries of scholarship</h3><p>Universities such as Heidelberg, Leipzig and Tübingen combine historic academic traditions with modern research networks.</p></article>
+        <article class="e2g-fact dark"><span class="e2g-fact-index">06 · Global access</span><div class="e2g-fact-icon">◎</div><h3>A powerful passport</h3><p>Germany remains among the world’s strongest passports; the 2026 Henley index places it joint fourth.</p></article>
+        <article class="e2g-fact"><span class="e2g-fact-index">07 · Europe</span><div class="e2g-fact-icon">↗</div><h3>Your gateway to Europe</h3><p>Nine neighbouring countries and extensive rail and air connections make Germany an ideal base for exploring Europe.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="e2g-section" id="e2g-study-pathways" style="background:#f4f0e7">
+    <div class="e2g-wrap">
+      <div class="e2g-section-head">
+        <div><p class="e2g-kicker">After your Bachelor’s</p><h2>Choose a path that matches your ambition.</h2></div>
+        <p>Germany offers both research-intensive and application-oriented routes, in public and state-recognised private institutions.</p>
+      </div>
+      <div class="e2g-pathway-grid">
+        <article class="e2g-pathway">
+          <div class="e2g-pathway-top"><h3>Master’s degree</h3><span class="e2g-duration">Usually 1.5–2 years</span></div>
+          <p>Build specialised expertise, switch into a high-demand field or prepare for research and doctoral work.</p>
+          <div class="e2g-steps">
+            <div class="e2g-step"><b>1</b><div><h4>Match your academic background</h4><p>Check subject prerequisites, ECTS requirements and programme-specific eligibility.</p></div></div>
+            <div class="e2g-step"><b>2</b><div><h4>Select public or private</h4><p>Compare tuition, semester contribution, accreditation, class size, location and industry access.</p></div></div>
+            <div class="e2g-step"><b>3</b><div><h4>Prepare the application</h4><p>Degree records, CV, motivation letter, language proof and APS/VPD where applicable.</p></div></div>
+          </div>
+        </article>
+        <article class="e2g-pathway">
+          <div class="e2g-pathway-top"><h3>PhD / doctorate</h3><span class="e2g-duration">Often 3–5 years</span></div>
+          <p>Pursue independent research through a university, a structured doctoral programme or an industry-linked research position.</p>
+          <div class="e2g-steps">
+            <div class="e2g-step"><b>1</b><div><h4>Define your research direction</h4><p>Develop a focused topic that aligns with a chair, institute, graduate school or company R&amp;D area.</p></div></div>
+            <div class="e2g-step"><b>2</b><div><h4>Find supervision or a position</h4><p>Apply to advertised doctoral roles or approach suitable professors with a strong proposal.</p></div></div>
+            <div class="e2g-step"><b>3</b><div><h4>Clarify funding and employment</h4><p>Doctoral candidates may be scholarship-funded, university-employed or employed in collaborative industrial research.</p></div></div>
+          </div>
+        </article>
+      </div>
+
+      <div class="e2g-types">
+        <article class="e2g-type"><span class="e2g-type-tag">Universität</span><h3>Research universities</h3><p>Best suited to theoretical depth, academic research and doctoral preparation.</p><ul><li>Broad subject range</li><li>Research-led teaching</li><li>Independent doctorate routes</li></ul></article>
+        <article class="e2g-type"><span class="e2g-type-tag">Technische Universität</span><h3>Technical universities</h3><p>Universities with a particularly strong profile in engineering, technology and the natural sciences.</p><ul><li>Advanced laboratories</li><li>Strong industry networks</li><li>Research and innovation focus</li></ul></article>
+        <article class="e2g-type"><span class="e2g-type-tag">HAW / Fachhochschule</span><h3>Universities of applied sciences</h3><p>Designed around applied learning, smaller study environments and occupational relevance.</p><ul><li>Projects and internships</li><li>Industry-oriented curricula</li><li>Practice-focused research</li></ul></article>
+      </div>
+      <div class="e2g-cost-note"><div class="icon">€</div><div><h3>Affordable does not always mean completely free.</h3><p>Most students at state-funded institutions do not pay general tuition, but all students normally pay a semester contribution. Tuition can apply in specific states, programmes and private institutions—always verify the programme page before applying.</p></div></div>
+    </div>
+  </section>
+
+  <section class="e2g-section" id="e2g-university-map">
+    <div class="e2g-wrap">
+      <div class="e2g-section-head">
+        <div><p class="e2g-kicker">University map</p><h2>25 leading universities across Germany.</h2></div>
+        <p>Explore major academic centres from Hamburg to Munich. The best choice depends on your subject, profile, language and career plan—not only a global rank.</p>
+      </div>
+      <div class="e2g-map-layout">
+        <div class="e2g-map-panel">
+          <div class="e2g-map-shell">
+            <svg viewBox="0 0 520 640" role="img" aria-label="Map of Germany with university locations">
+              <defs><linearGradient id="e2gMapGradient" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff8d7"/><stop offset=".6" stop-color="#f5bd2f"/><stop offset="1" stop-color="#d81f2a"/></linearGradient></defs>
+              <path d="M 445.88 185.64 L 457.89 211.80 L 443.56 225.51 L 462.22 243.83 L 474.94 271.32 L 470.93 289.04 L 492.00 321.86 L 469.06 327.22 L 455.51 321.31 L 442.62 331.09 L 405.72 341.05 L 386.63 353.85 L 349.29 365.04 L 358.28 380.32 L 363.72 401.99 L 389.95 414.34 L 418.97 436.44 L 400.85 460.13 L 382.38 466.66 L 389.67 500.15 L 384.88 508.88 L 368.85 498.36 L 344.21 496.78 L 307.47 506.00 L 262.14 503.80 L 254.82 517.37 L 228.82 503.10 L 213.30 505.93 L 158.23 490.21 L 147.68 501.38 L 103.97 501.02 L 110.49 464.40 L 136.47 429.21 L 62.41 419.75 L 38.16 406.29 L 41.06 383.76 L 30.80 372.15 L 36.63 337.43 L 28.00 283.57 L 58.87 283.55 L 71.90 264.20 L 84.71 217.15 L 75.10 199.77 L 85.14 188.89 L 128.09 186.09 L 137.63 197.43 L 172.52 172.09 L 160.77 152.82 L 158.42 123.68 L 197.26 130.46 L 230.14 122.63 L 231.05 142.49 L 282.99 154.47 L 282.44 172.71 L 334.70 163.06 L 363.59 148.98 L 421.61 169.28 L 445.88 185.64 Z" fill="url(#e2gMapGradient)" stroke="rgba(255,255,255,.75)" stroke-width="3"/>
+            </svg>
+            <button class="e2g-pin" style="--x:60.527%;--y:74.035%;;--dx:-12px;--dy:-8px;" data-region="South" data-name="Technical University of Munich" data-city="Munich" data-type="TU / Research" aria-label="Technical University of Munich, Munich"><span>1</span></button><button class="e2g-pin" style="--x:60.649%;--y:74.027%;;--dx:12px;--dy:8px;" data-region="South" data-name="Ludwig Maximilian University of Munich" data-city="Munich" data-type="University" aria-label="Ludwig Maximilian University of Munich, Munich"><span>2</span></button><button class="e2g-pin" style="--x:31.885%;--y:63.839%;" data-region="South" data-name="Heidelberg University" data-city="Heidelberg" data-type="University" aria-label="Heidelberg University, Heidelberg"><span>3</span></button><button class="e2g-pin" style="--x:6.139%;--y:52.913%;" data-region="West" data-name="RWTH Aachen University" data-city="Aachen" data-type="TU / Research" aria-label="RWTH Aachen University, Aachen"><span>4</span></button><button class="e2g-pin" style="--x:29.390%;--y:67.112%;" data-region="South" data-name="Karlsruhe Institute of Technology" data-city="Karlsruhe" data-type="TU / Research" aria-label="Karlsruhe Institute of Technology, Karlsruhe"><span>5</span></button><button class="e2g-pin" style="--x:78.571%;--y:38.957%;;--dx:12px;--dy:-10px;" data-region="East" data-name="Humboldt University of Berlin" data-city="Berlin" data-type="University" aria-label="Humboldt University of Berlin, Berlin"><span>6</span></button><button class="e2g-pin" style="--x:77.547%;--y:39.479%;;--dx:-14px;--dy:10px;" data-region="East" data-name="Free University of Berlin" data-city="Berlin" data-type="University" aria-label="Free University of Berlin, Berlin"><span>7</span></button><button class="e2g-pin" style="--x:77.911%;--y:39.001%;;--dx:14px;--dy:12px;" data-region="East" data-name="Technical University of Berlin" data-city="Berlin" data-type="TU / Research" aria-label="Technical University of Berlin, Berlin"><span>8</span></button><button class="e2g-pin" style="--x:23.777%;--y:75.279%;" data-region="South" data-name="University of Freiburg" data-city="Freiburg" data-type="University" aria-label="University of Freiburg, Freiburg"><span>9</span></button><button class="e2g-pin" style="--x:35.716%;--y:71.049%;" data-region="South" data-name="University of Tübingen" data-city="Tübingen" data-type="University" aria-label="University of Tübingen, Tübingen"><span>10</span></button><button class="e2g-pin" style="--x:16.390%;--y:53.284%;" data-region="West" data-name="University of Bonn" data-city="Bonn" data-type="University" aria-label="University of Bonn, Bonn"><span>11</span></button><button class="e2g-pin" style="--x:44.872%;--y:30.537%;" data-region="North" data-name="University of Hamburg" data-city="Hamburg" data-type="University" aria-label="University of Hamburg, Hamburg"><span>12</span></button><button class="e2g-pin" style="--x:81.862%;--y:50.922%;" data-region="East" data-name="TU Dresden" data-city="Dresden" data-type="TU / Research" aria-label="TU Dresden, Dresden"><span>13</span></button><button class="e2g-pin" style="--x:44.198%;--y:46.800%;" data-region="North" data-name="University of Göttingen" data-city="Göttingen" data-type="University" aria-label="University of Göttingen, Göttingen"><span>14</span></button><button class="e2g-pin" style="--x:14.669%;--y:51.725%;" data-region="West" data-name="University of Cologne" data-city="Cologne" data-type="University" aria-label="University of Cologne, Cologne"><span>15</span></button><button class="e2g-pin" style="--x:29.844%;--y:63.321%;" data-region="West" data-name="University of Mannheim" data-city="Mannheim" data-type="University" aria-label="University of Mannheim, Mannheim"><span>16</span></button><button class="e2g-pin" style="--x:31.700%;--y:60.198%;" data-region="West" data-name="Technical University of Darmstadt" data-city="Darmstadt" data-type="TU / Research" aria-label="Technical University of Darmstadt, Darmstadt"><span>17</span></button><button class="e2g-pin" style="--x:36.896%;--y:68.955%;" data-region="South" data-name="University of Stuttgart" data-city="Stuttgart" data-type="University / TU" aria-label="University of Stuttgart, Stuttgart"><span>18</span></button><button class="e2g-pin" style="--x:54.955%;--y:62.408%;" data-region="South" data-name="FAU Erlangen–Nürnberg" data-city="Erlangen" data-type="University" aria-label="FAU Erlangen–Nürnberg, Erlangen"><span>19</span></button><button class="e2g-pin" style="--x:21.448%;--y:43.408%;" data-region="West" data-name="University of Münster" data-city="Münster" data-type="University" aria-label="University of Münster, Münster"><span>20</span></button><button class="e2g-pin" style="--x:68.533%;--y:48.419%;" data-region="East" data-name="Leipzig University" data-city="Leipzig" data-type="University" aria-label="Leipzig University, Leipzig"><span>21</span></button><button class="e2g-pin" style="--x:44.388%;--y:60.879%;" data-region="South" data-name="University of Würzburg" data-city="Würzburg" data-type="University" aria-label="University of Würzburg, Würzburg"><span>22</span></button><button class="e2g-pin" style="--x:33.700%;--y:34.214%;" data-region="North" data-name="University of Bremen" data-city="Bremen" data-type="University" aria-label="University of Bremen, Bremen"><span>23</span></button><button class="e2g-pin" style="--x:15.792%;--y:65.156%;" data-region="West" data-name="Saarland University" data-city="Saarbrücken" data-type="University" aria-label="Saarland University, Saarbrücken"><span>24</span></button><button class="e2g-pin" style="--x:42.240%;--y:40.042%;" data-region="North" data-name="Leibniz University Hannover" data-city="Hannover" data-type="University / TU" aria-label="Leibniz University Hannover, Hannover"><span>25</span></button>
+            <div class="e2g-tooltip" aria-live="polite"><small>Hover or tap a number</small><strong id="e2gTooltipName">Explore the university map</strong><span id="e2gTooltipMeta">25 institutions across Germany</span></div>
+          </div>
+        </div>
+        <div class="e2g-map-content">
+          <div class="e2g-filter-row" aria-label="Filter universities by region">
+            <button class="e2g-filter active" data-filter="All">All regions</button>
+            <button class="e2g-filter" data-filter="North">North</button>
+            <button class="e2g-filter" data-filter="East">East</button>
+            <button class="e2g-filter" data-filter="West">West</button>
+            <button class="e2g-filter" data-filter="South">South</button>
+          </div>
+          <div class="e2g-university-list"><article class="e2g-uni-card" data-region="South">
+      <div class="e2g-uni-number">01</div>
+      <div><h4>Technical University of Munich</h4><p>Munich · TU / Research</p></div>
+    </article><article class="e2g-uni-card" data-region="South">
+      <div class="e2g-uni-number">02</div>
+      <div><h4>Ludwig Maximilian University of Munich</h4><p>Munich · University</p></div>
+    </article><article class="e2g-uni-card" data-region="South">
+      <div class="e2g-uni-number">03</div>
+      <div><h4>Heidelberg University</h4><p>Heidelberg · University</p></div>
+    </article><article class="e2g-uni-card" data-region="West">
+      <div class="e2g-uni-number">04</div>
+      <div><h4>RWTH Aachen University</h4><p>Aachen · TU / Research</p></div>
+    </article><article class="e2g-uni-card" data-region="South">
+      <div class="e2g-uni-number">05</div>
+      <div><h4>Karlsruhe Institute of Technology</h4><p>Karlsruhe · TU / Research</p></div>
+    </article><article class="e2g-uni-card" data-region="East">
+      <div class="e2g-uni-number">06</div>
+      <div><h4>Humboldt University of Berlin</h4><p>Berlin · University</p></div>
+    </article><article class="e2g-uni-card" data-region="East">
+      <div class="e2g-uni-number">07</div>
+      <div><h4>Free University of Berlin</h4><p>Berlin · University</p></div>
+    </article><article class="e2g-uni-card" data-region="East">
+      <div class="e2g-uni-number">08</div>
+      <div><h4>Technical University of Berlin</h4><p>Berlin · TU / Research</p></div>
+    </article><article class="e2g-uni-card" data-region="South">
+      <div class="e2g-uni-number">09</div>
+      <div><h4>University of Freiburg</h4><p>Freiburg · University</p></div>
+    </article><article class="e2g-uni-card" data-region="South">
+      <div class="e2g-uni-number">10</div>
+      <div><h4>University of Tübingen</h4><p>Tübingen · University</p></div>
+    </article><article class="e2g-uni-card" data-region="West">
+      <div class="e2g-uni-number">11</div>
+      <div><h4>University of Bonn</h4><p>Bonn · University</p></div>
+    </article><article class="e2g-uni-card" data-region="North">
+      <div class="e2g-uni-number">12</div>
+      <div><h4>University of Hamburg</h4><p>Hamburg · University</p></div>
+    </article><article class="e2g-uni-card" data-region="East">
+      <div class="e2g-uni-number">13</div>
+      <div><h4>TU Dresden</h4><p>Dresden · TU / Research</p></div>
+    </article><article class="e2g-uni-card" data-region="North">
+      <div class="e2g-uni-number">14</div>
+      <div><h4>University of Göttingen</h4><p>Göttingen · University</p></div>
+    </article><article class="e2g-uni-card" data-region="West">
+      <div class="e2g-uni-number">15</div>
+      <div><h4>University of Cologne</h4><p>Cologne · University</p></div>
+    </article><article class="e2g-uni-card" data-region="West">
+      <div class="e2g-uni-number">16</div>
+      <div><h4>University of Mannheim</h4><p>Mannheim · University</p></div>
+    </article><article class="e2g-uni-card" data-region="West">
+      <div class="e2g-uni-number">17</div>
+      <div><h4>Technical University of Darmstadt</h4><p>Darmstadt · TU / Research</p></div>
+    </article><article class="e2g-uni-card" data-region="South">
+      <div class="e2g-uni-number">18</div>
+      <div><h4>University of Stuttgart</h4><p>Stuttgart · University / TU</p></div>
+    </article><article class="e2g-uni-card" data-region="South">
+      <div class="e2g-uni-number">19</div>
+      <div><h4>FAU Erlangen–Nürnberg</h4><p>Erlangen · University</p></div>
+    </article><article class="e2g-uni-card" data-region="West">
+      <div class="e2g-uni-number">20</div>
+      <div><h4>University of Münster</h4><p>Münster · University</p></div>
+    </article><article class="e2g-uni-card" data-region="East">
+      <div class="e2g-uni-number">21</div>
+      <div><h4>Leipzig University</h4><p>Leipzig · University</p></div>
+    </article><article class="e2g-uni-card" data-region="South">
+      <div class="e2g-uni-number">22</div>
+      <div><h4>University of Würzburg</h4><p>Würzburg · University</p></div>
+    </article><article class="e2g-uni-card" data-region="North">
+      <div class="e2g-uni-number">23</div>
+      <div><h4>University of Bremen</h4><p>Bremen · University</p></div>
+    </article><article class="e2g-uni-card" data-region="West">
+      <div class="e2g-uni-number">24</div>
+      <div><h4>Saarland University</h4><p>Saarbrücken · University</p></div>
+    </article><article class="e2g-uni-card" data-region="North">
+      <div class="e2g-uni-number">25</div>
+      <div><h4>Leibniz University Hannover</h4><p>Hannover · University / TU</p></div>
+    </article></div>
+          <p class="e2g-map-disclaimer">Editorial selection for orientation; not a definitive ranking. Programme fit, accreditation, admission criteria and current fees should be checked directly with each institution.</p>
+        </div>
+      </div>
+      <p class="e2g-sources">Facts reviewed July 2026. Sources: <a href="https://www.daad.de/en/studying-in-germany/universities/" target="_blank" rel="noopener">DAAD</a>, <a href="https://www.study-in-germany.de/en/" target="_blank" rel="noopener">Study in Germany</a>, <a href="https://www.make-it-in-germany.com/en/" target="_blank" rel="noopener">Make it in Germany</a>, <a href="https://www.germany.travel/en/" target="_blank" rel="noopener">German National Tourist Board</a>, <a href="https://www.unesco.de/en" target="_blank" rel="noopener">German Commission for UNESCO</a> and <a href="https://www.henleyglobal.com/passport-index/ranking" target="_blank" rel="noopener">Henley Passport Index</a>.</p>
+    </div>
+  </section>
+
+  <section class="e2g-cta">
+    <div class="e2g-wrap"><div class="e2g-cta-box"><p class="e2g-kicker">Enroute2Germany</p><h2>Turn “I want to study in Germany” into a clear action plan.</h2><p>Get support with programme selection, application strategy, documentation, visa preparation and your move to Germany.</p><a class="e2g-btn" href="https://www.enroute2germany.com/#contact">Book a consultation <span aria-hidden="true">→</span></a></div></div>
+  </section>
+</main>
+<script>
+(function(){
+  const pins=[...document.querySelectorAll('.e2g-pin')];
+  const filters=[...document.querySelectorAll('.e2g-filter')];
+  const cards=[...document.querySelectorAll('.e2g-uni-card')];
+  const nameEl=document.getElementById('e2gTooltipName');
+  const metaEl=document.getElementById('e2gTooltipMeta');
+  function showPin(pin){
+    pins.forEach(p=>p.classList.remove('active'));
+    pin.classList.add('active');
+    nameEl.textContent=pin.dataset.name;
+    metaEl.textContent=pin.dataset.city+' · '+pin.dataset.type;
+  }
+  pins.forEach(pin=>{
+    pin.addEventListener('mouseenter',()=>showPin(pin));
+    pin.addEventListener('focus',()=>showPin(pin));
+    pin.addEventListener('click',()=>showPin(pin));
+  });
+  filters.forEach(btn=>btn.addEventListener('click',()=>{
+    const region=btn.dataset.filter;
+    filters.forEach(b=>b.classList.toggle('active',b===btn));
+    cards.forEach(card=>card.classList.toggle('hidden',region!=='All'&&card.dataset.region!==region));
+    pins.forEach(pin=>pin.classList.toggle('dim',region!=='All'&&pin.dataset.region!==region));
+    nameEl.textContent=region==='All'?'Explore the university map':region+' Germany';
+    metaEl.textContent=region==='All'?'25 institutions across Germany':'Showing universities in the '+region.toLowerCase()+' region';
+  }));
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Work in Germany after graduation: 18-month job search, research careers, EU Blue Card, permanent residence and citizenship pathways.">
+  <title>Work in Germany After Graduation | Enroute2Germany</title>
+  <style>
+:root{
+  --e2gw-ink:#101827;
+  --e2gw-muted:#5d6675;
+  --e2gw-paper:#fffdf8;
+  --e2gw-surface:#ffffff;
+  --e2gw-soft:#f3efe6;
+  --e2gw-line:#e8e1d4;
+  --e2gw-red:#d61f2c;
+  --e2gw-gold:#f4bd2e;
+  --e2gw-black:#161616;
+  --e2gw-green:#0f766e;
+  --e2gw-blue:#174ea6;
+  --e2gw-radius:28px;
+  --e2gw-shadow:0 24px 70px rgba(15,23,42,.12);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--e2gw-paper);color:var(--e2gw-ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.62}
+a{color:inherit}
+button{font:inherit}
+.e2gw-page{overflow:hidden;background:
+ radial-gradient(circle at 12% 3%,rgba(244,189,46,.16),transparent 28rem),
+ radial-gradient(circle at 92% 12%,rgba(214,31,44,.10),transparent 27rem),
+ var(--e2gw-paper)}
+.e2gw-wrap{width:min(1180px,calc(100% - 32px));margin-inline:auto}
+.e2gw-kicker{display:inline-flex;align-items:center;gap:.55rem;margin:0 0 1rem;padding:.46rem .78rem;border:1px solid rgba(214,31,44,.20);border-radius:999px;background:rgba(255,255,255,.82);color:#a5111c;font-size:.77rem;font-weight:900;letter-spacing:.09em;text-transform:uppercase}
+.e2gw-kicker::before{content:"";width:.56rem;height:.56rem;border-radius:50%;background:linear-gradient(135deg,var(--e2gw-red),var(--e2gw-gold));box-shadow:0 0 0 .28rem rgba(214,31,44,.08)}
+.e2gw-display{max-width:860px;margin:0;font-size:clamp(2.55rem,6.1vw,5.85rem);line-height:.98;letter-spacing:-.057em;font-weight:950}
+.e2gw-display em{font-style:normal;color:var(--e2gw-red)}
+.e2gw-lead{max-width:740px;margin:1.4rem 0 0;color:var(--e2gw-muted);font-size:clamp(1.02rem,1.7vw,1.22rem)}
+.e2gw-btns{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:1.75rem}
+.e2gw-btn{display:inline-flex;align-items:center;justify-content:center;gap:.55rem;min-height:50px;padding:.75rem 1.08rem;border-radius:14px;text-decoration:none;font-weight:850;border:1px solid transparent;transition:.24s ease}
+.e2gw-btn-primary{background:var(--e2gw-black);color:#fff;box-shadow:0 12px 28px rgba(22,22,22,.20)}
+.e2gw-btn-primary:hover{transform:translateY(-2px);background:var(--e2gw-red)}
+.e2gw-btn-secondary{background:#fff;border-color:var(--e2gw-line)}
+.e2gw-btn-secondary:hover{transform:translateY(-2px);border-color:#bdb5a7}
+.e2gw-hero{padding:clamp(74px,9vw,128px) 0 28px}
+.e2gw-hero-grid{display:grid;grid-template-columns:minmax(0,1.03fr) minmax(360px,.97fr);gap:clamp(30px,5vw,68px);align-items:center}
+.e2gw-hero-art{position:relative;min-height:600px;border-radius:40px;background:linear-gradient(150deg,#111 0%,#252525 60%,#4a0f14 100%);box-shadow:var(--e2gw-shadow);overflow:hidden;isolation:isolate;border:1px solid rgba(255,255,255,.85)}
+.e2gw-hero-art::before{content:"";position:absolute;inset:-24%;background:conic-gradient(from 160deg,transparent,rgba(244,189,46,.34),transparent 31%,rgba(214,31,44,.28),transparent 60%);filter:blur(22px);animation:e2gw-spin 20s linear infinite;z-index:-2}
+.e2gw-hero-art::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 54%,rgba(0,0,0,.42));pointer-events:none}
+@keyframes e2gw-spin{to{transform:rotate(360deg)}}
+.e2gw-art-title{position:absolute;left:28px;top:26px;z-index:3;color:#fff}
+.e2gw-art-title small{display:block;color:var(--e2gw-gold);font-size:.74rem;font-weight:900;letter-spacing:.13em;text-transform:uppercase}
+.e2gw-art-title strong{display:block;margin-top:.3rem;font-size:1.34rem}
+.e2gw-career-svg{position:absolute;inset:58px 14px 35px;width:calc(100% - 28px);height:calc(100% - 93px);z-index:1;filter:drop-shadow(0 28px 35px rgba(0,0,0,.30))}
+.e2gw-visa-chip{position:absolute;right:22px;top:28px;z-index:4;display:flex;align-items:center;gap:10px;padding:12px 15px;border:1px solid rgba(255,255,255,.18);border-radius:18px;background:rgba(255,255,255,.10);backdrop-filter:blur(14px);color:white}
+.e2gw-visa-chip b{color:var(--e2gw-gold);font-size:1.65rem;line-height:1}
+.e2gw-visa-chip span{font-size:.8rem;line-height:1.25;color:#ececec}
+.e2gw-hero-note{position:absolute;left:24px;right:24px;bottom:24px;z-index:4;display:grid;grid-template-columns:auto 1fr;gap:13px;align-items:center;padding:16px 17px;border-radius:20px;background:rgba(255,255,255,.11);border:1px solid rgba(255,255,255,.16);backdrop-filter:blur(16px);color:white}
+.e2gw-hero-note i{display:grid;place-items:center;width:44px;height:44px;border-radius:14px;background:var(--e2gw-gold);color:#191919;font-style:normal;font-weight:950}
+.e2gw-hero-note strong{display:block;font-size:.95rem}.e2gw-hero-note span{display:block;margin-top:.12rem;color:#d8d8d8;font-size:.82rem}
+.e2gw-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:42px}
+.e2gw-stat{padding:19px;border:1px solid var(--e2gw-line);border-radius:20px;background:rgba(255,255,255,.80);box-shadow:0 10px 30px rgba(17,24,39,.045)}
+.e2gw-stat strong{display:block;font-size:1.5rem;line-height:1.1}.e2gw-stat span{display:block;margin-top:.42rem;color:var(--e2gw-muted);font-size:.87rem}
+.e2gw-section{padding:clamp(70px,8vw,112px) 0}
+.e2gw-section-head{display:flex;justify-content:space-between;gap:30px;align-items:end;margin-bottom:34px}
+.e2gw-section-head h2{max-width:790px;margin:0;font-size:clamp(2rem,4vw,3.7rem);line-height:1.04;letter-spacing:-.046em}
+.e2gw-section-head p{max-width:480px;margin:0;color:var(--e2gw-muted)}
+.e2gw-flow{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;position:relative}
+.e2gw-flow::before{content:"";position:absolute;left:9%;right:9%;top:31px;height:2px;background:linear-gradient(90deg,var(--e2gw-red),var(--e2gw-gold),var(--e2gw-green));opacity:.45}
+.e2gw-flow-step{position:relative;z-index:1;padding:0 10px 22px;text-align:center}
+.e2gw-flow-num{display:grid;place-items:center;width:64px;height:64px;margin:0 auto 18px;border:7px solid var(--e2gw-paper);border-radius:50%;background:#171717;color:#fff;font-size:1.05rem;font-weight:950;box-shadow:0 8px 20px rgba(17,24,39,.15)}
+.e2gw-flow-step:nth-child(2) .e2gw-flow-num{background:var(--e2gw-red)}
+.e2gw-flow-step:nth-child(3) .e2gw-flow-num{background:var(--e2gw-gold);color:#161616}
+.e2gw-flow-step:nth-child(4) .e2gw-flow-num{background:var(--e2gw-green)}
+.e2gw-flow-step h3{margin:0;font-size:1.08rem}.e2gw-flow-step p{margin:.55rem 0 0;color:var(--e2gw-muted);font-size:.9rem}
+.e2gw-routes{display:grid;grid-template-columns:repeat(12,1fr);gap:16px}
+.e2gw-route{position:relative;min-height:270px;padding:27px;border:1px solid var(--e2gw-line);border-radius:var(--e2gw-radius);background:#fff;box-shadow:0 13px 36px rgba(15,23,42,.055);overflow:hidden;transition:.24s ease}
+.e2gw-route:hover{transform:translateY(-4px);box-shadow:0 22px 46px rgba(15,23,42,.10)}
+.e2gw-route:nth-child(1),.e2gw-route:nth-child(4){grid-column:span 7}.e2gw-route:nth-child(2),.e2gw-route:nth-child(3){grid-column:span 5}
+.e2gw-route.dark{background:#171717;color:white;border-color:#171717}.e2gw-route.red{background:linear-gradient(145deg,#ad0f1a,#e42a36);color:white;border-color:transparent}.e2gw-route.gold{background:linear-gradient(145deg,#ffe6a6,#f4bd2e);border-color:transparent}
+.e2gw-route-tag{display:inline-flex;padding:.36rem .62rem;border-radius:999px;background:#f1eee7;font-size:.75rem;font-weight:900;letter-spacing:.06em;text-transform:uppercase}.dark .e2gw-route-tag,.red .e2gw-route-tag{background:rgba(255,255,255,.14)}
+.e2gw-route-icon{display:grid;place-items:center;width:49px;height:49px;margin:24px 0 18px;border-radius:15px;background:rgba(15,23,42,.07);font-size:1.4rem}.dark .e2gw-route-icon,.red .e2gw-route-icon{background:rgba(255,255,255,.13)}
+.e2gw-route h3{margin:0;font-size:1.48rem;line-height:1.14}.e2gw-route p{margin:.75rem 0 0;color:var(--e2gw-muted)}.dark p,.red p{color:rgba(255,255,255,.79)}
+.e2gw-route ul{margin:1rem 0 0;padding-left:1.1rem;color:var(--e2gw-muted);font-size:.91rem}.dark ul,.red ul{color:rgba(255,255,255,.78)}
+.e2gw-route-big{position:absolute;right:20px;top:15px;font-size:clamp(3rem,8vw,6.2rem);line-height:1;font-weight:950;letter-spacing:-.08em;opacity:.075}
+.e2gw-pr-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.e2gw-pr{position:relative;padding:25px;border-radius:26px;background:#fff;border:1px solid var(--e2gw-line);box-shadow:0 14px 34px rgba(15,23,42,.055);overflow:hidden}
+.e2gw-pr::before{content:"";position:absolute;inset:0 auto 0 0;width:5px;background:var(--accent,var(--e2gw-red))}
+.e2gw-pr-time{font-size:2rem;font-weight:950;line-height:1;letter-spacing:-.04em;color:var(--accent,var(--e2gw-red))}
+.e2gw-pr h3{margin:1rem 0 .5rem;font-size:1.15rem}.e2gw-pr p{margin:0;color:var(--e2gw-muted);font-size:.9rem}.e2gw-pr ul{margin:1rem 0 0;padding-left:1.08rem;color:var(--e2gw-muted);font-size:.87rem}
+.e2gw-correction{display:grid;grid-template-columns:auto 1fr;gap:16px;margin-top:20px;padding:22px;border-radius:22px;background:#fff7d8;border:1px solid #ecd27f}
+.e2gw-correction i{display:grid;place-items:center;width:48px;height:48px;border-radius:15px;background:#171717;color:var(--e2gw-gold);font-style:normal;font-weight:950}.e2gw-correction h3{margin:0;font-size:1.05rem}.e2gw-correction p{margin:.35rem 0 0;color:#645a40}
+.e2gw-benefits{display:grid;grid-template-columns:repeat(12,1fr);gap:15px}
+.e2gw-benefit{grid-column:span 4;padding:25px;border-radius:25px;background:#fff;border:1px solid var(--e2gw-line);box-shadow:0 12px 30px rgba(15,23,42,.045)}
+.e2gw-benefit:nth-child(1),.e2gw-benefit:nth-child(7){grid-column:span 6;background:#171717;color:white;border-color:#171717}
+.e2gw-benefit-icon{display:grid;place-items:center;width:48px;height:48px;border-radius:15px;background:#f4f0e7;font-size:1.35rem}.e2gw-benefit:nth-child(1) .e2gw-benefit-icon,.e2gw-benefit:nth-child(7) .e2gw-benefit-icon{background:rgba(255,255,255,.12)}
+.e2gw-benefit h3{margin:1.15rem 0 .55rem;font-size:1.18rem}.e2gw-benefit p{margin:0;color:var(--e2gw-muted);font-size:.91rem}.e2gw-benefit:nth-child(1) p,.e2gw-benefit:nth-child(7) p{color:#c8ccd2}
+.e2gw-sectors{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.e2gw-sector{display:grid;grid-template-columns:46px 1fr;gap:14px;align-items:start;padding:22px;border-radius:22px;background:white;border:1px solid var(--e2gw-line)}
+.e2gw-sector b{display:grid;place-items:center;width:46px;height:46px;border-radius:14px;background:#f4f0e7;font-size:1.25rem}.e2gw-sector h3{margin:0;font-size:1.03rem}.e2gw-sector p{margin:.3rem 0 0;color:var(--e2gw-muted);font-size:.86rem}
+.e2gw-citizen-grid{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(340px,.95fr);gap:30px;align-items:center}
+.e2gw-citizen-copy{padding:clamp(30px,5vw,58px);border-radius:34px;background:#171717;color:white;box-shadow:var(--e2gw-shadow)}
+.e2gw-citizen-copy h2{margin:0;font-size:clamp(2.05rem,4.4vw,4rem);line-height:1.02;letter-spacing:-.05em}.e2gw-citizen-copy>p{color:#c9cdd2}
+.e2gw-checks{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:23px}.e2gw-check{display:grid;grid-template-columns:28px 1fr;gap:10px;padding:12px;border-radius:15px;background:rgba(255,255,255,.07);font-size:.88rem}.e2gw-check b{display:grid;place-items:center;width:28px;height:28px;border-radius:9px;background:var(--e2gw-gold);color:#161616}
+.e2gw-passport-art{position:relative;min-height:520px;border-radius:34px;background:linear-gradient(145deg,#f2eadb,#fffdf7);border:1px solid var(--e2gw-line);box-shadow:var(--e2gw-shadow);overflow:hidden}
+.e2gw-passport-art::before{content:"";position:absolute;width:360px;height:360px;right:-125px;top:-135px;border-radius:50%;background:radial-gradient(circle,rgba(214,31,44,.24),transparent 70%)}
+.e2gw-passport{position:absolute;left:50%;top:50%;width:245px;height:350px;transform:translate(-50%,-52%) rotate(-7deg);border-radius:18px;background:linear-gradient(145deg,#7b0711,#a91321 64%,#65060e);box-shadow:0 34px 60px rgba(71,5,12,.33);border:1px solid rgba(255,255,255,.25);color:#f5d77b;text-align:center;padding:35px 24px}
+.e2gw-passport::after{content:"";position:absolute;inset:12px;border:1px solid rgba(245,215,123,.35);border-radius:12px}
+.e2gw-stars{font-size:1.2rem;letter-spacing:.14em}.e2gw-passport-mark{display:grid;place-items:center;width:86px;height:86px;margin:42px auto 25px;border:2px solid #f5d77b;border-radius:50%;font-size:2.3rem}.e2gw-passport strong{display:block;letter-spacing:.12em;font-size:.84rem}.e2gw-passport small{display:block;margin-top:.6rem;letter-spacing:.18em;font-size:.68rem}
+.e2gw-passport-note{position:absolute;left:24px;bottom:24px;right:24px;padding:17px 18px;border-radius:18px;background:rgba(255,255,255,.86);border:1px solid var(--e2gw-line);backdrop-filter:blur(10px);font-size:.88rem;color:var(--e2gw-muted)}.e2gw-passport-note b{color:var(--e2gw-ink)}
+.e2gw-faq{display:grid;grid-template-columns:1fr 1fr;gap:12px}.e2gw-faq details{border:1px solid var(--e2gw-line);border-radius:18px;background:#fff;padding:0 19px}.e2gw-faq summary{cursor:pointer;list-style:none;padding:18px 34px 18px 0;font-weight:850;position:relative}.e2gw-faq summary::-webkit-details-marker{display:none}.e2gw-faq summary::after{content:"+";position:absolute;right:0;top:15px;font-size:1.35rem;color:var(--e2gw-red)}.e2gw-faq details[open] summary::after{content:"–"}.e2gw-faq details p{margin:0 0 18px;color:var(--e2gw-muted);font-size:.9rem}
+.e2gw-cta{padding-bottom:clamp(82px,10vw,136px)}
+.e2gw-cta-box{position:relative;padding:clamp(34px,6vw,72px);border-radius:38px;background:#171717;color:white;overflow:hidden;box-shadow:var(--e2gw-shadow)}
+.e2gw-cta-box::after{content:"";position:absolute;width:400px;height:400px;right:-110px;top:-195px;border-radius:50%;background:radial-gradient(circle,var(--e2gw-red),transparent 68%);opacity:.83}
+.e2gw-cta-box h2{position:relative;z-index:1;max-width:780px;margin:0;font-size:clamp(2.1rem,4.8vw,4.65rem);line-height:1.02;letter-spacing:-.05em}.e2gw-cta-box p{position:relative;z-index:1;max-width:690px;color:#c8cbd0}.e2gw-cta-box .e2gw-btn{position:relative;z-index:1;background:var(--e2gw-gold);color:#171717}
+.e2gw-legal{margin-top:25px;color:#797267;font-size:.77rem}.e2gw-legal a{text-underline-offset:3px}.e2gw-updated{display:inline-flex;margin-bottom:12px;padding:.3rem .55rem;border-radius:999px;background:#ece7dc;color:#514b42;font-weight:850}
+@media (max-width:1000px){
+ .e2gw-hero-grid,.e2gw-citizen-grid{grid-template-columns:1fr}
+ .e2gw-hero-art{min-height:550px;max-width:690px;width:100%;margin:auto}
+ .e2gw-pr-grid{grid-template-columns:1fr 1fr}
+ .e2gw-sectors{grid-template-columns:1fr 1fr}
+}
+@media (max-width:760px){
+ .e2gw-hero{padding-top:56px}.e2gw-display{font-size:clamp(2.4rem,13vw,4rem)}
+ .e2gw-hero-art{min-height:500px;border-radius:29px}.e2gw-visa-chip{top:78px;right:15px}.e2gw-art-title{left:20px;top:20px}.e2gw-career-svg{inset:85px 0 45px;width:100%;height:calc(100% - 130px)}
+ .e2gw-stats,.e2gw-pr-grid,.e2gw-sectors,.e2gw-checks,.e2gw-faq{grid-template-columns:1fr}
+ .e2gw-section-head{display:block}.e2gw-section-head p{margin-top:1rem}
+ .e2gw-flow{grid-template-columns:1fr}.e2gw-flow::before{left:31px;right:auto;top:28px;bottom:28px;width:2px;height:auto}
+ .e2gw-flow-step{display:grid;grid-template-columns:64px 1fr;gap:16px;text-align:left;padding:0 0 18px}.e2gw-flow-num{margin:0;border-width:6px}.e2gw-flow-step h3{margin-top:8px}
+ .e2gw-routes{grid-template-columns:1fr}.e2gw-route:nth-child(n){grid-column:auto}
+ .e2gw-benefits{grid-template-columns:1fr}.e2gw-benefit:nth-child(n){grid-column:auto}
+ .e2gw-passport-art{min-height:470px}.e2gw-passport{width:215px;height:310px}
+ .e2gw-section{padding:72px 0}
+}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+
+<main class="e2gw-page" id="work-in-germany">
+  <section class="e2gw-hero">
+    <div class="e2gw-wrap">
+      <div class="e2gw-hero-grid">
+        <div>
+          <p class="e2gw-kicker">After university · Your next chapter</p>
+          <h1 class="e2gw-display">Graduate. Get hired. <em>Build your life in Germany.</em></h1>
+          <p class="e2gw-lead">From an 18-month post-study job-search permit to research careers, qualified employment, permanent residence and citizenship—understand the pathway before you take the next step.</p>
+          <div class="e2gw-btns">
+            <a class="e2gw-btn e2gw-btn-primary" href="https://www.enroute2germany.com/#contact">Plan your career pathway <span aria-hidden="true">→</span></a>
+            <a class="e2gw-btn e2gw-btn-secondary" href="#e2gw-residence-roadmap">See residence timelines</a>
+          </div>
+        </div>
+        <div class="e2gw-hero-art" aria-label="Original illustration of an international graduate building a career in Germany">
+          <div class="e2gw-art-title"><small>Work · Settle · Belong</small><strong>A German career starts here.</strong></div>
+          <div class="e2gw-visa-chip"><b>18</b><span>months to search<br>after graduation</span></div>
+          <svg class="e2gw-career-svg" viewBox="0 0 620 650" role="img" aria-label="Professional graduate, German city and career path illustration">
+            <defs>
+              <linearGradient id="e2gwSky" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#312f2f"/><stop offset="1" stop-color="#6a151c"/></linearGradient>
+              <linearGradient id="e2gwCoat" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f6f3ea"/><stop offset="1" stop-color="#cfc8b8"/></linearGradient>
+              <linearGradient id="e2gwMap" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffe7a1"/><stop offset=".52" stop-color="#f4bd2e"/><stop offset="1" stop-color="#d61f2c"/></linearGradient>
+              <filter id="e2gwBlur"><feGaussianBlur stdDeviation="18"/></filter>
+            </defs>
+            <circle cx="470" cy="160" r="110" fill="#d61f2c" opacity=".23" filter="url(#e2gwBlur)"/>
+            <circle cx="160" cy="420" r="120" fill="#f4bd2e" opacity=".16" filter="url(#e2gwBlur)"/>
+            <path d="M478 95l12 25-14 13 18 18 13 27-4 18 21 32-23 6-14-6-13 10-37 10-19 13-37 11 9 15 6 22 26 12 29 22-18 24-19 7 8 33-5 9-16-11-25-1-37 9-45-3-7 14-26-14-16 3-55-16-11 12-44-1 7-36 26-35-74-10-24-13 3-23-10-11 6-35-9-54 31 0 13-19 13-47-10-17 10-11 43-3 10 11 35-25-12-19-2-29 39 7 33-8 1 20 52 12-1 18 52-10 29-14 58 21z" transform="translate(2 0) scale(.72)" fill="url(#e2gwMap)" stroke="rgba(255,255,255,.7)" stroke-width="4" opacity=".96"/>
+            <g opacity=".82" fill="#1a1a1a">
+              <rect x="32" y="470" width="556" height="8" rx="4" fill="#efefef" opacity=".16"/>
+              <rect x="54" y="376" width="54" height="94" rx="3"/><rect x="119" y="334" width="72" height="136" rx="3"/><rect x="204" y="392" width="60" height="78" rx="3"/><rect x="278" y="310" width="82" height="160" rx="3"/><rect x="373" y="360" width="61" height="110" rx="3"/><rect x="446" y="290" width="83" height="180" rx="3"/><rect x="541" y="408" width="36" height="62" rx="3"/>
+              <g fill="#f4bd2e" opacity=".55"><rect x="67" y="391" width="9" height="11"/><rect x="85" y="391" width="9" height="11"/><rect x="137" y="354" width="11" height="12"/><rect x="160" y="354" width="11" height="12"/><rect x="299" y="334" width="12" height="13"/><rect x="325" y="334" width="12" height="13"/><rect x="468" y="317" width="13" height="14"/><rect x="499" y="317" width="13" height="14"/></g>
+            </g>
+            <g transform="translate(176 166)">
+              <ellipse cx="123" cy="332" rx="117" ry="26" fill="#000" opacity=".22"/>
+              <path d="M67 146c-38 18-51 70-52 133l9 94h197l6-105c-4-61-31-104-72-120z" fill="url(#e2gwCoat)"/>
+              <path d="M75 154l49 72 43-73 31 15-44 155h-66L45 170z" fill="#1f2937"/>
+              <path d="M89 175l35 50 30-51-11 124h-40z" fill="#d61f2c" opacity=".88"/>
+              <circle cx="123" cy="91" r="62" fill="#8d5a3b"/>
+              <path d="M61 82c2-59 35-80 69-79 39 1 65 30 61 75-22-7-34-21-45-42-24 29-53 42-85 46z" fill="#111827"/>
+              <path d="M77 84c2 43 20 75 49 75 30 0 49-30 51-74-9-4-19-10-30-21-19 15-42 22-70 20z" fill="#9b6544"/>
+              <circle cx="105" cy="97" r="4" fill="#171717"/><circle cx="147" cy="97" r="4" fill="#171717"/>
+              <path d="M111 123c10 8 22 8 32 0" fill="none" stroke="#5f2e22" stroke-width="4" stroke-linecap="round"/>
+              <rect x="76" y="84" width="42" height="29" rx="11" fill="none" stroke="#222" stroke-width="5"/><rect x="134" y="84" width="42" height="29" rx="11" fill="none" stroke="#222" stroke-width="5"/><path d="M118 96h16" stroke="#222" stroke-width="5"/>
+              <path d="M20 266c36-14 69-20 102-18 36 2 70 10 105 27l-4 98H25z" fill="#333b48"/>
+              <path d="M43 276c29-10 57-14 84-12 31 2 58 8 84 20l-7 72H49z" fill="#101827"/>
+              <rect x="92" y="332" width="66" height="7" rx="4" fill="#f4bd2e"/>
+            </g>
+            <g transform="translate(455 488)"><circle cx="0" cy="0" r="46" fill="#fff" opacity=".12"/><path d="M-23 0h46M0-23v46" stroke="#f4bd2e" stroke-width="7" stroke-linecap="round"/><circle cx="0" cy="0" r="25" fill="none" stroke="#f4bd2e" stroke-width="4" opacity=".7"/></g>
+          </svg>
+          <div class="e2gw-hero-note"><i>✓</i><div><strong>Original visual—safe for your brand</strong><span>No copied company photographs, layout or protected graphics.</span></div></div>
+        </div>
+      </div>
+      <div class="e2gw-stats" aria-label="Post-study residence facts">
+        <div class="e2gw-stat"><strong>18 months</strong><span>post-study job-search residence permit</span></div>
+        <div class="e2gw-stat"><strong>24 months</strong><span>pension contributions for eligible German graduates’ PR route</span></div>
+        <div class="e2gw-stat"><strong>21 / 27</strong><span>months for Blue Card PR with B1 / A1</span></div>
+        <div class="e2gw-stat"><strong>5 years</strong><span>standard lawful-residence period for naturalisation</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="e2gw-section" id="e2gw-after-graduation">
+    <div class="e2gw-wrap">
+      <div class="e2gw-section-head">
+        <div><p class="e2gw-kicker">Your Germany career journey</p><h2>What happens after you complete your degree?</h2></div>
+        <p>A German qualification can open several residence routes. Your exact permit depends on your contract, salary, qualification and role.</p>
+      </div>
+      <div class="e2gw-flow">
+        <article class="e2gw-flow-step"><div class="e2gw-flow-num">01</div><div><h3>Complete your studies</h3><p>Obtain confirmation that you have successfully completed your German university programme.</p></div></article>
+        <article class="e2gw-flow-step"><div class="e2gw-flow-num">02</div><div><h3>Choose the 18-month search route</h3><p>Apply for the post-study job-search residence permit when you do not yet have a suitable offer.</p></div></article>
+        <article class="e2gw-flow-step"><div class="e2gw-flow-num">03</div><div><h3>Move into qualified work or research</h3><p>Switch to a skilled-worker permit, EU Blue Card, research permit or another suitable title.</p></div></article>
+        <article class="e2gw-flow-step"><div class="e2gw-flow-num">04</div><div><h3>Build toward permanence</h3><p>Maintain qualified employment, pension contributions, language skills and the other statutory requirements.</p></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="e2gw-section" style="background:#f3efe6">
+    <div class="e2gw-wrap">
+      <div class="e2gw-section-head">
+        <div><p class="e2gw-kicker">Four practical routes</p><h2>From campus to career—choose the route that fits your offer.</h2></div>
+        <p>The 18-month permit gives graduates time to search. A concrete job or research contract can allow a direct switch to an employment-based title.</p>
+      </div>
+      <div class="e2gw-routes">
+        <article class="e2gw-route dark"><span class="e2gw-route-tag">No job offer yet</span><div class="e2gw-route-icon">⌕</div><h3>18-month post-study job search</h3><p>Graduates of German higher-education institutions may receive up to 18 months to find qualified employment.</p><ul><li>You may take any type of employment while searching.</li><li>The permit is generally not renewable for the same purpose.</li><li>You must secure your livelihood and health insurance.</li></ul><div class="e2gw-route-big">18</div></article>
+        <article class="e2gw-route gold"><span class="e2gw-route-tag">University & science</span><div class="e2gw-route-icon">⌬</div><h3>Research assistant or doctoral contract</h3><p>A paid <em>Wissenschaftliche Mitarbeit</em> or doctoral research role may qualify for a research permit, skilled-worker permit or EU Blue Card, depending on the contract.</p><ul><li>Research permits can include research and teaching.</li><li>A full-time study-based PhD normally follows the study-permit route.</li></ul></article>
+        <article class="e2gw-route"><span class="e2gw-route-tag">Qualified employment</span><div class="e2gw-route-icon">▣</div><h3>Skilled-worker residence permit</h3><p>A recognised or comparable degree and a qualified job can lead to a residence permit under the skilled-worker rules.</p><ul><li>The job must be qualified employment.</li><li>Regulated professions require professional recognition or permission.</li><li>German improves career access even where it is not a visa condition.</li></ul></article>
+        <article class="e2gw-route red"><span class="e2gw-route-tag">Academic professionals</span><div class="e2gw-route-icon">★</div><h3>EU Blue Card</h3><p>Graduates with a qualifying academic job and the applicable salary may be eligible for the EU Blue Card.</p><ul><li>Salary thresholds change each calendar year.</li><li>Offers a faster settlement-permit pathway.</li><li>Family and intra-EU mobility advantages may apply.</li></ul><div class="e2gw-route-big">EU</div></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="e2gw-section" id="e2gw-residence-roadmap">
+    <div class="e2gw-wrap">
+      <div class="e2gw-section-head">
+        <div><p class="e2gw-kicker">Permanent residence roadmap</p><h2>The correct timelines—without outdated 33-month claims.</h2></div>
+        <p>A settlement permit is not automatic. Applicants must meet the full set of conditions and apply through their local foreigners authority.</p>
+      </div>
+      <div class="e2gw-pr-grid">
+        <article class="e2gw-pr" style="--accent:#d61f2c"><div class="e2gw-pr-time">2 years</div><h3>Graduate of a German university</h3><p>Facilitated settlement-permit route after German higher education or vocational training.</p><ul><li>Two years with a qualifying employment residence permit</li><li>24 months of pension contributions</li><li>B1 German, legal/social knowledge and sufficient living space</li></ul></article>
+        <article class="e2gw-pr" style="--accent:#0f766e"><div class="e2gw-pr-time">21 months</div><h3>EU Blue Card + B1</h3><p>The fastest standard Blue Card route where all conditions are satisfied.</p><ul><li>21 months of qualified Blue Card employment</li><li>B1 German</li><li>Pension contributions and other settlement requirements</li></ul></article>
+        <article class="e2gw-pr" style="--accent:#174ea6"><div class="e2gw-pr-time">27 months</div><h3>EU Blue Card + A1</h3><p>Blue Card holders with basic German may qualify after a longer period.</p><ul><li>27 months of qualified Blue Card employment</li><li>A1 German</li><li>Pension contributions and other settlement requirements</li></ul></article>
+        <article class="e2gw-pr" style="--accent:#9a6700"><div class="e2gw-pr-time">3 years</div><h3>Other skilled workers</h3><p>General route for eligible skilled workers who did not complete their qualification in Germany.</p><ul><li>Three years with an eligible skilled-worker title</li><li>36 months of pension contributions</li><li>B1 German and other statutory conditions</li></ul></article>
+      </div>
+      <div class="e2gw-correction"><i>!</i><div><h3>Important correction for your website</h3><p><strong>33 months is an outdated Blue Card figure.</strong> The current facilitated Blue Card periods are 27 months with A1 German or 21 months with B1. The 24-month route applies to eligible graduates of German universities and vocational training—not to every person with a job visa.</p></div></div>
+    </div>
+  </section>
+
+  <section class="e2gw-section" style="background:#f3efe6">
+    <div class="e2gw-wrap">
+      <div class="e2gw-section-head">
+        <div><p class="e2gw-kicker">Why build a career here?</p><h2>Seven benefits of working and living in Germany.</h2></div>
+        <p>Germany combines industrial opportunity with employment protection, social insurance and long-term residence options.</p>
+      </div>
+      <div class="e2gw-benefits">
+        <article class="e2gw-benefit"><div class="e2gw-benefit-icon">⚙</div><h3>Strong career ecosystems</h3><p>Engineering, manufacturing, IT, research, health care, skilled trades and transport are among the fields highlighted by the Federal Government’s skilled-worker portal.</p></article>
+        <article class="e2gw-benefit"><div class="e2gw-benefit-icon">✚</div><h3>Health insurance</h3><p>Health insurance is compulsory. Most employees are in statutory insurance, which generally covers doctor visits and many medicines and treatments.</p></article>
+        <article class="e2gw-benefit"><div class="e2gw-benefit-icon">◉</div><h3>Social-security protection</h3><p>Employment subject to social insurance normally includes pension, unemployment, health, long-term care and occupational accident protection.</p></article>
+        <article class="e2gw-benefit"><div class="e2gw-benefit-icon">☀</div><h3>Paid annual leave</h3><p>The statutory minimum is 20 working days per year for a five-day working week. Many collective agreements and employers provide more.</p></article>
+        <article class="e2gw-benefit"><div class="e2gw-benefit-icon">⌂</div><h3>Family reunification</h3><p>Eligible skilled workers can bring close family members. A joining spouse is generally entitled to work without restriction once the residence permit is issued.</p></article>
+        <article class="e2gw-benefit"><div class="e2gw-benefit-icon">↗</div><h3>Career mobility</h3><p>Germany offers access to global companies, research organisations, Mittelstand specialists, start-ups and cross-border European career networks.</p></article>
+        <article class="e2gw-benefit"><div class="e2gw-benefit-icon">∞</div><h3>Permanent future options</h3><p>A settlement permit allows indefinite residence and broad access to employment and self-employment. Naturalisation later adds EU citizenship, voting rights and stronger travel freedom.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="e2gw-section">
+    <div class="e2gw-wrap">
+      <div class="e2gw-section-head">
+        <div><p class="e2gw-kicker">Career fields</p><h2>Where international graduates build careers.</h2></div>
+        <p>Demand differs by region and qualification. Language skills, professional recognition and practical experience can significantly improve employability.</p>
+      </div>
+      <div class="e2gw-sectors">
+        <article class="e2gw-sector"><b>⚙</b><div><h3>Engineering & manufacturing</h3><p>Mechanical, electrical, automotive, production, quality, automation and industrial engineering.</p></div></article>
+        <article class="e2gw-sector"><b>⌘</b><div><h3>IT & digital</h3><p>Software, cloud, cybersecurity, data, AI, enterprise platforms and embedded systems.</p></div></article>
+        <article class="e2gw-sector"><b>✚</b><div><h3>Health & life sciences</h3><p>Medicine, nursing, pharmacy, biotechnology, medical technology and clinical research.</p></div></article>
+        <article class="e2gw-sector"><b>⌬</b><div><h3>Research & academia</h3><p>Doctoral projects, research institutes, scientific staff roles and industry R&amp;D.</p></div></article>
+        <article class="e2gw-sector"><b>☼</b><div><h3>Energy & sustainability</h3><p>Renewables, batteries, hydrogen, environmental engineering, mobility and efficiency.</p></div></article>
+        <article class="e2gw-sector"><b>▦</b><div><h3>Skilled trades & logistics</h3><p>Construction, mechatronics, electrical trades, transport, warehousing and technical services.</p></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="e2gw-section" style="background:#f3efe6">
+    <div class="e2gw-wrap">
+      <div class="e2gw-citizen-grid">
+        <div class="e2gw-citizen-copy">
+          <p class="e2gw-kicker">Long-term destination</p>
+          <h2>From residence to German citizenship.</h2>
+          <p>Naturalisation is generally possible after five years of lawful, habitual residence when all requirements are met. It is a separate application—citizenship is not granted automatically after five years of work.</p>
+          <div class="e2gw-checks">
+            <div class="e2gw-check"><b>✓</b><span>Usually five years of lawful habitual residence</span></div>
+            <div class="e2gw-check"><b>✓</b><span>At least B1 German language skills</span></div>
+            <div class="e2gw-check"><b>✓</b><span>Secure livelihood for you and dependants</span></div>
+            <div class="e2gw-check"><b>✓</b><span>Knowledge of Germany’s legal and social system</span></div>
+            <div class="e2gw-check"><b>✓</b><span>Qualifying residence status at the time of decision</span></div>
+            <div class="e2gw-check"><b>✓</b><span>No disqualifying criminal conviction or exclusion ground</span></div>
+          </div>
+          <p style="font-size:.84rem;margin-top:20px">There is <strong>no general rule requiring five full years of pension contributions for citizenship</strong>. Pension-contribution periods are relevant to several settlement-permit routes, while naturalisation has its own statutory criteria.</p>
+        </div>
+        <div class="e2gw-passport-art" aria-label="Stylised German citizenship and passport illustration">
+          <div class="e2gw-passport"><div class="e2gw-stars">✦ ✦ ✦ ✦ ✦</div><div class="e2gw-passport-mark">◎</div><strong>GERMAN CITIZENSHIP</strong><small>EUROPEAN FUTURE</small></div>
+          <div class="e2gw-passport-note"><b>Citizenship first, passport second.</b> After naturalisation and receipt of the citizenship certificate, you can apply for German identity documents. Multiple citizenship is generally permitted under German law, but your other country’s law may differ.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="e2gw-section">
+    <div class="e2gw-wrap">
+      <div class="e2gw-section-head"><div><p class="e2gw-kicker">Common questions</p><h2>Clear answers for international graduates.</h2></div><p>These answers are intentionally concise. Individual cases should be checked with the competent authority.</p></div>
+      <div class="e2gw-faq">
+        <details><summary>Can I work during the 18-month job-search period?</summary><p>Yes. Graduates using the specific post-study job-search residence permit may take any type of employment while searching for qualified work.</p></details>
+        <details><summary>Can I become a research assistant after my Master’s?</summary><p>Yes, when you secure a suitable university or research-institute contract. The correct residence title may be a research permit, skilled-worker permit, EU Blue Card or, for a full-time study doctorate, a study permit.</p></details>
+        <details><summary>Does every graduate get PR after 24 months?</summary><p>No. The facilitated 24-month contribution route is for eligible people who completed higher education or vocational training in Germany and meet all other settlement-permit requirements.</p></details>
+        <details><summary>Is B1 German required for every Blue Card PR route?</summary><p>No. A1 can support the 27-month Blue Card route; B1 reduces the period to 21 months. Other conditions still apply.</p></details>
+        <details><summary>Do five years of pension payments guarantee citizenship?</summary><p>No. Naturalisation generally concerns five years of lawful habitual residence plus language, livelihood, civic-knowledge, residence-status and other requirements. It is not based solely on pension payments.</p></details>
+        <details><summary>Are these timelines guaranteed?</summary><p>No. Laws can change, processing practices vary, and each authority checks the individual case. Always verify the current rule before applying.</p></details>
+      </div>
+      <div class="e2gw-legal">
+        <span class="e2gw-updated">Content checked: July 2026</span><br>
+        Official sources: <a href="https://www.make-it-in-germany.com/en/study-vocational-training/studies-in-germany/prospects-after" target="_blank" rel="noopener">Prospects after graduation</a> ·
+        <a href="https://www.make-it-in-germany.com/en/visa-residence/living-permanently/settlement-permit" target="_blank" rel="noopener">Settlement permit</a> ·
+        <a href="https://www.make-it-in-germany.com/en/visa-residence/types/eu-blue-card" target="_blank" rel="noopener">EU Blue Card</a> ·
+        <a href="https://www.make-it-in-germany.com/en/visa-residence/types/other/research" target="_blank" rel="noopener">Research visa</a> ·
+        <a href="https://www.einbuergerung.de/fragebogen.php" target="_blank" rel="noopener">Federal naturalisation requirements</a> ·
+        <a href="https://www.make-it-in-germany.com/en/service/faq" target="_blank" rel="noopener">Employment rights and social security</a>.<br>
+        General information only; it is not legal advice. Residence and naturalisation decisions are made by the responsible German authorities.
+      </div>
+    </div>
+  </section>
+
+  <section class="e2gw-cta">
+    <div class="e2gw-wrap">
+      <div class="e2gw-cta-box">
+        <h2>Turn your German degree into a long-term career.</h2>
+        <p>Build a focused plan for job applications, research opportunities, residence permits, German language development and your permanent-residence pathway.</p>
+        <a class="e2gw-btn" href="https://www.enroute2germany.com/#contact">Speak with Enroute2Germany <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </section>
+</main>
+
+</body>
+</html>

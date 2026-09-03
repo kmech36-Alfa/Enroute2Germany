@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="A practical one-page guide to learning German for life, study, work and visas in Germany, including CEFR levels, language requirements, courses, exams and free resources.">
+  <title>Learn German for Life, Study & Work | Enroute2Germany</title>
+  <style>
+:root{
+  --e2gl-ink:#101827;
+  --e2gl-muted:#5f6877;
+  --e2gl-paper:#fffdf8;
+  --e2gl-surface:#ffffff;
+  --e2gl-soft:#f3efe6;
+  --e2gl-line:#e8e1d4;
+  --e2gl-red:#d61f2c;
+  --e2gl-gold:#f4bd2e;
+  --e2gl-black:#161616;
+  --e2gl-green:#0f766e;
+  --e2gl-blue:#1d4ed8;
+  --e2gl-purple:#6d28d9;
+  --e2gl-radius:28px;
+  --e2gl-shadow:0 24px 70px rgba(15,23,42,.12);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--e2gl-paper);color:var(--e2gl-ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.62}
+a{color:inherit}
+button,input{font:inherit}
+.e2gl-page{overflow:hidden;background:
+ radial-gradient(circle at 8% 2%,rgba(244,189,46,.18),transparent 29rem),
+ radial-gradient(circle at 92% 8%,rgba(214,31,44,.11),transparent 27rem),
+ var(--e2gl-paper)}
+.e2gl-wrap{width:min(1180px,calc(100% - 32px));margin-inline:auto}
+.e2gl-nav{position:sticky;top:0;z-index:50;border-bottom:1px solid rgba(232,225,212,.85);background:rgba(255,253,248,.88);backdrop-filter:blur(18px)}
+.e2gl-nav-inner{display:flex;align-items:center;justify-content:space-between;gap:18px;min-height:68px}
+.e2gl-brand{display:flex;align-items:center;gap:11px;text-decoration:none;font-weight:950;letter-spacing:-.03em}
+.e2gl-brand-mark{display:grid;place-items:center;width:40px;height:40px;border-radius:13px;background:linear-gradient(145deg,#111,#2e2e2e);color:#fff;box-shadow:0 8px 22px rgba(22,22,22,.18);font-size:.75rem}
+.e2gl-brand-mark span:nth-child(1){color:var(--e2gl-gold)}
+.e2gl-navlinks{display:flex;align-items:center;gap:7px;flex-wrap:wrap}
+.e2gl-navlinks a{padding:.55rem .72rem;border-radius:10px;text-decoration:none;color:#4f5867;font-size:.84rem;font-weight:800}
+.e2gl-navlinks a:hover,.e2gl-navlinks a:focus-visible{background:#fff;color:#111;outline:none}
+.e2gl-nav-cta{background:var(--e2gl-black)!important;color:#fff!important}
+.e2gl-kicker{display:inline-flex;align-items:center;gap:.55rem;margin:0 0 1rem;padding:.46rem .78rem;border:1px solid rgba(214,31,44,.20);border-radius:999px;background:rgba(255,255,255,.84);color:#a5111c;font-size:.77rem;font-weight:900;letter-spacing:.09em;text-transform:uppercase}
+.e2gl-kicker::before{content:"";width:.56rem;height:.56rem;border-radius:50%;background:linear-gradient(135deg,var(--e2gl-red),var(--e2gl-gold));box-shadow:0 0 0 .28rem rgba(214,31,44,.08)}
+.e2gl-display{max-width:890px;margin:0;font-size:clamp(2.65rem,6.2vw,5.9rem);line-height:.98;letter-spacing:-.058em;font-weight:950}
+.e2gl-display em{font-style:normal;color:var(--e2gl-red)}
+.e2gl-lead{max-width:760px;margin:1.45rem 0 0;color:var(--e2gl-muted);font-size:clamp(1.02rem,1.7vw,1.22rem)}
+.e2gl-btns{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:1.75rem}
+.e2gl-btn{display:inline-flex;align-items:center;justify-content:center;gap:.55rem;min-height:50px;padding:.75rem 1.08rem;border-radius:14px;text-decoration:none;font-weight:850;border:1px solid transparent;transition:.24s ease}
+.e2gl-btn-primary{background:var(--e2gl-black);color:#fff;box-shadow:0 12px 28px rgba(22,22,22,.20)}
+.e2gl-btn-primary:hover{transform:translateY(-2px);background:var(--e2gl-red)}
+.e2gl-btn-secondary{background:#fff;border-color:var(--e2gl-line)}
+.e2gl-btn-secondary:hover{transform:translateY(-2px);border-color:#bdb5a7}
+.e2gl-hero{padding:clamp(72px,9vw,126px) 0 36px}
+.e2gl-hero-grid{display:grid;grid-template-columns:minmax(0,1.02fr) minmax(370px,.98fr);gap:clamp(32px,5vw,68px);align-items:center}
+.e2gl-hero-art{position:relative;min-height:610px;border-radius:40px;background:linear-gradient(155deg,#101010 0%,#232323 56%,#4b1117 100%);box-shadow:var(--e2gl-shadow);overflow:hidden;isolation:isolate;border:1px solid rgba(255,255,255,.82)}
+.e2gl-hero-art::before{content:"";position:absolute;inset:-25%;background:conic-gradient(from 180deg,transparent,rgba(244,189,46,.30),transparent 34%,rgba(214,31,44,.30),transparent 68%);filter:blur(24px);animation:e2gl-spin 22s linear infinite;z-index:-2}
+.e2gl-hero-art::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 58%,rgba(0,0,0,.44));pointer-events:none}
+@keyframes e2gl-spin{to{transform:rotate(360deg)}}
+.e2gl-art-title{position:absolute;left:28px;top:26px;z-index:3;max-width:55%;color:#fff}
+.e2gl-art-title small{display:block;color:var(--e2gl-gold);font-size:.74rem;font-weight:900;letter-spacing:.13em;text-transform:uppercase}
+.e2gl-art-title strong{display:block;margin-top:.3rem;font-size:1.28rem;line-height:1.18}
+.e2gl-level-badge{position:absolute;right:24px;top:26px;z-index:5;display:flex;align-items:center;gap:10px;padding:12px 15px;border:1px solid rgba(255,255,255,.17);border-radius:18px;background:rgba(255,255,255,.10);backdrop-filter:blur(14px);color:white}
+.e2gl-level-badge b{color:var(--e2gl-gold);font-size:1.65rem;line-height:1}.e2gl-level-badge span{font-size:.8rem;line-height:1.25;color:#ececec}
+.e2gl-language-svg{position:absolute;inset:65px 10px 34px;width:calc(100% - 20px);height:calc(100% - 99px);z-index:1;filter:drop-shadow(0 28px 35px rgba(0,0,0,.30))}
+.e2gl-hero-note{position:absolute;left:24px;right:24px;bottom:24px;z-index:4;display:grid;grid-template-columns:auto 1fr;gap:13px;align-items:center;padding:16px 17px;border-radius:20px;background:rgba(255,255,255,.11);border:1px solid rgba(255,255,255,.16);backdrop-filter:blur(16px);color:white}
+.e2gl-hero-note i{display:grid;place-items:center;width:44px;height:44px;border-radius:14px;background:var(--e2gl-gold);color:#191919;font-style:normal;font-weight:950}.e2gl-hero-note strong{display:block;font-size:.95rem}.e2gl-hero-note span{display:block;margin-top:.12rem;color:#d8d8d8;font-size:.82rem}
+.e2gl-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:42px}
+.e2gl-stat{padding:19px;border:1px solid var(--e2gl-line);border-radius:20px;background:rgba(255,255,255,.82);box-shadow:0 10px 30px rgba(17,24,39,.045)}
+.e2gl-stat strong{display:block;font-size:1.45rem;line-height:1.1}.e2gl-stat span{display:block;margin-top:.42rem;color:var(--e2gl-muted);font-size:.87rem}
+.e2gl-section{padding:clamp(70px,8vw,112px) 0}
+.e2gl-section.alt{background:var(--e2gl-soft)}
+.e2gl-section-head{display:flex;justify-content:space-between;gap:30px;align-items:end;margin-bottom:34px}
+.e2gl-section-head h2{max-width:800px;margin:0;font-size:clamp(2rem,4vw,3.7rem);line-height:1.04;letter-spacing:-.046em}
+.e2gl-section-head p{max-width:500px;margin:0;color:var(--e2gl-muted)}
+.e2gl-reasons{display:grid;grid-template-columns:repeat(12,1fr);gap:15px}
+.e2gl-reason{grid-column:span 4;padding:25px;border-radius:25px;background:#fff;border:1px solid var(--e2gl-line);box-shadow:0 12px 30px rgba(15,23,42,.045);transition:.24s ease}
+.e2gl-reason:hover{transform:translateY(-4px);box-shadow:0 22px 44px rgba(15,23,42,.10)}
+.e2gl-reason:nth-child(1),.e2gl-reason:nth-child(6){grid-column:span 6;background:#171717;color:#fff;border-color:#171717}
+.e2gl-reason-icon{display:grid;place-items:center;width:50px;height:50px;border-radius:16px;background:#f3efe6;font-size:1.4rem}.e2gl-reason:nth-child(1) .e2gl-reason-icon,.e2gl-reason:nth-child(6) .e2gl-reason-icon{background:rgba(255,255,255,.12)}
+.e2gl-reason h3{margin:1rem 0 .5rem;font-size:1.25rem}.e2gl-reason p{margin:0;color:var(--e2gl-muted);font-size:.93rem}.e2gl-reason:nth-child(1) p,.e2gl-reason:nth-child(6) p{color:rgba(255,255,255,.76)}
+.e2gl-level-shell{display:grid;grid-template-columns:340px 1fr;gap:18px;align-items:stretch}
+.e2gl-level-list{display:grid;gap:10px}
+.e2gl-level-btn{display:grid;grid-template-columns:auto 1fr auto;gap:13px;align-items:center;width:100%;padding:14px;border:1px solid var(--e2gl-line);border-radius:18px;background:#fff;text-align:left;cursor:pointer;transition:.2s ease}
+.e2gl-level-btn:hover,.e2gl-level-btn[aria-selected="true"]{border-color:transparent;box-shadow:0 14px 30px rgba(15,23,42,.11);transform:translateX(4px)}
+.e2gl-level-btn[aria-selected="true"]{background:#171717;color:#fff}
+.e2gl-level-code{display:grid;place-items:center;width:46px;height:46px;border-radius:14px;background:var(--level-color,#eee);color:#fff;font-weight:950}.e2gl-level-btn[aria-selected="true"] .e2gl-level-code{box-shadow:0 0 0 5px rgba(255,255,255,.08)}
+.e2gl-level-btn strong{display:block}.e2gl-level-btn span{display:block;color:#717987;font-size:.82rem}.e2gl-level-btn[aria-selected="true"] span{color:#c8cbd0}.e2gl-level-btn b{color:#9aa1ac;font-size:.9rem}
+.e2gl-level-panel{position:relative;min-height:500px;padding:34px;border-radius:30px;background:#fff;border:1px solid var(--e2gl-line);box-shadow:0 18px 48px rgba(15,23,42,.07);overflow:hidden}
+.e2gl-level-panel::after{content:"";position:absolute;right:-80px;top:-80px;width:260px;height:260px;border-radius:50%;background:var(--panel-color,#ddd);opacity:.11}
+.e2gl-level-top{display:flex;justify-content:space-between;gap:20px;position:relative;z-index:1}
+.e2gl-level-panel small{font-weight:900;letter-spacing:.11em;text-transform:uppercase;color:#7c8490}.e2gl-level-panel h3{margin:.45rem 0 0;font-size:clamp(2rem,4vw,3.25rem);line-height:1.05;letter-spacing:-.045em}.e2gl-level-big{font-size:5rem;line-height:1;font-weight:950;letter-spacing:-.08em;color:var(--panel-color,#ddd)}
+.e2gl-can-do{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:28px;position:relative;z-index:1}
+.e2gl-can-card{padding:18px;border-radius:18px;background:#f7f5ef;border:1px solid #ebe5da}.e2gl-can-card b{display:block;font-size:.82rem;text-transform:uppercase;letter-spacing:.08em}.e2gl-can-card p{margin:.5rem 0 0;color:var(--e2gl-muted);font-size:.92rem}
+.e2gl-level-goal{position:relative;z-index:1;margin-top:18px;padding:20px;border-radius:20px;background:#171717;color:#fff}.e2gl-level-goal strong{display:block;color:var(--e2gl-gold)}.e2gl-level-goal p{margin:.45rem 0 0;color:#d6d8dc}
+.e2gl-table-wrap{overflow:auto;border:1px solid var(--e2gl-line);border-radius:26px;background:#fff;box-shadow:0 15px 40px rgba(15,23,42,.06)}
+.e2gl-table{width:100%;border-collapse:collapse;min-width:820px}.e2gl-table th,.e2gl-table td{padding:17px 18px;text-align:left;border-bottom:1px solid #eee8de;vertical-align:top}.e2gl-table th{position:sticky;top:0;background:#171717;color:#fff;font-size:.78rem;letter-spacing:.08em;text-transform:uppercase}.e2gl-table td:first-child{font-weight:900}.e2gl-table tr:last-child td{border-bottom:0}.e2gl-level-pill{display:inline-flex;align-items:center;min-width:64px;justify-content:center;padding:.34rem .55rem;border-radius:999px;background:#f1eee7;font-weight:900;font-size:.8rem}.e2gl-note{display:grid;grid-template-columns:auto 1fr;gap:15px;margin-top:18px;padding:20px;border-radius:20px;background:#fff7d8;border:1px solid #ecd27f}.e2gl-note i{display:grid;place-items:center;width:46px;height:46px;border-radius:14px;background:#171717;color:var(--e2gl-gold);font-style:normal;font-weight:950}.e2gl-note h3{margin:0;font-size:1rem}.e2gl-note p{margin:.35rem 0 0;color:#655c44;font-size:.9rem}
+.e2gl-paths{display:grid;grid-template-columns:repeat(12,1fr);gap:16px}.e2gl-path{position:relative;grid-column:span 4;min-height:290px;padding:27px;border-radius:var(--e2gl-radius);background:#fff;border:1px solid var(--e2gl-line);box-shadow:0 13px 36px rgba(15,23,42,.055);overflow:hidden}.e2gl-path:nth-child(1){grid-column:span 7;background:#171717;color:#fff;border-color:#171717}.e2gl-path:nth-child(2){grid-column:span 5;background:linear-gradient(145deg,#ffe6a6,#f4bd2e);border-color:transparent}.e2gl-path:nth-child(3),.e2gl-path:nth-child(4){grid-column:span 6}.e2gl-path-icon{display:grid;place-items:center;width:51px;height:51px;border-radius:16px;background:#f0ece4;font-size:1.42rem}.e2gl-path:nth-child(1) .e2gl-path-icon{background:rgba(255,255,255,.12)}.e2gl-path h3{margin:1.2rem 0 .55rem;font-size:1.5rem;line-height:1.12}.e2gl-path p{margin:0;color:var(--e2gl-muted)}.e2gl-path:nth-child(1) p{color:#d2d5d9}.e2gl-path ul{margin:1rem 0 0;padding-left:1.1rem;color:var(--e2gl-muted);font-size:.91rem}.e2gl-path:nth-child(1) ul{color:#d2d5d9}.e2gl-path-big{position:absolute;right:18px;top:12px;font-size:5.8rem;line-height:1;font-weight:950;letter-spacing:-.08em;opacity:.075}
+.e2gl-resource-toolbar{display:flex;justify-content:space-between;gap:16px;align-items:center;margin-bottom:20px;flex-wrap:wrap}.e2gl-filter-group{display:flex;gap:8px;flex-wrap:wrap}.e2gl-filter{padding:.55rem .8rem;border-radius:999px;border:1px solid var(--e2gl-line);background:#fff;font-weight:850;color:#596170;cursor:pointer}.e2gl-filter[aria-pressed="true"]{background:#171717;color:#fff;border-color:#171717}.e2gl-search{min-width:min(100%,290px);padding:.7rem .85rem;border:1px solid var(--e2gl-line);border-radius:13px;background:#fff;color:#111;outline:none}.e2gl-search:focus{border-color:#9b9180;box-shadow:0 0 0 4px rgba(244,189,46,.17)}
+.e2gl-resources{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.e2gl-resource{display:flex;flex-direction:column;min-height:250px;padding:23px;border:1px solid var(--e2gl-line);border-radius:24px;background:#fff;box-shadow:0 12px 30px rgba(15,23,42,.045)}.e2gl-resource.hidden{display:none}.e2gl-resource-top{display:flex;justify-content:space-between;gap:12px;align-items:start}.e2gl-resource-icon{display:grid;place-items:center;width:48px;height:48px;border-radius:15px;background:#f2eee6;font-size:1.35rem}.e2gl-tag{display:inline-flex;padding:.32rem .55rem;border-radius:999px;background:#f1eee7;color:#5f6671;font-size:.72rem;font-weight:900;text-transform:uppercase;letter-spacing:.06em}.e2gl-resource h3{margin:1rem 0 .5rem;font-size:1.16rem}.e2gl-resource p{margin:0;color:var(--e2gl-muted);font-size:.91rem}.e2gl-resource a{margin-top:auto;padding-top:1rem;font-weight:900;text-decoration:none;color:#a4111c}.e2gl-resource a:hover{text-decoration:underline;text-underline-offset:3px}
+.e2gl-integration{display:grid;grid-template-columns:minmax(0,.95fr) minmax(380px,1.05fr);gap:18px;align-items:stretch}.e2gl-integration-copy{padding:34px;border-radius:30px;background:#171717;color:#fff}.e2gl-integration-copy h3{margin:0;font-size:clamp(2rem,3.5vw,3.15rem);line-height:1.06;letter-spacing:-.045em}.e2gl-integration-copy p{color:#cfd2d6}.e2gl-course-numbers{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:24px}.e2gl-course-num{padding:18px;border:1px solid rgba(255,255,255,.12);border-radius:19px;background:rgba(255,255,255,.08)}.e2gl-course-num strong{display:block;color:var(--e2gl-gold);font-size:2rem;line-height:1}.e2gl-course-num span{display:block;margin-top:.4rem;color:#d2d5d9;font-size:.86rem}.e2gl-course-steps{display:grid;gap:12px;padding:25px;border-radius:30px;background:#fff;border:1px solid var(--e2gl-line);box-shadow:0 16px 42px rgba(15,23,42,.06)}.e2gl-course-step{display:grid;grid-template-columns:auto 1fr;gap:14px;align-items:start;padding:15px;border-radius:18px;background:#f7f4ee}.e2gl-course-step b{display:grid;place-items:center;width:42px;height:42px;border-radius:13px;background:#171717;color:#fff}.e2gl-course-step h4{margin:0;font-size:1rem}.e2gl-course-step p{margin:.3rem 0 0;color:var(--e2gl-muted);font-size:.87rem}
+.e2gl-exams{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.e2gl-exam{padding:23px;border-radius:23px;background:#fff;border:1px solid var(--e2gl-line);box-shadow:0 12px 30px rgba(15,23,42,.045)}.e2gl-exam h3{margin:0;font-size:1.16rem}.e2gl-exam p{margin:.55rem 0 0;color:var(--e2gl-muted);font-size:.89rem}.e2gl-exam strong{display:block;margin-top:1rem;color:#a4111c;font-size:.82rem;text-transform:uppercase;letter-spacing:.08em}
+.e2gl-plan{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.e2gl-week{padding:24px;border-radius:24px;background:#fff;border:1px solid var(--e2gl-line);box-shadow:0 12px 30px rgba(15,23,42,.045)}.e2gl-week-num{display:inline-flex;padding:.34rem .58rem;border-radius:999px;background:#171717;color:#fff;font-size:.76rem;font-weight:900}.e2gl-week h3{margin:1rem 0 .5rem}.e2gl-week ul{margin:.8rem 0 0;padding-left:1.05rem;color:var(--e2gl-muted);font-size:.9rem}
+.e2gl-faq{display:grid;grid-template-columns:1fr 1fr;gap:12px}.e2gl-faq-item{border:1px solid var(--e2gl-line);border-radius:19px;background:#fff;overflow:hidden}.e2gl-faq-btn{display:flex;justify-content:space-between;gap:16px;width:100%;padding:18px 20px;border:0;background:transparent;text-align:left;font-weight:900;cursor:pointer}.e2gl-faq-btn span:last-child{color:#a4111c}.e2gl-faq-answer{display:none;padding:0 20px 20px;color:var(--e2gl-muted);font-size:.92rem}.e2gl-faq-item.open .e2gl-faq-answer{display:block}.e2gl-faq-item.open .e2gl-faq-btn span:last-child{transform:rotate(45deg)}
+.e2gl-cta{padding:0 0 90px}.e2gl-cta-box{position:relative;padding:clamp(34px,6vw,70px);border-radius:34px;background:linear-gradient(140deg,#151515,#301114 72%,#64131a);color:#fff;overflow:hidden;box-shadow:var(--e2gl-shadow)}.e2gl-cta-box::after{content:"Deutsch";position:absolute;right:-15px;bottom:-38px;font-size:clamp(5rem,14vw,10rem);font-weight:950;letter-spacing:-.08em;color:rgba(255,255,255,.04)}.e2gl-cta-box h2{position:relative;z-index:1;max-width:820px;margin:0;font-size:clamp(2.2rem,5vw,4.5rem);line-height:1.02;letter-spacing:-.055em}.e2gl-cta-box p{position:relative;z-index:1;max-width:690px;color:#c8cbd0}.e2gl-cta-box .e2gl-btn{position:relative;z-index:1;background:var(--e2gl-gold);color:#171717}
+.e2gl-sourcebox{padding:25px;border-radius:22px;background:#fff;border:1px solid var(--e2gl-line)}.e2gl-sourcebox h3{margin:0}.e2gl-sourcebox p{color:var(--e2gl-muted);font-size:.88rem}.e2gl-source-list{display:grid;grid-template-columns:1fr 1fr;gap:8px 18px;margin-top:14px}.e2gl-source-list a{font-size:.86rem;text-underline-offset:3px}.e2gl-legal{margin-top:22px;color:#797267;font-size:.77rem}.e2gl-updated{display:inline-flex;margin-bottom:12px;padding:.3rem .55rem;border-radius:999px;background:#ece7dc;color:#514b42;font-weight:850}
+@media(max-width:1000px){.e2gl-hero-grid,.e2gl-level-shell,.e2gl-integration{grid-template-columns:1fr}.e2gl-hero-art{min-height:555px;max-width:700px;width:100%;margin:auto}.e2gl-reason:nth-child(n){grid-column:span 6}.e2gl-resources{grid-template-columns:1fr 1fr}.e2gl-exams,.e2gl-plan{grid-template-columns:1fr 1fr}.e2gl-level-list{grid-template-columns:1fr 1fr}.e2gl-level-btn:hover,.e2gl-level-btn[aria-selected="true"]{transform:none}}
+@media(max-width:760px){.e2gl-navlinks a:not(.e2gl-nav-cta){display:none}.e2gl-hero{padding-top:54px}.e2gl-display{font-size:clamp(2.45rem,13vw,4.15rem)}.e2gl-hero-art{min-height:505px;border-radius:29px}.e2gl-level-badge{top:80px;right:15px}.e2gl-art-title{left:20px;top:20px;max-width:calc(100% - 40px)}.e2gl-language-svg{inset:92px 0 48px;width:100%;height:calc(100% - 140px)}.e2gl-stats,.e2gl-level-list,.e2gl-resources,.e2gl-exams,.e2gl-plan,.e2gl-faq,.e2gl-source-list{grid-template-columns:1fr}.e2gl-section-head{display:block}.e2gl-section-head p{margin-top:1rem}.e2gl-reasons{grid-template-columns:1fr}.e2gl-reason:nth-child(n){grid-column:auto}.e2gl-level-panel{padding:25px;min-height:auto}.e2gl-can-do{grid-template-columns:1fr}.e2gl-level-big{font-size:3.8rem}.e2gl-paths{grid-template-columns:1fr}.e2gl-path:nth-child(n){grid-column:auto}.e2gl-course-numbers{grid-template-columns:1fr}.e2gl-section{padding:72px 0}.e2gl-resource-toolbar{align-items:stretch}.e2gl-search{width:100%}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+  </style>
+</head>
+<body>
+<main class="e2gl-page" id="learn-german">
+  <nav class="e2gl-nav" aria-label="Page navigation">
+    <div class="e2gl-wrap e2gl-nav-inner">
+      <a class="e2gl-brand" href="#learn-german"><span class="e2gl-brand-mark"><span>DE</span></span><span>Enroute2Germany</span></a>
+      <div class="e2gl-navlinks">
+        <a href="#e2gl-levels">Levels</a><a href="#e2gl-requirements">Requirements</a><a href="#e2gl-courses">Courses</a><a href="#e2gl-resources">Resources</a><a class="e2gl-nav-cta" href="https://www.enroute2germany.com/#contact">Get guidance</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="e2gl-hero">
+    <div class="e2gl-wrap">
+      <div class="e2gl-hero-grid">
+        <div>
+          <p class="e2gl-kicker">Learn · Communicate · Belong</p>
+          <h1 class="e2gl-display">Learn German for <em>life, study and work.</em></h1>
+          <p class="e2gl-lead">A practical one-page guide to choosing the right German level, understanding visa and career expectations, finding recognised courses and exams, and building confidence before and after you arrive.</p>
+          <div class="e2gl-btns">
+            <a class="e2gl-btn e2gl-btn-primary" href="#e2gl-levels">Find your target level <span aria-hidden="true">→</span></a>
+            <a class="e2gl-btn e2gl-btn-secondary" href="#e2gl-resources">Explore free resources</a>
+          </div>
+        </div>
+        <div class="e2gl-hero-art" aria-label="Original illustration showing German language progress from A1 to C2">
+          <div class="e2gl-art-title"><small>Your language journey</small><strong>From “Hallo” to confident German.</strong></div>
+          <div class="e2gl-level-badge"><b>A1–C2</b><span>six recognised<br>CEFR levels</span></div>
+          <svg class="e2gl-language-svg" viewBox="0 0 640 650" role="img" aria-label="International learner climbing a German language staircase">
+            <defs>
+              <linearGradient id="e2glGlow" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f4bd2e"/><stop offset="1" stop-color="#d61f2c"/></linearGradient>
+              <linearGradient id="e2glCoat" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f8f2e7"/><stop offset="1" stop-color="#cfc3b0"/></linearGradient>
+              <filter id="e2glBlur"><feGaussianBlur stdDeviation="18"/></filter>
+            </defs>
+            <circle cx="500" cy="170" r="120" fill="#d61f2c" opacity=".22" filter="url(#e2glBlur)"/>
+            <circle cx="155" cy="430" r="130" fill="#f4bd2e" opacity=".15" filter="url(#e2glBlur)"/>
+            <g transform="translate(65 210)">
+              <path d="M10 315h100v-55h95v-55h95v-55h95V95h95V40h75v330H10z" fill="#151515" opacity=".94"/>
+              <g font-family="Arial,sans-serif" font-weight="900" text-anchor="middle">
+                <text x="60" y="295" fill="#fff" font-size="22">A1</text><text x="157" y="240" fill="#fff" font-size="22">A2</text><text x="252" y="185" fill="#fff" font-size="22">B1</text><text x="347" y="130" fill="#fff" font-size="22">B2</text><text x="442" y="75" fill="#fff" font-size="22">C1</text><text x="527" y="28" fill="#171717" font-size="22">C2</text>
+              </g>
+              <rect x="490" y="-10" width="86" height="52" rx="17" fill="#f4bd2e"/><text x="533" y="22" text-anchor="middle" font-size="17" font-weight="900" fill="#171717">Fluent</text>
+            </g>
+            <g transform="translate(176 118)">
+              <ellipse cx="130" cy="393" rx="102" ry="24" fill="#000" opacity=".24"/>
+              <path d="M80 162c-38 20-51 73-50 142l9 83h187l7-91c-4-65-27-111-71-132z" fill="url(#e2glCoat)"/>
+              <path d="M85 168l44 61 40-60 30 17-42 150H93L51 186z" fill="#1f2937"/>
+              <circle cx="130" cy="99" r="61" fill="#8d5a3b"/>
+              <path d="M70 89c0-58 35-82 69-80 39 2 65 31 61 76-20-7-34-21-45-42-25 29-53 41-85 46z" fill="#111827"/>
+              <path d="M84 92c3 42 20 71 47 71 30 0 49-29 51-72-10-5-19-11-30-21-20 14-42 21-68 22z" fill="#9b6544"/>
+              <circle cx="112" cy="103" r="4" fill="#171717"/><circle cx="151" cy="103" r="4" fill="#171717"/>
+              <path d="M117 128c10 8 22 8 31 0" fill="none" stroke="#5f2e22" stroke-width="4" stroke-linecap="round"/>
+              <path d="M40 297c35-16 67-22 98-20 37 2 69 12 96 28l-5 82H41z" fill="#333b48"/>
+              <path d="M66 302c27-8 53-12 76-10 30 2 53 8 74 18l-6 58H71z" fill="#101827"/>
+              <rect x="101" y="344" width="64" height="7" rx="4" fill="#f4bd2e"/>
+            </g>
+            <g font-family="Arial,sans-serif" font-weight="800">
+              <rect x="48" y="105" width="118" height="55" rx="18" fill="#fff"/><path d="M138 153l17 21-4-25" fill="#fff"/><text x="107" y="139" text-anchor="middle" fill="#171717" font-size="21">Hallo!</text>
+              <rect x="424" y="240" width="158" height="60" rx="18" fill="url(#e2glGlow)"/><path d="M448 292l-14 22 3-28" fill="#d61f2c"/><text x="503" y="276" text-anchor="middle" fill="#fff" font-size="19">Ich kann das.</text>
+              <rect x="403" y="362" width="165" height="56" rx="18" fill="#fff" opacity=".94"/><path d="M420 409l-11 22 1-26" fill="#fff"/><text x="486" y="396" text-anchor="middle" fill="#171717" font-size="17">Guten Tag!</text>
+            </g>
+          </svg>
+          <div class="e2gl-hero-note"><i>✓</i><div><strong>Original design for your website</strong><span>Fresh copy, custom graphics and no copied commercial photographs.</span></div></div>
+        </div>
+      </div>
+      <div class="e2gl-stats" aria-label="German language quick facts">
+        <div class="e2gl-stat"><strong>A1–C2</strong><span>six CEFR proficiency levels</span></div>
+        <div class="e2gl-stat"><strong>4 skills</strong><span>listening, reading, writing and speaking</span></div>
+        <div class="e2gl-stat"><strong>600 + 100</strong><span>standard integration-course language and orientation units</span></div>
+        <div class="e2gl-stat"><strong>Start early</strong><span>learn before arrival and continue in Germany</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="e2gl-section" id="e2gl-why">
+    <div class="e2gl-wrap">
+      <div class="e2gl-section-head">
+        <div><p class="e2gl-kicker">Why German matters</p><h2>German is more than a visa requirement—it is your everyday advantage.</h2></div>
+        <p>Many people can begin in English, especially in international teams. German becomes increasingly important when you deal with employers, authorities, neighbours, healthcare, education and long-term life in Germany.</p>
+      </div>
+      <div class="e2gl-reasons">
+        <article class="e2gl-reason"><div class="e2gl-reason-icon">💼</div><h3>More career opportunities</h3><p>German expands the number of roles you can apply for and helps you communicate naturally with colleagues, customers and suppliers.</p></article>
+        <article class="e2gl-reason"><div class="e2gl-reason-icon">🏛️</div><h3>Handle official matters</h3><p>Understand letters, appointments, forms and conversations with local authorities, insurers and public services.</p></article>
+        <article class="e2gl-reason"><div class="e2gl-reason-icon">🎓</div><h3>Study and training access</h3><p>German-taught degree programmes and vocational training commonly require documented language skills.</p></article>
+        <article class="e2gl-reason"><div class="e2gl-reason-icon">🩺</div><h3>Regulated professions</h3><p>Healthcare, teaching, law and other regulated professions may require specific general or professional German levels.</p></article>
+        <article class="e2gl-reason"><div class="e2gl-reason-icon">🤝</div><h3>Build real connections</h3><p>Join clubs, speak with neighbours, participate in school life and feel more confident in your local community.</p></article>
+        <article class="e2gl-reason"><div class="e2gl-reason-icon">🏡</div><h3>Settle for the long term</h3><p>German supports integration and is relevant for several permanent-residence and citizenship pathways, depending on your case.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="e2gl-section alt" id="e2gl-levels">
+    <div class="e2gl-wrap">
+      <div class="e2gl-section-head">
+        <div><p class="e2gl-kicker">CEFR roadmap</p><h2>What do A1, A2, B1, B2, C1 and C2 actually mean?</h2></div>
+        <p>The Common European Framework of Reference for Languages uses six levels and practical “can do” descriptions. Select a level to see what it means for real life.</p>
+      </div>
+      <div class="e2gl-level-shell">
+        <div class="e2gl-level-list" role="tablist" aria-label="German language levels">
+          <button class="e2gl-level-btn" role="tab" aria-selected="true" data-level="A1" style="--level-color:#d61f2c"><span class="e2gl-level-code">A1</span><span><strong>Beginner</strong><span>Basic survival German</span></span><b>→</b></button>
+          <button class="e2gl-level-btn" role="tab" aria-selected="false" data-level="A2" style="--level-color:#e88422"><span class="e2gl-level-code">A2</span><span><strong>Elementary</strong><span>Routine everyday communication</span></span><b>→</b></button>
+          <button class="e2gl-level-btn" role="tab" aria-selected="false" data-level="B1" style="--level-color:#0f766e"><span class="e2gl-level-code">B1</span><span><strong>Independent</strong><span>Work, travel and daily life</span></span><b>→</b></button>
+          <button class="e2gl-level-btn" role="tab" aria-selected="false" data-level="B2" style="--level-color:#1d4ed8"><span class="e2gl-level-code">B2</span><span><strong>Upper intermediate</strong><span>Professional and academic confidence</span></span><b>→</b></button>
+          <button class="e2gl-level-btn" role="tab" aria-selected="false" data-level="C1" style="--level-color:#6d28d9"><span class="e2gl-level-code">C1</span><span><strong>Advanced</strong><span>Flexible, precise communication</span></span><b>→</b></button>
+          <button class="e2gl-level-btn" role="tab" aria-selected="false" data-level="C2" style="--level-color:#171717"><span class="e2gl-level-code">C2</span><span><strong>Mastery</strong><span>Near-complete comprehension</span></span><b>→</b></button>
+        </div>
+        <div class="e2gl-level-panel" id="e2gl-level-panel" style="--panel-color:#d61f2c" role="tabpanel" tabindex="0">
+          <div class="e2gl-level-top"><div><small id="e2gl-level-label">A1 · Beginner</small><h3 id="e2gl-level-title">Start with essential everyday German.</h3></div><div class="e2gl-level-big" id="e2gl-level-big">A1</div></div>
+          <div class="e2gl-can-do">
+            <div class="e2gl-can-card"><b>Understand</b><p id="e2gl-understand">Very familiar words, simple notices and slow, clear questions about personal information.</p></div>
+            <div class="e2gl-can-card"><b>Communicate</b><p id="e2gl-communicate">Introduce yourself, order something, give basic details and ask simple questions with support.</p></div>
+            <div class="e2gl-can-card"><b>Typical use</b><p id="e2gl-use">First arrival, basic shopping, simple appointments and an initial foundation for certain visa routes.</p></div>
+            <div class="e2gl-can-card"><b>Next target</b><p id="e2gl-next">Build routine vocabulary, basic grammar and confidence in short conversations.</p></div>
+          </div>
+          <div class="e2gl-level-goal"><strong id="e2gl-goal-head">A practical A1 goal</strong><p id="e2gl-goal">Hold a two-minute introduction, understand simple directions and complete a basic personal-information form.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="e2gl-section" id="e2gl-requirements">
+    <div class="e2gl-wrap">
+      <div class="e2gl-section-head">
+        <div><p class="e2gl-kicker">Visa, study and profession</p><h2>How much German might you need?</h2></div>
+        <p>Legal residence requirements, university admission, professional recognition and employer expectations are different questions. Always check the rule for your exact route.</p>
+      </div>
+      <div class="e2gl-table-wrap">
+        <table class="e2gl-table">
+          <thead><tr><th>Pathway</th><th>General legal language position</th><th>Practical guidance</th></tr></thead>
+          <tbody>
+            <tr><td>Qualified-professional work visa</td><td><span class="e2gl-level-pill">No general legal minimum</span></td><td>Employers or recognition authorities may still require German, especially for customer-facing or regulated work.</td></tr>
+            <tr><td>EU Blue Card</td><td><span class="e2gl-level-pill">No general legal minimum</span></td><td>German improves workplace integration and can affect later settlement-permit timelines.</td></tr>
+            <tr><td>Opportunity Card – points route</td><td><span class="e2gl-level-pill">A1 German or B2 English</span></td><td>Eligibility can differ when the qualification is already fully recognised in Germany.</td></tr>
+            <tr><td>Recognition of foreign qualifications</td><td><span class="e2gl-level-pill">Usually at least A2</span></td><td>The profession-specific recognition procedure may demand a higher level.</td></tr>
+            <tr><td>Recognition partnership</td><td><span class="e2gl-level-pill">At least A2</span></td><td>Continue recognition and employment steps after arrival under the applicable conditions.</td></tr>
+            <tr><td>Vocational training</td><td><span class="e2gl-level-pill">At least B1</span></td><td>Training takes place mainly in German at the company and vocational school.</td></tr>
+            <tr><td>Seeking a vocational-training place</td><td><span class="e2gl-level-pill">At least B1</span></td><td>You must be able to apply, interview and prepare for training in German.</td></tr>
+            <tr><td>German-language university study</td><td><span class="e2gl-level-pill">Often B2 or higher</span></td><td>The university and programme decide which certificate and score are accepted.</td></tr>
+            <tr><td>Research residence route</td><td><span class="e2gl-level-pill">No general legal minimum</span></td><td>The institution, project language and daily duties determine the practical level needed.</td></tr>
+            <tr><td>Healthcare and regulated professions</td><td><span class="e2gl-level-pill">Often B1/B2 or specialist level</span></td><td>Requirements depend on the profession, recognition body and federal state.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="e2gl-note"><i>!</i><div><h3>Important distinction</h3><p>“No legal minimum for the visa” does not mean “no German needed for the job.” Employers, universities and professional-recognition authorities may apply separate requirements.</p></div></div>
+    </div>
+  </section>
+
+  <section class="e2gl-section alt" id="e2gl-courses">
+    <div class="e2gl-wrap">
+      <div class="e2gl-section-head">
+        <div><p class="e2gl-kicker">Choose your learning route</p><h2>Learn before arrival, after arrival—or both.</h2></div>
+        <p>The strongest plan begins in your home country, then combines structured learning with daily practice once you are in Germany.</p>
+      </div>
+      <div class="e2gl-paths">
+        <article class="e2gl-path"><div class="e2gl-path-icon">🌍</div><div class="e2gl-path-big">01</div><h3>Start in your home country</h3><p>Build a foundation before your visa, interview, university or training process begins.</p><ul><li>Goethe-Institut and recognised local partners</li><li>Online teacher-led courses</li><li>Self-study with structured free platforms</li><li>Exam preparation with official sample tests</li></ul></article>
+        <article class="e2gl-path"><div class="e2gl-path-icon">💻</div><div class="e2gl-path-big">02</div><h3>Learn online</h3><p>Combine video, audio, reading, writing feedback and live speaking practice around your schedule.</p><ul><li>Deutsche Welle learning programmes</li><li>VHS-Lernportal A1–B2</li><li>Goethe exercises and communities</li><li>Podcasts, news and digital libraries</li></ul></article>
+        <article class="e2gl-path"><div class="e2gl-path-icon">🇩🇪</div><div class="e2gl-path-big">03</div><h3>Continue in Germany</h3><p>Choose local courses that fit your residence status, work schedule and learning goal.</p><ul><li>Integration courses</li><li>Adult education centres (Volkshochschule)</li><li>Goethe-Institut courses and exams</li><li>Private language schools and university courses</li></ul></article>
+        <article class="e2gl-path"><div class="e2gl-path-icon">🧰</div><div class="e2gl-path-big">04</div><h3>Learn German for work</h3><p>Move beyond textbook German and practise the situations you face in your profession.</p><ul><li>BAMF vocational language courses</li><li>Job-related vocabulary and communication</li><li>Industry-specific modules</li><li>Employer-supported or in-company learning</li></ul></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="e2gl-section" id="e2gl-resources">
+    <div class="e2gl-wrap">
+      <div class="e2gl-section-head">
+        <div><p class="e2gl-kicker">Trusted learning resources</p><h2>Build a balanced German-learning toolkit.</h2></div>
+        <p>Filter the collection by skill. Several resources are free, while courses and official exams may involve fees.</p>
+      </div>
+      <div class="e2gl-resource-toolbar">
+        <div class="e2gl-filter-group" aria-label="Resource filters">
+          <button class="e2gl-filter" aria-pressed="true" data-filter="all">All</button><button class="e2gl-filter" aria-pressed="false" data-filter="speaking">Speaking</button><button class="e2gl-filter" aria-pressed="false" data-filter="listening">Listening</button><button class="e2gl-filter" aria-pressed="false" data-filter="reading">Reading</button><button class="e2gl-filter" aria-pressed="false" data-filter="writing">Writing</button><button class="e2gl-filter" aria-pressed="false" data-filter="work">Work German</button>
+        </div>
+        <input class="e2gl-search" id="e2gl-search" type="search" placeholder="Search resources…" aria-label="Search German learning resources">
+      </div>
+      <div class="e2gl-resources" id="e2gl-resource-grid">
+        <article class="e2gl-resource" data-tags="speaking listening vocabulary beginner free"><div class="e2gl-resource-top"><div class="e2gl-resource-icon">🎧</div><span class="e2gl-tag">Free</span></div><h3>Deutsche Welle – Deutschtrainer</h3><p>Practise useful vocabulary, pronunciation and short everyday situations.</p><a href="https://learngerman.dw.com/" target="_blank" rel="noopener">Open Deutsche Welle →</a></article>
+        <article class="e2gl-resource" data-tags="speaking community writing reading free"><div class="e2gl-resource-top"><div class="e2gl-resource-icon">💬</div><span class="e2gl-tag">Community</span></div><h3>Goethe – Deutsch für dich</h3><p>Practise with other learners through exercises and community interaction.</p><a href="https://www.goethe.de/prj/dfd/en/home.cfm" target="_blank" rel="noopener">Visit the community →</a></article>
+        <article class="e2gl-resource" data-tags="reading writing listening course free a1 a2 b1 b2"><div class="e2gl-resource-top"><div class="e2gl-resource-icon">📚</div><span class="e2gl-tag">A1–B2</span></div><h3>VHS-Lernportal</h3><p>Free structured online courses with exercises and optional tutor support.</p><a href="https://www.vhs-lernportal.de/" target="_blank" rel="noopener">Explore VHS-Lernportal →</a></article>
+        <article class="e2gl-resource" data-tags="listening reading vocabulary free a1 a2 b1"><div class="e2gl-resource-top"><div class="e2gl-resource-icon">🎬</div><span class="e2gl-tag">Popular</span></div><h3>Deutsche Welle – Nicos Weg</h3><p>Learn through story-based video, audio, grammar and interactive exercises.</p><a href="https://learngerman.dw.com/" target="_blank" rel="noopener">Start Nicos Weg →</a></article>
+        <article class="e2gl-resource" data-tags="listening reading culture free a1 a2 b1 b2"><div class="e2gl-resource-top"><div class="e2gl-resource-icon">🧭</div><span class="e2gl-tag">Life in Germany</span></div><h3>Mein Weg nach Deutschland</h3><p>Exercises, videos and practical information about working and living in Germany.</p><a href="https://www.goethe.de/prj/mwd/en/" target="_blank" rel="noopener">Explore the portal →</a></article>
+        <article class="e2gl-resource" data-tags="listening reading news free intermediate advanced"><div class="e2gl-resource-top"><div class="e2gl-resource-icon">📰</div><span class="e2gl-tag">Daily practice</span></div><h3>Slowly Spoken News</h3><p>Use current news to improve listening comprehension and active vocabulary.</p><a href="https://learngerman.dw.com/" target="_blank" rel="noopener">Listen to news →</a></article>
+        <article class="e2gl-resource" data-tags="reading listening free library culture"><div class="e2gl-resource-top"><div class="e2gl-resource-icon">📖</div><span class="e2gl-tag">Digital library</span></div><h3>Goethe Onleihe</h3><p>Borrow selected German-language eBooks, audio and other digital media.</p><a href="https://www.onleihe.de/goethe-institut/frontend/welcome,51-0-0-100-0-0-1-0-0-0-0.html" target="_blank" rel="noopener">Open Onleihe →</a></article>
+        <article class="e2gl-resource" data-tags="work speaking listening vocabulary technical professional"><div class="e2gl-resource-top"><div class="e2gl-resource-icon">🏭</div><span class="e2gl-tag">Work German</span></div><h3>Goethe workplace exercises</h3><p>Practise communication for office, technical, service, social and skilled-trade settings.</p><a href="https://www.goethe.de/en/spr/ueb/daa.html" target="_blank" rel="noopener">Practise workplace German →</a></article>
+        <article class="e2gl-resource" data-tags="work vocabulary training professional free"><div class="e2gl-resource-top"><div class="e2gl-resource-icon">🛠️</div><span class="e2gl-tag">Professional</span></div><h3>DW – Profis gesucht</h3><p>Learn workplace phrases and specialist vocabulary for vocational occupations.</p><a href="https://learngerman.dw.com/" target="_blank" rel="noopener">Explore professional German →</a></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="e2gl-section alt" id="e2gl-integration">
+    <div class="e2gl-wrap">
+      <div class="e2gl-section-head"><div><p class="e2gl-kicker">Integration courses</p><h2>Learn the language—and understand life in Germany.</h2></div><p>Integration courses combine German for everyday life with an orientation course on Germany’s legal system, history, culture and social values.</p></div>
+      <div class="e2gl-integration">
+        <div class="e2gl-integration-copy"><h3>A structured route to everyday independence.</h3><p>The standard general integration course normally consists of a language course and an orientation course. Special formats are available for certain groups, including women, parents, young people and learners with literacy needs.</p><div class="e2gl-course-numbers"><div class="e2gl-course-num"><strong>600</strong><span>standard language-course teaching units</span></div><div class="e2gl-course-num"><strong>100</strong><span>orientation-course teaching units</span></div></div><p>Successful completion generally involves the language test and the “Living in Germany” orientation test. Participation rights, obligations, fees and exemptions depend on personal circumstances.</p></div>
+        <div class="e2gl-course-steps">
+          <div class="e2gl-course-step"><b>1</b><div><h4>Check your eligibility</h4><p>Ask the foreigners authority, Jobcenter or BAMF whether you are entitled or required to participate.</p></div></div>
+          <div class="e2gl-course-step"><b>2</b><div><h4>Find a provider</h4><p>Use BAMF-NAvI or contact a migration advisory service to find approved courses nearby.</p></div></div>
+          <div class="e2gl-course-step"><b>3</b><div><h4>Take the placement test</h4><p>The provider identifies the correct course level and suitable course format.</p></div></div>
+          <div class="e2gl-course-step"><b>4</b><div><h4>Complete language and orientation modules</h4><p>Learn practical German for work, authorities, shopping, family life and communication.</p></div></div>
+          <div class="e2gl-course-step"><b>5</b><div><h4>Take the final tests</h4><p>Successful participants receive the integration-course certificate.</p></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="e2gl-section" id="e2gl-exams">
+    <div class="e2gl-wrap">
+      <div class="e2gl-section-head"><div><p class="e2gl-kicker">Recognised certificates</p><h2>Choose the exam that matches your purpose.</h2></div><p>For visa procedures, use certificates accepted by the competent authority. For university admission, verify the exact certificate and score directly with the institution.</p></div>
+      <div class="e2gl-exams">
+        <article class="e2gl-exam"><h3>Goethe-Zertifikat</h3><p>Internationally recognised exams from A1 to C2, with preparation materials and centres worldwide.</p><strong>Visa · Work · Study</strong></article>
+        <article class="e2gl-exam"><h3>telc Deutsch</h3><p>General and profession-specific language certificates across CEFR levels.</p><strong>General · Professional</strong></article>
+        <article class="e2gl-exam"><h3>TestDaF</h3><p>An advanced German examination designed primarily for prospective university students.</p><strong>Higher education</strong></article>
+        <article class="e2gl-exam"><h3>DSH / DSD / ÖSD / ECL</h3><p>Other accepted options may apply depending on visa, school, university or authority requirements.</p><strong>Check exact acceptance</strong></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="e2gl-section alt" id="e2gl-plan">
+    <div class="e2gl-wrap">
+      <div class="e2gl-section-head"><div><p class="e2gl-kicker">A simple starting plan</p><h2>Your first 30 days of German.</h2></div><p>Consistency beats occasional intensive study. Use a small daily system that trains all four skills.</p></div>
+      <div class="e2gl-plan">
+        <article class="e2gl-week"><span class="e2gl-week-num">Week 1</span><h3>Build the foundation</h3><ul><li>Learn pronunciation and greetings</li><li>Introduce yourself</li><li>Master numbers, dates and time</li><li>Study 15 useful words daily</li></ul></article>
+        <article class="e2gl-week"><span class="e2gl-week-num">Week 2</span><h3>Use everyday German</h3><ul><li>Shopping and transport phrases</li><li>Ask and answer simple questions</li><li>Write short messages</li><li>Repeat one audio lesson daily</li></ul></article>
+        <article class="e2gl-week"><span class="e2gl-week-num">Week 3</span><h3>Connect German to your goal</h3><ul><li>Learn study or job vocabulary</li><li>Practise a short self-introduction</li><li>Read one simple text daily</li><li>Join a speaking group or tandem</li></ul></article>
+        <article class="e2gl-week"><span class="e2gl-week-num">Week 4</span><h3>Test and improve</h3><ul><li>Take a sample level test</li><li>Record your speaking</li><li>Review weak grammar topics</li><li>Choose your next course or exam</li></ul></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="e2gl-section" id="e2gl-faq">
+    <div class="e2gl-wrap">
+      <div class="e2gl-section-head"><div><p class="e2gl-kicker">Frequently asked questions</p><h2>Common questions before you begin.</h2></div><p>Language requirements are highly dependent on the exact visa, profession and institution, so confirm your individual case before applying.</p></div>
+      <div class="e2gl-faq">
+        <div class="e2gl-faq-item"><button class="e2gl-faq-btn"><span>Can I work in Germany using only English?</span><span>+</span></button><div class="e2gl-faq-answer">Yes, some international and technical roles operate mainly in English. However, German usually broadens your job options and makes everyday administration and workplace integration easier.</div></div>
+        <div class="e2gl-faq-item"><button class="e2gl-faq-btn"><span>Which German level is best for employment?</span><span>+</span></button><div class="e2gl-faq-answer">B1 is a valuable practical milestone for independent daily communication. B2 is often a stronger target for professional meetings, detailed emails and customer communication. Regulated professions can require specific levels.</div></div>
+        <div class="e2gl-faq-item"><button class="e2gl-faq-btn"><span>Do English-taught degrees require German?</span><span>+</span></button><div class="e2gl-faq-answer">The degree programme may not require German, but basic German is still highly useful for housing, part-time work, authorities, healthcare and social life.</div></div>
+        <div class="e2gl-faq-item"><button class="e2gl-faq-btn"><span>Where can I find an integration course?</span><span>+</span></button><div class="e2gl-faq-answer">Use the BAMF-NAvI portal, contact the local foreigners authority or ask a migration advisory centre for approved providers in your area.</div></div>
+        <div class="e2gl-faq-item"><button class="e2gl-faq-btn"><span>Which certificate should I take?</span><span>+</span></button><div class="e2gl-faq-answer">Choose based on purpose. Confirm the accepted exam with the embassy, foreigners authority, recognition body, university or employer before booking.</div></div>
+        <div class="e2gl-faq-item"><button class="e2gl-faq-btn"><span>How can I improve speaking quickly?</span><span>+</span></button><div class="e2gl-faq-answer">Use short daily speaking practice: shadow audio, record yourself, join a tandem or language café, and practise the exact situations you expect at work or university.</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="e2gl-cta">
+    <div class="e2gl-wrap"><div class="e2gl-cta-box"><h2>Make German part of your Germany plan—not a last-minute obstacle.</h2><p>Choose your target level early, connect it to your study, visa or career route, and combine structured learning with daily real-life practice.</p><a class="e2gl-btn" href="https://www.enroute2germany.com/#contact">Get personalised guidance →</a></div></div>
+  </section>
+
+  <section class="e2gl-section" style="padding-top:0">
+    <div class="e2gl-wrap">
+      <div class="e2gl-sourcebox"><span class="e2gl-updated">Reviewed: 25 July 2026</span><h3>Official and trusted reference points</h3><p>This page is independently written for Enroute2Germany and summarises public guidance. It does not reproduce the wording, visual identity or photographs of the source portal.</p>
+        <div class="e2gl-source-list">
+          <a href="https://www.make-it-in-germany.com/en/living-in-germany/learn-german" target="_blank" rel="noopener">Make it in Germany – Learning German</a>
+          <a href="https://www.make-it-in-germany.com/en/living-in-germany/learn-german/knowledge" target="_blank" rel="noopener">German requirements by route</a>
+          <a href="https://www.make-it-in-germany.com/en/living-in-germany/learn-german/language-classes" target="_blank" rel="noopener">Language classes and resources</a>
+          <a href="https://www.make-it-in-germany.com/en/living-in-germany/learn-german/integration-courses" target="_blank" rel="noopener">Integration courses</a>
+          <a href="https://www.bamf.de/EN/Themen/Integration/ZugewanderteTeilnehmende/Integrationskurse/integrationskurse-node.html" target="_blank" rel="noopener">BAMF – Integration courses</a>
+          <a href="https://bamf-navi.bamf.de/en/" target="_blank" rel="noopener">BAMF-NAvI course search</a>
+          <a href="https://www.coe.int/en/web/common-european-framework-reference-languages" target="_blank" rel="noopener">Council of Europe – CEFR</a>
+          <a href="https://www.goethe.de/en/spr/prf.html" target="_blank" rel="noopener">Goethe German examinations</a>
+        </div>
+      </div>
+      <p class="e2gl-legal">Legal and language requirements can change and individual authorities may request additional evidence. This guide is general information, not legal advice. Always confirm the current requirements with the competent German authority, university, recognition body or examination provider before applying or paying fees.</p>
+    </div>
+  </section>
+</main>
+<script>
+(function(){
+  const levels={
+    A1:{label:'A1 · Beginner',title:'Start with essential everyday German.',color:'#d61f2c',understand:'Very familiar words, simple notices and slow, clear questions about personal information.',communicate:'Introduce yourself, order something, give basic details and ask simple questions with support.',use:'First arrival, basic shopping, simple appointments and an initial foundation for certain visa routes.',next:'Build routine vocabulary, basic grammar and confidence in short conversations.',goalHead:'A practical A1 goal',goal:'Hold a two-minute introduction, understand simple directions and complete a basic personal-information form.'},
+    A2:{label:'A2 · Elementary',title:'Manage routine situations with growing independence.',color:'#e88422',understand:'Frequently used expressions about work, family, shopping, local geography and immediate needs.',communicate:'Handle simple routine exchanges and describe your background, surroundings and basic needs.',use:'Daily errands, simple workplace instructions, appointments and several recognition-related routes.',next:'Link sentences, increase listening speed and write short practical messages.',goalHead:'A practical A2 goal',goal:'Arrange an appointment, explain a simple problem and write a clear message about everyday matters.'},
+    B1:{label:'B1 · Independent user',title:'Navigate work, travel and everyday life independently.',color:'#0f766e',understand:'The main points of clear standard German on familiar topics at work, study and leisure.',communicate:'Describe experiences, explain plans and give short reasons for opinions in connected speech.',use:'Vocational training, independent daily life, many workplace situations and important long-term residence milestones.',next:'Improve accuracy, professional vocabulary and the ability to handle unexpected conversations.',goalHead:'A practical B1 goal',goal:'Explain your professional experience, participate in a routine meeting and write a structured email.'},
+    B2:{label:'B2 · Upper intermediate',title:'Communicate confidently in professional and academic settings.',color:'#1d4ed8',understand:'Complex texts and detailed discussions, including technical topics within your field.',communicate:'Interact with relative fluency, present a viewpoint and explain advantages and disadvantages.',use:'Professional roles, university study, customer contact, technical discussions and advanced recognition needs.',next:'Refine precision, register, presentation skills and complex writing.',goalHead:'A practical B2 goal',goal:'Lead part of a meeting, discuss a technical issue and write a detailed professional report or application.'},
+    C1:{label:'C1 · Advanced',title:'Use German flexibly, precisely and effectively.',color:'#6d28d9',understand:'Demanding longer texts, implied meaning and nuanced professional or academic communication.',communicate:'Express ideas fluently and adapt language appropriately across social, academic and professional contexts.',use:'Advanced study, leadership, complex negotiations, research and communication-intensive professions.',next:'Develop stylistic control, specialist vocabulary and near-native comprehension speed.',goalHead:'A practical C1 goal',goal:'Present and defend a complex position, negotiate professionally and write sophisticated academic or business texts.'},
+    C2:{label:'C2 · Mastery',title:'Understand and express almost everything with nuance.',color:'#171717',understand:'Virtually all spoken and written German, including subtle differences in style and meaning.',communicate:'Summarise sources, reconstruct arguments and express yourself fluently, spontaneously and precisely.',use:'High-level academic, legal, literary, diplomatic or expert communication where nuance is critical.',next:'Maintain precision and expand highly specialised or stylistic range.',goalHead:'A practical C2 goal',goal:'Synthesize complex sources, communicate subtle distinctions and adapt seamlessly to demanding contexts.'}
+  };
+  const buttons=[...document.querySelectorAll('.e2gl-level-btn')];
+  function setLevel(key){const d=levels[key];if(!d)return;buttons.forEach(b=>b.setAttribute('aria-selected',String(b.dataset.level===key)));document.getElementById('e2gl-level-panel').style.setProperty('--panel-color',d.color);document.getElementById('e2gl-level-label').textContent=d.label;document.getElementById('e2gl-level-title').textContent=d.title;document.getElementById('e2gl-level-big').textContent=key;document.getElementById('e2gl-understand').textContent=d.understand;document.getElementById('e2gl-communicate').textContent=d.communicate;document.getElementById('e2gl-use').textContent=d.use;document.getElementById('e2gl-next').textContent=d.next;document.getElementById('e2gl-goal-head').textContent=d.goalHead;document.getElementById('e2gl-goal').textContent=d.goal;}
+  buttons.forEach(b=>b.addEventListener('click',()=>setLevel(b.dataset.level)));
+  const filters=[...document.querySelectorAll('.e2gl-filter')],cards=[...document.querySelectorAll('.e2gl-resource')],search=document.getElementById('e2gl-search');let active='all';
+  function filterCards(){const q=(search.value||'').toLowerCase().trim();cards.forEach(c=>{const hay=(c.dataset.tags+' '+c.textContent).toLowerCase();const okFilter=active==='all'||hay.includes(active);const okSearch=!q||hay.includes(q);c.classList.toggle('hidden',!(okFilter&&okSearch));});}
+  filters.forEach(f=>f.addEventListener('click',()=>{active=f.dataset.filter;filters.forEach(x=>x.setAttribute('aria-pressed',String(x===f)));filterCards();}));search.addEventListener('input',filterCards);
+  document.querySelectorAll('.e2gl-faq-btn').forEach(btn=>btn.addEventListener('click',()=>btn.parentElement.classList.toggle('open')));
+})();
+</script>
+</body>
+</html>
