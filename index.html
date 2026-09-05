@@ -646,7 +646,7 @@
     <section id="services" class="section-padding section-surface">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center max-w-2xl mx-auto mb-16" data-aos="fade-up">
-          <span class="text-xs uppercase tracking-widest text-brand-gold font-bold block mb-2">What we do</span>
+          <span class="text-xs uppercase tracking-widest text-brand-gold font-bold block mb-2">Our services</span>
           <h2 class="text-3xl sm:text-4xl font-serif font-bold text-brand-dark">What we do</h2>
           <div class="section-divider my-4"></div>
           <p class="text-brand-slate mt-4">Personalized consulting across your entire journey—focused entirely on
@@ -766,7 +766,7 @@
 
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div class="text-center max-w-2xl mx-auto mb-16" data-aos="fade-up">
-          <span class="text-xs uppercase tracking-widest text-brand-gold font-bold block mb-2">Why Germany</span>
+          <span class="text-xs uppercase tracking-widest text-brand-gold font-bold block mb-2">The advantage</span>
           <h2 class="text-3xl sm:text-4xl font-serif font-bold text-white">Why Germany</h2>
         </div>
 
@@ -906,18 +906,18 @@
           <form id="wa-interactive-form" onsubmit="routeToWhatsApp(event)"
             class="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
-              <label class="block text-xs uppercase tracking-wider font-semibold text-gray-300 mb-2">Your Name *</label>
+              <label for="wa-name" class="block text-xs uppercase tracking-wider font-semibold text-gray-300 mb-2">Your Name *</label>
               <input type="text" id="wa-name" required placeholder="e.g. Sravya"
                 class="w-full bg-white/5 border border-white/15 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-brand-gold text-white transition">
             </div>
             <div>
-              <label class="block text-xs uppercase tracking-wider font-semibold text-gray-300 mb-2">Desired Degree
+              <label for="wa-degree" class="block text-xs uppercase tracking-wider font-semibold text-gray-300 mb-2">Desired Degree
                 *</label>
               <input type="text" id="wa-degree" required placeholder="e.g. MSc Data Science"
                 class="w-full bg-white/5 border border-white/15 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-brand-gold text-white transition">
             </div>
             <div class="md:col-span-2">
-              <label class="block text-xs uppercase tracking-wider font-semibold text-gray-300 mb-2">Your Current
+              <label for="wa-message" class="block text-xs uppercase tracking-wider font-semibold text-gray-300 mb-2">Your Current
                 Profile
                 / CGPA / Background *</label>
               <textarea id="wa-message" rows="3" required
@@ -941,7 +941,7 @@
     <section class="section-padding section-surface">
       <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-16" data-aos="fade-up">
-          <span class="text-xs uppercase tracking-widest text-brand-gold font-bold block mb-2">Find your program</span>
+          <span class="text-xs uppercase tracking-widest text-brand-gold font-bold block mb-2">Program finder</span>
           <h2 class="text-3xl sm:text-4xl font-serif font-bold text-brand-dark">Find your program</h2>
           <div class="section-divider my-4"></div>
           <p class="text-brand-slate mt-2">Tell us a bit and we'll shortlist the best universities for you.</p>
@@ -952,45 +952,45 @@
             <input type="text" name="botcheck" class="hidden" tabindex="-1" autocomplete="off">
 
             <div>
-              <label class="block text-xs uppercase tracking-wider font-semibold text-brand-dark mb-2">Degree
+              <label for="finder-degree" class="block text-xs uppercase tracking-wider font-semibold text-brand-dark mb-2">Degree
                 Level</label>
-              <input type="text" name="degree" placeholder="e.g., Masters, Bachelors" required
+              <input type="text" id="finder-degree" name="degree" placeholder="e.g., Masters, Bachelors" required
                 class="w-full bg-white border border-brand-gold/20 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-brand-gold transition">
             </div>
             <div>
-              <label class="block text-xs uppercase tracking-wider font-semibold text-brand-dark mb-2">Field of
+              <label for="finder-field" class="block text-xs uppercase tracking-wider font-semibold text-brand-dark mb-2">Field of
                 Study</label>
-              <input type="text" name="field" placeholder="e.g., Mechanical Engineering, Computer Science" required
+              <input type="text" id="finder-field" name="field" placeholder="e.g., Mechanical Engineering, Computer Science" required
                 class="w-full bg-white border border-brand-gold/20 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-brand-gold transition">
             </div>
             <div>
-              <label class="block text-xs uppercase tracking-wider font-semibold text-brand-dark mb-2">Intake
+              <label for="finder-intake" class="block text-xs uppercase tracking-wider font-semibold text-brand-dark mb-2">Intake
                 Period</label>
-              <input type="text" name="intake" placeholder="e.g., Winter 2026, Summer 2025" required
+              <input type="text" id="finder-intake" name="intake" placeholder="e.g., Winter 2026, Summer 2025" required
                 class="w-full bg-white border border-brand-gold/20 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-brand-gold transition">
             </div>
             <div>
-              <label class="block text-xs uppercase tracking-wider font-semibold text-brand-dark mb-2">Your Full Name
+              <label for="finder-name" class="block text-xs uppercase tracking-wider font-semibold text-brand-dark mb-2">Your Full Name
                 *</label>
-              <input type="text" name="name" placeholder="Enter your full name" required
+              <input type="text" id="finder-name" name="name" placeholder="Enter your full name" required
                 class="w-full bg-white border border-brand-gold/20 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-brand-gold transition">
             </div>
             <div>
-              <label class="block text-xs uppercase tracking-wider font-semibold text-brand-dark mb-2">Email Address
+              <label for="finder-email" class="block text-xs uppercase tracking-wider font-semibold text-brand-dark mb-2">Email Address
                 *</label>
-              <input type="email" name="email" placeholder="your.email@example.com" required
+              <input type="email" id="finder-email" name="email" placeholder="your.email@example.com" required
                 class="w-full bg-white border border-brand-gold/20 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-brand-gold transition">
             </div>
             <div>
-              <label class="block text-xs uppercase tracking-wider font-semibold text-brand-dark mb-2">WhatsApp
+              <label for="finder-whatsapp" class="block text-xs uppercase tracking-wider font-semibold text-brand-dark mb-2">WhatsApp
                 Number</label>
-              <input type="tel" name="whatsapp" placeholder="+91 XXXXX XXXXX" required
+              <input type="tel" id="finder-whatsapp" name="whatsapp" placeholder="+91 XXXXX XXXXX" required
                 class="w-full bg-white border border-brand-gold/20 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-brand-gold transition">
             </div>
             <div class="md:col-span-2">
-              <label class="block text-xs uppercase tracking-wider font-semibold text-brand-dark mb-2">Additional
+              <label for="finder-message" class="block text-xs uppercase tracking-wider font-semibold text-brand-dark mb-2">Additional
                 Information</label>
-              <textarea name="message" rows="4"
+              <textarea id="finder-message" name="message" rows="4"
                 placeholder="Tell us your goals, background, CGPA, work experience, or any specific requirements..."
                 required
                 class="w-full bg-white border border-brand-gold/20 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-brand-gold resize-none transition"></textarea>
@@ -1020,7 +1020,7 @@
 
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div class="text-center max-w-2xl mx-auto mb-16" data-aos="fade-up">
-          <span class="text-xs uppercase tracking-widest text-brand-gold font-bold block mb-2">Student stories</span>
+          <span class="text-xs uppercase tracking-widest text-brand-gold font-bold block mb-2">Testimonials</span>
           <h2 class="text-3xl sm:text-4xl font-serif font-bold text-white">Student stories</h2>
           <div class="section-divider my-4"></div>
           <p class="text-brand-slate mt-2">Real experiences from students we've helped</p>
@@ -1114,7 +1114,7 @@
     <section id="resources" class="section-padding section-surface">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center max-w-2xl mx-auto mb-16" data-aos="fade-up">
-          <span class="text-xs uppercase tracking-widest text-brand-gold font-bold block mb-2">Resources</span>
+          <span class="text-xs uppercase tracking-widest text-brand-gold font-bold block mb-2">Free guides</span>
           <h2 class="text-3xl sm:text-4xl font-serif font-bold text-brand-dark">Resources</h2>
           <div class="section-divider my-4"></div>
         </div>
@@ -1203,33 +1203,33 @@
               <input type="text" name="botcheck" class="hidden" tabindex="-1" autocomplete="off">
 
               <div>
-                <label class="block text-xs uppercase tracking-wider font-semibold text-brand-dark mb-2">Full Legal Name
+                <label for="booking-name" class="block text-xs uppercase tracking-wider font-semibold text-brand-dark mb-2">Full Legal Name
                   *</label>
-                <input type="text" name="name" required placeholder="Anjali Sharma"
+                <input type="text" id="booking-name" name="name" required placeholder="Anjali Sharma"
                   class="w-full bg-white border border-brand-gold/20 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-brand-gold transition">
               </div>
               <div>
-                <label class="block text-xs uppercase tracking-wider font-semibold text-brand-dark mb-2">Primary Email
+                <label for="booking-email" class="block text-xs uppercase tracking-wider font-semibold text-brand-dark mb-2">Primary Email
                   *</label>
-                <input type="email" name="email" required placeholder="anjali@domain.com"
+                <input type="email" id="booking-email" name="email" required placeholder="anjali@domain.com"
                   class="w-full bg-white border border-brand-gold/20 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-brand-gold transition">
               </div>
               <div>
-                <label class="block text-xs uppercase tracking-wider font-semibold text-brand-dark mb-2">WhatsApp Number
+                <label for="booking-whatsapp" class="block text-xs uppercase tracking-wider font-semibold text-brand-dark mb-2">WhatsApp Number
                   *</label>
-                <input type="tel" name="whatsapp" required placeholder="+91 XXXXX XXXXX"
+                <input type="tel" id="booking-whatsapp" name="whatsapp" required placeholder="+91 XXXXX XXXXX"
                   class="w-full bg-white border border-brand-gold/20 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-brand-gold transition">
               </div>
               <div>
-                <label class="block text-xs uppercase tracking-wider font-semibold text-brand-dark mb-2">Target Academic
+                <label for="booking-field" class="block text-xs uppercase tracking-wider font-semibold text-brand-dark mb-2">Target Academic
                   Field *</label>
-                <input type="text" name="field" required placeholder="e.g. Mechanical Engineering"
+                <input type="text" id="booking-field" name="field" required placeholder="e.g. Mechanical Engineering"
                   class="w-full bg-white border border-brand-gold/20 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-brand-gold transition">
               </div>
               <div>
-                <label class="block text-xs uppercase tracking-wider font-semibold text-brand-dark mb-2">Message
+                <label for="booking-message" class="block text-xs uppercase tracking-wider font-semibold text-brand-dark mb-2">Message
                   *</label>
-                <textarea name="message" rows="4" required
+                <textarea id="booking-message" name="message" rows="4" required
                   placeholder="Describe your profile parameters, CGPA, research papers..."
                   class="w-full bg-white border border-brand-gold/20 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-brand-gold resize-none transition"></textarea>
               </div>
@@ -1328,9 +1328,8 @@
             <p class="text-sm text-gray-400 leading-relaxed mb-4">
               Subscribe to receive exclusive insights, application tips, and success stories directly to your inbox.
             </p>
-            <form class="flex flex-col sm:flex-row gap-3"
-              onsubmit="event.preventDefault(); alert('Thank you for subscribing!');">
-              <input type="email" placeholder="Enter your email" required
+            <form class="flex flex-col sm:flex-row gap-3" onsubmit="subscribeNewsletter(event)">
+              <input type="email" id="newsletter-email" aria-label="Email address" placeholder="Enter your email" required
                 class="flex-1 bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-sm text-white placeholder-gray-500 focus:outline-none focus:border-brand-gold transition">
               <button type="submit"
                 class="px-6 py-3 gold-gradient-bg text-brand-dark font-bold text-xs uppercase tracking-widest rounded-lg hover:scale-105 transition-all duration-300 shadow-lg shadow-brand-gold/20 hover:shadow-brand-gold/40 whitespace-nowrap">
@@ -1384,19 +1383,19 @@
       <div class="p-8">
         <form id="popup-form" onsubmit="handlePopupSubmit(event)" class="space-y-4">
           <div>
-            <label class="block text-[10px] uppercase font-bold tracking-wider text-brand-dark mb-1">Your Full Name
+            <label for="popup-name" class="block text-[10px] uppercase font-bold tracking-wider text-brand-dark mb-1">Your Full Name
               *</label>
             <input type="text" id="popup-name" required placeholder="Divya Sharma"
               class="w-full bg-brand-canvas border border-brand-gold/20 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-brand-gold transition">
           </div>
           <div>
-            <label class="block text-[10px] uppercase font-bold tracking-wider text-brand-dark mb-1">Email Address
+            <label for="popup-email" class="block text-[10px] uppercase font-bold tracking-wider text-brand-dark mb-1">Email Address
               *</label>
             <input type="email" id="popup-email" required placeholder="divya@gmail.com"
               class="w-full bg-brand-canvas border border-brand-gold/20 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-brand-gold transition">
           </div>
           <div>
-            <label class="block text-[10px] uppercase font-bold tracking-wider text-brand-dark mb-1">Target Degree /
+            <label for="popup-degree" class="block text-[10px] uppercase font-bold tracking-wider text-brand-dark mb-1">Target Degree /
               Intake Term *</label>
             <input type="text" id="popup-degree" required placeholder="MSc Informatics, Winter 2026"
               class="w-full bg-brand-canvas border border-brand-gold/20 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-brand-gold transition">
@@ -1478,7 +1477,10 @@
       const email = document.getElementById('popup-email').value;
       const degree = document.getElementById('popup-degree').value;
 
-      alert(`✨ Thank you, ${name}! Your eligibility request for "${degree}" has been logged. We will connect within 24 hours.`);
+      const text =
+        `Hi Anjani, I'd like to request an intake eligibility screening:\n\n*Name:* ${name}\n*Email:* ${email}\n*Target Degree / Intake Term:* ${degree}`;
+      window.open(`https://wa.me/4917674415998?text=${encodeURIComponent(text)}`, '_blank');
+
       closePopup();
       document.getElementById('popup-form').reset();
     }
@@ -1495,6 +1497,19 @@
       const encodedText = encodeURIComponent(text);
 
       window.open(`https://wa.me/4917674415998?text=${encodedText}`, '_blank');
+    }
+
+    // ===== NEWSLETTER =====
+    function subscribeNewsletter(event) {
+      event.preventDefault();
+      const form = event.target;
+      const email = document.getElementById('newsletter-email').value;
+
+      const subject = encodeURIComponent('Newsletter signup — Enroute2Germany');
+      const body = encodeURIComponent(`Please subscribe this email to the newsletter: ${email}`);
+      window.location.href = `mailto:kmech36@gmail.com?subject=${subject}&body=${body}`;
+
+      form.reset();
     }
 
     // ===== EMAILJS =====
