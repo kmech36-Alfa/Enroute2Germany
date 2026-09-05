@@ -1,0 +1,1573 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enroute2Germany — Premium Consultation for Studying in Germany</title>
+  <meta name="description"
+    content="Bespoke, end-to-end consulting for ambitious Indian students aspiring to study at top-tier public and TU9 universities in Germany.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://enroute2germany.com/">
+  <meta name="theme-color" content="#0F172A">
+  <meta name="author" content="Anjani Padmanabhuni">
+  <meta property="og:url" content="https://enroute2germany.com/">
+  <meta property="og:title" content="Enroute2Germany — Premium Consultation for Studying in Germany">
+  <meta property="og:description"
+    content="Premium consulting for Indian students seeking admission to German public and TU9 universities, including SOP review, visa strategy, and career mapping.">
+  <meta property="og:type" content="website">
+  <meta property="og:image"
+    content="https://images.unsplash.com/photo-1523305471259-1c0d5e825fab?auto=format&fit=crop&q=80&w=1200">
+  <meta property="og:image:alt" content="Germany university campus with modern architecture">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Enroute2Germany — Premium Consultation for Studying in Germany">
+  <meta name="twitter:description"
+    content="Premium consulting for Indian students seeking admission to German public and TU9 universities, including SOP review, visa strategy, and career mapping.">
+  <meta name="twitter:image"
+    content="https://images.unsplash.com/photo-1523305471259-1c0d5e825fab?auto=format&fit=crop&q=80&w=1200">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "EducationalOrganization",
+      "name": "Enroute2Germany",
+      "description": "Premium consulting for Indian students seeking admission to German public and TU9 universities, including SOP review, visa strategy, and career mapping.",
+      "url": "https://enroute2germany.com",
+      "logo": "https://images.unsplash.com/photo-1599946347371-68eb71b16afc?auto=format&fit=crop&q=80&w=1200",
+      "telephone": "+49 176 74415998",
+      "email": "kmech36@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "DE"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/",
+        "https://www.instagram.com/"
+      ],
+      "service": {
+        "@type": "EducationalAudience",
+        "educationalRole": "Student"
+      }
+    }
+  </script>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- EmailJS -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+
+  <style>
+    /* ============================================================
+       CUSTOM PROPERTIES — Rich Color Palette
+    ============================================================ */
+    :root {
+      --primary: #0F172A;
+      --primary-light: #1E293B;
+      --secondary: #D4AF37;
+      --secondary-light: #F5E6B8;
+      --accent: #E85D3A;
+      --accent-light: #FDE8E3;
+      --gold-gradient: linear-gradient(135deg, #D4AF37 0%, #F5E6B8 50%, #D4AF37 100%);
+      --hero-gradient: linear-gradient(135deg, #0F172A 0%, #1E293B 40%, #2D1B1A 100%);
+      --card-bg: rgba(255, 255, 255, 0.85);
+      --glass-border: rgba(212, 175, 55, 0.2);
+      --shadow-elevated: 0 30px 80px -20px rgba(15, 23, 42, 0.25);
+      --shadow-glow: 0 0 60px rgba(212, 175, 55, 0.1);
+    }
+
+    /* ============================================================
+       BASE RESET
+    ============================================================ */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(180deg, #F8F4EB 0%, #F3EFE8 100%);
+      color: #0F172A;
+      overflow-x: hidden;
+    }
+
+    ::selection {
+      background: rgba(212, 175, 55, 0.3);
+      color: #0F172A;
+    }
+
+    .font-serif {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    section[id] {
+      scroll-margin-top: 90px;
+    }
+
+    .section-surface {
+      background: linear-gradient(135deg, #FFFEFA 0%, #F8F3EA 100%);
+    }
+
+    .soft-card {
+      background: rgba(255, 255, 255, 0.72);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(212, 175, 55, 0.14);
+      box-shadow: 0 12px 34px rgba(15, 23, 42, 0.06);
+    }
+
+    /* ============================================================
+       SCROLLBAR
+    ============================================================ */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: #F8F7F4;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: var(--secondary);
+      border-radius: 4px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: var(--primary);
+    }
+
+    /* ============================================================
+       UTILITY CLASSES
+    ============================================================ */
+    .premium-gradient-text {
+      background: linear-gradient(135deg, #D4AF37 0%, #F5E6B8 40%, #E85D3A 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .gold-gradient-bg {
+      background: linear-gradient(135deg, #D4AF37 0%, #F5E6B8 50%, #D4AF37 100%);
+    }
+
+    .glass-card {
+      background: rgba(255, 255, 255, 0.78);
+      backdrop-filter: blur(20px) saturate(180%);
+      -webkit-backdrop-filter: blur(20px) saturate(180%);
+      border: 1px solid rgba(212, 175, 55, 0.15);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.06), inset 0 1px 0 rgba(255, 255, 255, 0.6);
+    }
+
+    .glass-dark {
+      background: rgba(15, 23, 42, 0.85);
+      backdrop-filter: blur(20px) saturate(180%);
+      -webkit-backdrop-filter: blur(20px) saturate(180%);
+      border: 1px solid rgba(212, 175, 55, 0.15);
+    }
+
+    .glass-gold {
+      background: rgba(212, 175, 55, 0.08);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid rgba(212, 175, 55, 0.15);
+    }
+
+    .hover-lift {
+      transition: transform 0.5s cubic-bezier(0.34, 1.56, 0.64, 1),
+        box-shadow 0.5s ease;
+    }
+
+    .hover-lift:hover {
+      transform: translateY(-8px) scale(1.01);
+      box-shadow: var(--shadow-elevated);
+    }
+
+    .hover-glow {
+      transition: all 0.4s ease;
+    }
+
+    .hover-glow:hover {
+      box-shadow: var(--shadow-glow);
+      border-color: var(--secondary);
+    }
+
+    .section-padding {
+      padding: 100px 0;
+    }
+
+    @media (max-width: 768px) {
+      .section-padding {
+        padding: 60px 0;
+      }
+    }
+
+    /* ============================================================
+       ANIMATIONS
+    ============================================================ */
+    @keyframes float {
+
+      0%,
+      100% {
+        transform: translateY(0px);
+      }
+
+      50% {
+        transform: translateY(-16px);
+      }
+    }
+
+    @keyframes pulse-glow {
+
+      0%,
+      100% {
+        opacity: 0.6;
+        transform: scale(1);
+      }
+
+      50% {
+        opacity: 1;
+        transform: scale(1.05);
+      }
+    }
+
+    .animate-float {
+      animation: float 4s ease-in-out infinite;
+    }
+
+    .animate-pulse-glow {
+      animation: pulse-glow 3s ease-in-out infinite;
+    }
+
+    .hero-bg-blur {
+      background: radial-gradient(circle at 30% 50%, rgba(212, 175, 55, 0.12) 0%, transparent 60%),
+        radial-gradient(circle at 70% 80%, rgba(232, 93, 58, 0.08) 0%, transparent 50%),
+        radial-gradient(circle at 50% 20%, rgba(212, 175, 55, 0.05) 0%, transparent 40%);
+    }
+
+    /* ============================================================
+       FOCUS
+    ============================================================ */
+    :focus-visible {
+      outline: 3px solid var(--secondary);
+      outline-offset: 2px;
+    }
+
+    /* ============================================================
+       MOBILE TOUCH TARGETS
+    ============================================================ */
+    @media (max-width: 768px) {
+
+      button,
+      a,
+      input,
+      select,
+      textarea {
+        min-height: 48px;
+        min-width: 48px;
+      }
+    }
+
+    /* ============================================================
+       SECTION DIVIDERS
+    ============================================================ */
+    .section-divider {
+      background: linear-gradient(90deg, transparent 0%, var(--secondary) 20%, var(--secondary) 80%, transparent 100%);
+      height: 2px;
+      width: 100px;
+      margin: 0 auto;
+    }
+
+    /* ============================================================
+       FOOTER SPECIFIC
+    ============================================================ */
+    .footer-wave {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      overflow: hidden;
+      line-height: 0;
+    }
+
+    .footer-wave svg {
+      position: relative;
+      display: block;
+      width: calc(100% + 1.3px);
+      height: 80px;
+    }
+
+    .social-icon {
+      transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+
+    .social-icon:hover {
+      transform: translateY(-4px) scale(1.1);
+    }
+
+    .footer-link {
+      position: relative;
+      transition: color 0.3s ease;
+    }
+
+    .footer-link::after {
+      content: '';
+      position: absolute;
+      bottom: -2px;
+      left: 0;
+      width: 0;
+      height: 1px;
+      background: var(--secondary);
+      transition: width 0.3s ease;
+    }
+
+    .footer-link:hover::after {
+      width: 100%;
+    }
+
+    .footer-link:hover {
+      color: var(--secondary);
+    }
+  </style>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              dark: '#0F172A',
+              'dark-light': '#1E293B',
+              gold: '#D4AF37',
+              'gold-light': '#F5E6B8',
+              accent: '#E85D3A',
+              canvas: '#F8F7F4',
+              slate: '#475569',
+            }
+          },
+          fontFamily: {
+            serif: ['Poppins', 'sans-serif'],
+            sans: ['Poppins', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body>
+
+  <!-- ============================================================
+  TOP BAR — Gold Accent
+  ============================================================ -->
+  <div class="bg-brand-dark text-white text-xs py-3 px-4 sm:px-6 lg:px-8 border-b border-brand-gold/20 relative z-50">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+      <div class="flex items-center space-x-6 flex-wrap justify-center sm:justify-start">
+        <a href="tel:+4917674415998"
+          class="flex items-center space-x-2 hover:text-brand-gold transition-colors duration-300">
+          <i data-lucide="phone" class="w-3.5 h-3.5 text-brand-gold"></i>
+          <span>+49 176 74415998</span>
+        </a>
+        <a href="mailto:kmech36@gmail.com"
+          class="flex items-center space-x-2 hover:text-brand-gold transition-colors duration-300">
+          <i data-lucide="mail" class="w-3.5 h-3.5 text-brand-gold"></i>
+          <span>kmech36@gmail.com</span>
+        </a>
+      </div>
+      <div class="flex items-center space-x-3 text-[11px] tracking-widest uppercase font-semibold text-gray-400">
+        <span>Connecting</span>
+        <span>🇮🇳</span>
+        <span class="text-brand-gold">→</span>
+        <span>🇩🇪</span>
+        <span class="inline-block w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================================
+  HEADER — Glassmorphism Nav
+  ============================================================ -->
+  <header class="sticky top-0 z-40 glass-card border-b border-brand-gold/10 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      <!-- Logo -->
+      <a href="#" class="flex items-center space-x-3 group">
+        <div
+          class="relative w-10 h-10 rounded-full gold-gradient-bg flex items-center justify-center overflow-hidden shadow-lg shadow-brand-gold/20 group-hover:shadow-brand-gold/40 transition-all duration-300">
+          <span class="font-serif text-brand-dark text-lg font-bold">E</span>
+        </div>
+        <div>
+          <span class="text-xl font-bold tracking-tight text-brand-dark block">Enroute2Germany</span>
+          <span class="text-[9px] uppercase tracking-widest text-brand-gold block font-bold">Elite Academic
+            Mentorship</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="hidden lg:flex items-center space-x-8">
+        <a href="#about"
+          class="text-sm font-medium text-brand-dark/80 hover:text-brand-gold transition relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-brand-gold after:transition-all hover:after:w-full">About</a>
+        <a href="#services"
+          class="text-sm font-medium text-brand-dark/80 hover:text-brand-gold transition relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-brand-gold after:transition-all hover:after:w-full">Services</a>
+        <a href="#why"
+          class="text-sm font-medium text-brand-dark/80 hover:text-brand-gold transition relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-brand-gold after:transition-all hover:after:w-full">Why
+          Germany</a>
+        <a href="#process"
+          class="text-sm font-medium text-brand-dark/80 hover:text-brand-gold transition relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-brand-gold after:transition-all hover:after:w-full">Process</a>
+        <a href="#success"
+          class="text-sm font-medium text-brand-dark/80 hover:text-brand-gold transition relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-brand-gold after:transition-all hover:after:w-full">Success</a>
+        <a href="#resources"
+          class="text-sm font-medium text-brand-dark/80 hover:text-brand-gold transition relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-brand-gold after:transition-all hover:after:w-full">Resources</a>
+      </nav>
+
+      <!-- CTA Buttons -->
+      <div class="hidden md:flex items-center space-x-4">
+        <button onclick="openPopup()"
+          class="px-5 py-2.5 bg-brand-dark hover:bg-brand-accent text-white text-xs uppercase font-bold tracking-widest rounded-lg transition-all duration-300 hover:shadow-xl hover:shadow-brand-dark/20">
+          Inquire Now
+        </button>
+        <a href="#book"
+          class="px-5 py-2.5 border-2 border-brand-gold hover:bg-brand-gold hover:text-brand-dark text-brand-dark text-xs uppercase font-bold tracking-widest rounded-lg transition-all duration-300">
+          Book Call
+        </a>
+      </div>
+
+      <!-- Mobile Menu Toggle -->
+      <button onclick="toggleMobileMenu()" aria-label="Toggle menu"
+        class="lg:hidden text-brand-dark p-2 hover:bg-brand-gold/10 rounded-lg transition">
+        <i data-lucide="menu" id="menu-icon" class="w-6 h-6"></i>
+      </button>
+    </div>
+
+    <!-- Mobile Navigation -->
+    <div id="mobile-nav"
+      class="hidden lg:hidden glass-card border-t border-brand-gold/10 p-6 absolute w-full left-0 shadow-2xl space-y-3">
+      <a href="#about" onclick="toggleMobileMenu()"
+        class="block text-base font-semibold text-brand-dark py-2 hover:text-brand-gold transition">About</a>
+      <a href="#services" onclick="toggleMobileMenu()"
+        class="block text-base font-semibold text-brand-dark py-2 hover:text-brand-gold transition">Services</a>
+      <a href="#why" onclick="toggleMobileMenu()"
+        class="block text-base font-semibold text-brand-dark py-2 hover:text-brand-gold transition">Why Germany</a>
+      <a href="#process" onclick="toggleMobileMenu()"
+        class="block text-base font-semibold text-brand-dark py-2 hover:text-brand-gold transition">Process</a>
+      <a href="#success" onclick="toggleMobileMenu()"
+        class="block text-base font-semibold text-brand-dark py-2 hover:text-brand-gold transition">Success Stories</a>
+      <a href="#resources" onclick="toggleMobileMenu()"
+        class="block text-base font-semibold text-brand-dark py-2 hover:text-brand-gold transition">Resources</a>
+      <div class="pt-4 flex flex-col gap-3">
+        <button onclick="openPopup(); toggleMobileMenu();"
+          class="w-full text-center py-3 bg-brand-dark text-white text-xs uppercase font-bold tracking-wider rounded-lg hover:bg-brand-accent transition">
+          Inquire Now
+        </button>
+        <a href="#book" onclick="toggleMobileMenu()"
+          class="w-full text-center py-3 border-2 border-brand-gold text-brand-dark text-xs uppercase font-bold tracking-wider rounded-lg hover:bg-brand-gold transition">
+          Book Call
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============================================================
+  HERO — Elegant premium hero with dark mood and refined imagery
+  ============================================================ -->
+    <section class="relative overflow-hidden bg-brand-dark text-white py-24 lg:py-36">
+      <div
+        class="absolute inset-0 bg-[linear-gradient(135deg,_rgba(15,23,42,0.98)_0%,_rgba(15,23,42,0.95)_45%,_rgba(30,41,59,0.92)_100%)]">
+      </div>
+      <div
+        class="absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(212,175,55,0.18),transparent_28%),radial-gradient(circle_at_bottom_right,_rgba(232,93,58,0.16),transparent_30%),radial-gradient(circle_at_center,_rgba(255,255,255,0.06),transparent_42%)]">
+      </div>
+      <div class="absolute inset-0 opacity-25"
+        style="background-image: linear-gradient(rgba(255,255,255,0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.05) 1px, transparent 1px); background-size: 48px 48px;">
+      </div>
+      <div class="absolute inset-0 opacity-80"
+        style="background-image: linear-gradient(120deg, transparent 0%, transparent 45%, rgba(212,175,55,0.08) 45%, rgba(212,175,55,0.08) 55%, transparent 55%, transparent 100%), linear-gradient(60deg, transparent 0%, transparent 35%, rgba(232,93,58,0.08) 35%, rgba(232,93,58,0.08) 65%, transparent 65%, transparent 100%); mask-image: linear-gradient(180deg, black 55%, transparent 100%);">
+      </div>
+      <div class="absolute left-8 top-20 h-28 w-28 rounded-full bg-brand-gold/15 blur-3xl"></div>
+      <div class="absolute bottom-10 right-8 h-36 w-36 rounded-full bg-brand-accent/15 blur-3xl"></div>
+      <div class="absolute inset-x-0 top-0 h-72 bg-gradient-to-b from-black/30 to-transparent pointer-events-none">
+      </div>
+      <div class="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-black/20 to-transparent pointer-events-none">
+      </div>
+      <div
+        class="absolute left-0 top-1/2 h-[1px] w-full bg-gradient-to-r from-transparent via-brand-gold/30 to-transparent">
+      </div>
+      <div
+        class="absolute left-1/2 top-0 h-full w-[1px] bg-gradient-to-b from-transparent via-brand-gold/20 to-transparent">
+      </div>
+
+      <div class="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="grid items-center gap-12 lg:grid-cols-[1.02fr_0.98fr]">
+          <div class="max-w-2xl" data-aos="fade-up" data-aos-duration="900">
+            <div
+              class="mb-5 inline-flex items-center gap-3 rounded-full border border-white/10 bg-white/10 px-4 py-2 backdrop-blur-sm">
+              <span class="h-2.5 w-2.5 rounded-full bg-brand-gold"></span>
+              <span class="text-[10px] font-semibold uppercase tracking-[0.35em] text-brand-gold">TU9 + Public
+                University Mentor</span>
+            </div>
+
+            <h1
+              class="mb-6 font-serif text-4xl font-semibold leading-[1.05] tracking-[-0.02em] text-white sm:text-5xl lg:text-6xl">
+              From dream to Germany campus — guided with clarity.
+            </h1>
+
+            <p class="mb-8 max-w-xl text-base leading-relaxed text-slate-300 sm:text-lg">
+              Premium, end-to-end consulting for ambitious Indian students pursuing public and TU9 universities in
+              Germany.
+            </p>
+
+            <div class="mb-8 flex flex-col gap-4 sm:flex-row">
+              <a href="#book"
+                class="inline-flex items-center justify-center rounded-full bg-brand-gold px-8 py-4 font-semibold text-brand-dark shadow-xl shadow-brand-gold/20 transition hover:scale-[1.02]">
+                Book a call
+              </a>
+              <a href="#services"
+                class="inline-flex items-center justify-center rounded-full border border-white/20 bg-white/5 px-8 py-4 font-semibold text-white transition hover:bg-white/10">
+                Explore services
+              </a>
+            </div>
+
+            <div class="flex flex-wrap gap-3">
+              <span class="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-slate-300">Program
+                fit</span>
+              <span class="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-slate-300">SOP
+                strategy</span>
+              <span class="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-slate-300">Visa
+                readiness</span>
+              <span class="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-slate-300">Arrival
+                support</span>
+            </div>
+          </div>
+
+          <div class="relative" data-aos="fade-left" data-aos-duration="900">
+            <div class="absolute -left-6 top-8 h-24 w-24 rounded-full bg-brand-gold/20 blur-3xl"></div>
+            <div class="absolute -bottom-6 right-6 h-28 w-28 rounded-full bg-brand-accent/20 blur-3xl"></div>
+
+            <div
+              class="overflow-hidden rounded-[2rem] border border-white/10 bg-white/10 shadow-[0_35px_90px_-25px_rgba(2,6,23,0.75)] backdrop-blur-xl">
+              <img src="https://images.unsplash.com/photo-1523305471259-1c0d5e825fab?auto=format&fit=crop&q=80&w=1200"
+                alt="Modern German university campus with academic architecture"
+                class="h-[320px] w-full object-cover transition duration-500 hover:scale-105 sm:h-[380px]" />
+              <div class="bg-gradient-to-t from-brand-dark via-brand-dark/80 to-transparent p-6">
+                <p class="text-[10px] font-semibold uppercase tracking-[0.28em] text-brand-gold">Premium Germany support
+                </p>
+                <h2 class="mt-2 font-serif text-2xl font-medium leading-snug text-white sm:text-3xl">A refined plan for
+                  admission, visa, and arrival in Germany</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+  ABOUT / FOUNDER
+  ============================================================ -->
+    <section id="about" class="section-padding section-surface">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+          <div class="lg:col-span-5" data-aos="fade-up">
+            <div class="relative inline-block">
+              <div class="absolute -top-4 -left-4 w-20 h-20 border-t-2 border-l-2 border-brand-gold"></div>
+              <div class="absolute -bottom-4 -right-4 w-20 h-20 border-b-2 border-r-2 border-brand-gold"></div>
+              <div
+                class="bg-gradient-to-br from-brand-dark to-brand-dark-light w-full max-w-[360px] aspect-[4/5] rounded-2xl flex flex-col justify-center items-center border border-brand-gold/20 p-6 text-center hover-lift shadow-xl">
+                <div
+                  class="w-20 h-20 gold-gradient-bg rounded-full flex items-center justify-center mb-4 shadow-lg shadow-brand-gold/30">
+                  <i data-lucide="award" class="w-10 h-10 text-brand-dark"></i>
+                </div>
+                <h3 class="font-serif font-bold text-2xl text-white">Anjani Padmanabhuni</h3>
+                <p class="text-xs text-brand-gold uppercase tracking-wider font-bold mt-1">Founder & Lead Mentor</p>
+                <div class="w-12 h-px bg-brand-gold/30 my-4"></div>
+                <p class="text-sm text-gray-300 leading-relaxed">
+                  Over a decade living in Germany, Master's Graduate from elite public institution, current Senior
+                  Quality
+                  Engineer.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="lg:col-span-7" data-aos="fade-up" data-aos-delay="100">
+            <span class="text-xs uppercase tracking-[0.28em] text-brand-gold font-semibold block mb-2">About
+              Enroute2Germany</span>
+            <h2
+              class="text-3xl sm:text-4xl font-serif font-semibold leading-tight tracking-[-0.01em] text-brand-dark mb-6">
+              I'm Anjani Padmanabhuni — over a decade living in Germany, Master's here, and working as a Quality
+              Engineer.
+            </h2>
+            <p class="text-brand-slate leading-relaxed mb-6 text-lg">
+              I help students plan their move end-to-end with practical, transparent advice. From picking the right
+              program to getting your visa and finding a place to live, you'll have a partner in every step.
+            </p>
+            <div class="flex flex-wrap items-center gap-3">
+              <div class="flex items-center space-x-2 bg-brand-gold/10 px-4 py-2 rounded-full">
+                <i data-lucide="check-circle" class="text-brand-gold w-5 h-5"></i>
+                <span class="text-sm font-semibold text-brand-dark">1:1 SOP Review</span>
+              </div>
+              <div class="flex items-center space-x-2 bg-brand-gold/10 px-4 py-2 rounded-full">
+                <i data-lucide="check-circle" class="text-brand-gold w-5 h-5"></i>
+                <span class="text-sm font-semibold text-brand-dark">Direct German Network</span>
+              </div>
+              <div class="flex items-center space-x-2 bg-brand-gold/10 px-4 py-2 rounded-full">
+                <i data-lucide="check-circle" class="text-brand-gold w-5 h-5"></i>
+                <span class="text-sm font-semibold text-brand-dark">Complete Career Mapping</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+  SERVICES — Glassmorphism Cards
+  ============================================================ -->
+    <section id="services" class="section-padding section-surface">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-2xl mx-auto mb-16" data-aos="fade-up">
+          <span class="text-xs uppercase tracking-widest text-brand-gold font-bold block mb-2">What we do</span>
+          <h2 class="text-3xl sm:text-4xl font-serif font-bold text-brand-dark">What we do</h2>
+          <div class="section-divider my-4"></div>
+          <p class="text-brand-slate mt-4">Personalized consulting across your entire journey—focused entirely on
+            Germany.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Service Cards -->
+          <div class="glass-card p-6 sm:p-8 rounded-2xl hover-lift hover-glow border border-brand-gold/10"
+            data-aos="fade-up" data-aos-delay="0">
+            <div
+              class="w-14 h-14 gold-gradient-bg rounded-xl flex items-center justify-center mb-6 shadow-lg shadow-brand-gold/20">
+              <i data-lucide="graduation-cap" class="w-7 h-7 text-brand-dark"></i>
+            </div>
+            <h3 class="font-serif text-xl font-bold text-brand-dark mb-3">University Shortlisting</h3>
+            <p class="text-brand-slate text-sm leading-relaxed mb-6">
+              Program identification across all public German institutions matching your transcripts, portfolio, and
+              career goals.
+            </p>
+            <a href="#book"
+              class="text-xs uppercase tracking-widest font-bold text-brand-gold hover:text-brand-dark transition inline-flex items-center gap-1">
+              Learn More <i data-lucide="chevron-right" class="w-3 h-3"></i>
+            </a>
+          </div>
+
+          <div class="glass-card p-6 sm:p-8 rounded-2xl hover-lift hover-glow border border-brand-gold/10"
+            data-aos="fade-up" data-aos-delay="100">
+            <div
+              class="w-14 h-14 gold-gradient-bg rounded-xl flex items-center justify-center mb-6 shadow-lg shadow-brand-gold/20">
+              <i data-lucide="file-text" class="w-7 h-7 text-brand-dark"></i>
+            </div>
+            <h3 class="font-serif text-xl font-bold text-brand-dark mb-3">SOP/LOR & Documents</h3>
+            <p class="text-brand-slate text-sm leading-relaxed mb-6">
+              Editing, templates, and submission checks to stand out.
+            </p>
+            <a href="#book"
+              class="text-xs uppercase tracking-widest font-bold text-brand-gold hover:text-brand-dark transition inline-flex items-center gap-1">
+              Learn More <i data-lucide="chevron-right" class="w-3 h-3"></i>
+            </a>
+          </div>
+
+          <div class="glass-card p-6 sm:p-8 rounded-2xl hover-lift hover-glow border border-brand-gold/10"
+            data-aos="fade-up" data-aos-delay="200">
+            <div
+              class="w-14 h-14 gold-gradient-bg rounded-xl flex items-center justify-center mb-6 shadow-lg shadow-brand-gold/20">
+              <i data-lucide="shield-check" class="w-7 h-7 text-brand-dark"></i>
+            </div>
+            <h3 class="font-serif text-xl font-bold text-brand-dark mb-3">Visa Guidance</h3>
+            <p class="text-brand-slate text-sm leading-relaxed mb-6">
+              Blocked account, health insurance, APS, VFS, interview prep.
+            </p>
+            <a href="#book"
+              class="text-xs uppercase tracking-widest font-bold text-brand-gold hover:text-brand-dark transition inline-flex items-center gap-1">
+              Learn More <i data-lucide="chevron-right" class="w-3 h-3"></i>
+            </a>
+          </div>
+
+          <div class="glass-card p-6 sm:p-8 rounded-2xl hover-lift hover-glow border border-brand-gold/10"
+            data-aos="fade-up" data-aos-delay="300">
+            <div
+              class="w-14 h-14 gold-gradient-bg rounded-xl flex items-center justify-center mb-6 shadow-lg shadow-brand-gold/20">
+              <i data-lucide="home" class="w-7 h-7 text-brand-dark"></i>
+            </div>
+            <h3 class="font-serif text-xl font-bold text-brand-dark mb-3">Housing & Arrival</h3>
+            <p class="text-brand-slate text-sm leading-relaxed mb-6">
+              WG tips, Anmeldung, bank account, SIM, transport.
+            </p>
+            <a href="#book"
+              class="text-xs uppercase tracking-widest font-bold text-brand-gold hover:text-brand-dark transition inline-flex items-center gap-1">
+              Learn More <i data-lucide="chevron-right" class="w-3 h-3"></i>
+            </a>
+          </div>
+
+          <div class="glass-card p-6 sm:p-8 rounded-2xl hover-lift hover-glow border border-brand-gold/10"
+            data-aos="fade-up" data-aos-delay="400">
+            <div
+              class="w-14 h-14 gold-gradient-bg rounded-xl flex items-center justify-center mb-6 shadow-lg shadow-brand-gold/20">
+              <i data-lucide="briefcase" class="w-7 h-7 text-brand-dark"></i>
+            </div>
+            <h3 class="font-serif text-xl font-bold text-brand-dark mb-3">Career & Networking</h3>
+            <p class="text-brand-slate text-sm leading-relaxed mb-6">
+              LinkedIn, student jobs, internships, post-study pathway.
+            </p>
+            <a href="#book"
+              class="text-xs uppercase tracking-widest font-bold text-brand-gold hover:text-brand-dark transition inline-flex items-center gap-1">
+              Learn More <i data-lucide="chevron-right" class="w-3 h-3"></i>
+            </a>
+          </div>
+
+          <div class="glass-card p-6 sm:p-8 rounded-2xl hover-lift hover-glow border border-brand-gold/10"
+            data-aos="fade-up" data-aos-delay="500">
+            <div
+              class="w-14 h-14 gold-gradient-bg rounded-xl flex items-center justify-center mb-6 shadow-lg shadow-brand-gold/20">
+              <i data-lucide="phone-call" class="w-7 h-7 text-brand-dark"></i>
+            </div>
+            <h3 class="font-serif text-xl font-bold text-brand-dark mb-3">On-call Support</h3>
+            <p class="text-brand-slate text-sm leading-relaxed mb-6">
+              WhatsApp support and weekly Q&A sessions.
+            </p>
+            <a href="#book"
+              class="text-xs uppercase tracking-widest font-bold text-brand-gold hover:text-brand-dark transition inline-flex items-center gap-1">
+              Learn More <i data-lucide="chevron-right" class="w-3 h-3"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+  WHY GERMANY — Gradient Cards
+  ============================================================ -->
+    <section id="why" class="section-padding bg-brand-dark text-white relative overflow-hidden">
+      <div class="absolute inset-0 z-0 opacity-10">
+        <div class="absolute top-0 right-0 w-[600px] h-[600px] bg-brand-gold rounded-full blur-3xl"></div>
+        <div class="absolute bottom-0 left-0 w-[500px] h-[500px] bg-brand-accent rounded-full blur-3xl"></div>
+      </div>
+
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="text-center max-w-2xl mx-auto mb-16" data-aos="fade-up">
+          <span class="text-xs uppercase tracking-widest text-brand-gold font-bold block mb-2">Why Germany</span>
+          <h2 class="text-3xl sm:text-4xl font-serif font-bold text-white">Why Germany</h2>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="glass-gold p-8 rounded-2xl text-center hover-lift border border-brand-gold/20" data-aos="fade-up"
+            data-aos-delay="0">
+            <div class="text-5xl mb-4 font-serif text-brand-gold font-bold">01</div>
+            <h3 class="font-serif text-xl font-bold text-white mb-3">World-class public universities</h3>
+            <p class="text-sm text-gray-300 leading-relaxed">
+              Low tuition, research-driven programs, and English-taught options.
+            </p>
+          </div>
+
+          <div class="glass-gold p-8 rounded-2xl text-center hover-lift border border-brand-gold/20" data-aos="fade-up"
+            data-aos-delay="100">
+            <div class="text-5xl mb-4 font-serif text-brand-gold font-bold">02</div>
+            <h3 class="font-serif text-xl font-bold text-white mb-3">Affordable student life</h3>
+            <p class="text-sm text-gray-300 leading-relaxed">
+              Semester ticket, subsidized housing, and student benefits.
+            </p>
+          </div>
+
+          <div class="glass-gold p-8 rounded-2xl text-center hover-lift border border-brand-gold/20" data-aos="fade-up"
+            data-aos-delay="200">
+            <div class="text-5xl mb-4 font-serif text-brand-gold font-bold">03</div>
+            <h3 class="font-serif text-xl font-bold text-white mb-3">Career pathways</h3>
+            <p class="text-sm text-gray-300 leading-relaxed">
+              18-month post-study visa and strong industry links.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+  PROCESS — Timeline with Gold Accents
+  ============================================================ -->
+    <section id="process" class="section-padding section-surface">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-2xl mx-auto mb-16" data-aos="fade-up">
+          <span class="text-xs uppercase tracking-widest text-brand-gold font-bold block mb-2">The Structural
+            Milestones</span>
+          <h2 class="text-3xl sm:text-4xl font-serif font-bold text-brand-dark">Our 6-Step Program</h2>
+          <div class="section-divider my-4"></div>
+          <p class="text-brand-slate mt-4">We maintain strict milestones to ensure zero administrative delays.</p>
+        </div>
+
+        <div class="relative border-l-2 border-brand-gold/40 ml-4 md:ml-12 space-y-12">
+          <!-- Steps -->
+          <div class="relative pl-8 md:pl-12" data-aos="fade-up">
+            <div
+              class="absolute -left-4 top-1.5 w-8 h-8 gold-gradient-bg rounded-full border-4 border-white flex items-center justify-center shadow-lg shadow-brand-gold/30">
+              <span class="text-brand-dark text-xs font-bold">1</span>
+            </div>
+            <h3 class="font-serif text-xl font-bold text-brand-dark">Phase 1: Diagnostic Assessment</h3>
+            <p class="text-brand-slate mt-2 max-w-2xl">Complete analysis of transcripts, research publications, CGPA
+              conversion, and target institution feasibility.</p>
+          </div>
+
+          <div class="relative pl-8 md:pl-12" data-aos="fade-up">
+            <div
+              class="absolute -left-4 top-1.5 w-8 h-8 gold-gradient-bg rounded-full border-4 border-white flex items-center justify-center shadow-lg shadow-brand-gold/30">
+              <span class="text-brand-dark text-xs font-bold">2</span>
+            </div>
+            <h3 class="font-serif text-xl font-bold text-brand-dark">Phase 2: Master University Shortlisting</h3>
+            <p class="text-brand-slate mt-2 max-w-2xl">Curating exact program fits mapping program modules to your
+              academic syllabus to maximize admission probability.</p>
+          </div>
+
+          <div class="relative pl-8 md:pl-12" data-aos="fade-up">
+            <div
+              class="absolute -left-4 top-1.5 w-8 h-8 gold-gradient-bg rounded-full border-4 border-white flex items-center justify-center shadow-lg shadow-brand-gold/30">
+              <span class="text-brand-dark text-xs font-bold">3</span>
+            </div>
+            <h3 class="font-serif text-xl font-bold text-brand-dark">Phase 3: Creative Document Structuring</h3>
+            <p class="text-brand-slate mt-2 max-w-2xl">Writing, drafting, formatting your critical Statements of Purpose
+              (SOP) and Letters of Recommendation (LOR) without generic templates.</p>
+          </div>
+
+          <div class="relative pl-8 md:pl-12" data-aos="fade-up">
+            <div
+              class="absolute -left-4 top-1.5 w-8 h-8 gold-gradient-bg rounded-full border-4 border-white flex items-center justify-center shadow-lg shadow-brand-gold/30">
+              <span class="text-brand-dark text-xs font-bold">4</span>
+            </div>
+            <h3 class="font-serif text-xl font-bold text-brand-dark">Phase 4: Visa Prep & Submission</h3>
+            <p class="text-brand-slate mt-2 max-w-2xl">Navigating the APS, blocked account setups, custom financial
+              proof
+              compilation, and strategic VFS interview mock run.</p>
+          </div>
+
+          <div class="relative pl-8 md:pl-12" data-aos="fade-up">
+            <div
+              class="absolute -left-4 top-1.5 w-8 h-8 gold-gradient-bg rounded-full border-4 border-white flex items-center justify-center shadow-lg shadow-brand-gold/30">
+              <span class="text-brand-dark text-xs font-bold">5</span>
+            </div>
+            <h3 class="font-serif text-xl font-bold text-brand-dark">Phase 5: Arrival Setup & Integration</h3>
+            <p class="text-brand-slate mt-2 max-w-2xl">Coordinating city registration steps, WG accommodation searches,
+              and direct student union bank setups prior to landing.</p>
+          </div>
+
+          <div class="relative pl-8 md:pl-12" data-aos="fade-up">
+            <div
+              class="absolute -left-4 top-1.5 w-8 h-8 gold-gradient-bg rounded-full border-4 border-white flex items-center justify-center shadow-lg shadow-brand-gold/30">
+              <span class="text-brand-dark text-xs font-bold">6</span>
+            </div>
+            <h3 class="font-serif text-xl font-bold text-brand-dark">Phase 6: Professional Career Strategy</h3>
+            <p class="text-brand-slate mt-2 max-w-2xl">Direct layout of internship search strategies, target local
+              professional networks, and step-by-step career blueprints.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+  WHATSAPP INTERACTIVE — Gradient Background
+  ============================================================ -->
+    <section class="section-padding relative overflow-hidden">
+      <div class="absolute inset-0 z-0 bg-gradient-to-br from-brand-dark via-brand-dark-light to-brand-dark">
+        <div class="absolute top-0 right-0 w-[500px] h-[500px] bg-brand-gold/10 rounded-full blur-3xl"></div>
+        <div class="absolute bottom-0 left-0 w-[400px] h-[400px] bg-brand-accent/10 rounded-full blur-3xl"></div>
+      </div>
+
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="text-center mb-12" data-aos="fade-up">
+          <div
+            class="inline-flex items-center space-x-2 bg-emerald-500/10 border border-emerald-500/20 px-4 py-1.5 rounded-full mb-4">
+            <i data-lucide="message-square" class="w-4 h-4 text-emerald-400"></i>
+            <span class="text-xs font-bold uppercase tracking-widest text-emerald-400">Instant WhatsApp Advisor
+              Routing</span>
+          </div>
+          <h2 class="text-3xl font-serif font-bold text-white">Start an Interactive Connect</h2>
+          <p class="text-gray-300 mt-2">Fill in your basic data — our system will auto-compile a professional request
+            template and connect you instantly to Anjani.</p>
+        </div>
+
+        <div class="glass-dark rounded-2xl p-8 border border-brand-gold/20" data-aos="zoom-in">
+          <form id="wa-interactive-form" onsubmit="routeToWhatsApp(event)"
+            class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <label class="block text-xs uppercase tracking-wider font-semibold text-gray-300 mb-2">Your Name *</label>
+              <input type="text" id="wa-name" required placeholder="e.g. Sravya"
+                class="w-full bg-white/5 border border-white/15 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-brand-gold text-white transition">
+            </div>
+            <div>
+              <label class="block text-xs uppercase tracking-wider font-semibold text-gray-300 mb-2">Desired Degree
+                *</label>
+              <input type="text" id="wa-degree" required placeholder="e.g. MSc Data Science"
+                class="w-full bg-white/5 border border-white/15 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-brand-gold text-white transition">
+            </div>
+            <div class="md:col-span-2">
+              <label class="block text-xs uppercase tracking-wider font-semibold text-gray-300 mb-2">Your Current
+                Profile
+                / CGPA / Background *</label>
+              <textarea id="wa-message" rows="3" required
+                placeholder="e.g. BTech in Computer Science, CGPA 8.4, seeking public university winter intake."
+                class="w-full bg-white/5 border border-white/15 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-brand-gold text-white resize-none transition"></textarea>
+            </div>
+            <div class="md:col-span-2">
+              <button type="submit"
+                class="w-full py-4 gold-gradient-bg text-brand-dark font-bold tracking-widest text-xs uppercase rounded-lg transition-all duration-300 flex items-center justify-center gap-2 shadow-xl shadow-brand-gold/20 hover:shadow-brand-gold/40 hover:scale-105">
+                <i class="w-4 h-4 text-brand-dark" data-lucide="send"></i> Convert & Send WhatsApp Message
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+  FIND YOUR PROGRAM — Glass Card
+  ============================================================ -->
+    <section class="section-padding section-surface">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16" data-aos="fade-up">
+          <span class="text-xs uppercase tracking-widest text-brand-gold font-bold block mb-2">Find your program</span>
+          <h2 class="text-3xl sm:text-4xl font-serif font-bold text-brand-dark">Find your program</h2>
+          <div class="section-divider my-4"></div>
+          <p class="text-brand-slate mt-2">Tell us a bit and we'll shortlist the best universities for you.</p>
+        </div>
+
+        <div class="glass-card p-8 md:p-12 rounded-2xl border border-brand-gold/15" data-aos="fade-up">
+          <form id="finder-form" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <input type="text" name="botcheck" class="hidden" tabindex="-1" autocomplete="off">
+
+            <div>
+              <label class="block text-xs uppercase tracking-wider font-semibold text-brand-dark mb-2">Degree
+                Level</label>
+              <input type="text" name="degree" placeholder="e.g., Masters, Bachelors" required
+                class="w-full bg-white border border-brand-gold/20 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-brand-gold transition">
+            </div>
+            <div>
+              <label class="block text-xs uppercase tracking-wider font-semibold text-brand-dark mb-2">Field of
+                Study</label>
+              <input type="text" name="field" placeholder="e.g., Mechanical Engineering, Computer Science" required
+                class="w-full bg-white border border-brand-gold/20 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-brand-gold transition">
+            </div>
+            <div>
+              <label class="block text-xs uppercase tracking-wider font-semibold text-brand-dark mb-2">Intake
+                Period</label>
+              <input type="text" name="intake" placeholder="e.g., Winter 2026, Summer 2025" required
+                class="w-full bg-white border border-brand-gold/20 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-brand-gold transition">
+            </div>
+            <div>
+              <label class="block text-xs uppercase tracking-wider font-semibold text-brand-dark mb-2">Your Full Name
+                *</label>
+              <input type="text" name="name" placeholder="Enter your full name" required
+                class="w-full bg-white border border-brand-gold/20 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-brand-gold transition">
+            </div>
+            <div>
+              <label class="block text-xs uppercase tracking-wider font-semibold text-brand-dark mb-2">Email Address
+                *</label>
+              <input type="email" name="email" placeholder="your.email@example.com" required
+                class="w-full bg-white border border-brand-gold/20 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-brand-gold transition">
+            </div>
+            <div>
+              <label class="block text-xs uppercase tracking-wider font-semibold text-brand-dark mb-2">WhatsApp
+                Number</label>
+              <input type="tel" name="whatsapp" placeholder="+91 XXXXX XXXXX" required
+                class="w-full bg-white border border-brand-gold/20 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-brand-gold transition">
+            </div>
+            <div class="md:col-span-2">
+              <label class="block text-xs uppercase tracking-wider font-semibold text-brand-dark mb-2">Additional
+                Information</label>
+              <textarea name="message" rows="4"
+                placeholder="Tell us your goals, background, CGPA, work experience, or any specific requirements..."
+                required
+                class="w-full bg-white border border-brand-gold/20 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-brand-gold resize-none transition"></textarea>
+            </div>
+            <div class="md:col-span-2">
+              <button type="submit"
+                class="w-full py-4 bg-brand-dark hover:bg-brand-accent text-white font-bold tracking-widest text-xs uppercase rounded-lg transition-all duration-300 shadow-xl shadow-brand-dark/20 hover:shadow-brand-accent/30">
+                Send & get shortlist
+              </button>
+            </div>
+            <div class="md:col-span-2 text-sm text-gray-500">✉️ You'll receive a confirmation email with your program
+              shortlist.</div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+  SUCCESS STORIES — Carousel Style Cards
+  ============================================================ -->
+    <section id="success" class="section-padding bg-brand-dark text-white relative overflow-hidden">
+      <div class="absolute inset-0 z-0 opacity-5">
+        <div
+          class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-brand-gold rounded-full blur-3xl">
+        </div>
+      </div>
+
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="text-center max-w-2xl mx-auto mb-16" data-aos="fade-up">
+          <span class="text-xs uppercase tracking-widest text-brand-gold font-bold block mb-2">Student stories</span>
+          <h2 class="text-3xl sm:text-4xl font-serif font-bold text-white">Student stories</h2>
+          <div class="section-divider my-4"></div>
+          <p class="text-brand-slate mt-2">Real experiences from students we've helped</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="glass-gold p-8 rounded-2xl border border-brand-gold/20 hover-lift" data-aos="fade-up"
+            data-aos-delay="0">
+            <div class="flex text-brand-gold gap-1 mb-6">
+              <i data-lucide="star" class="w-4 h-4 fill-brand-gold"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-brand-gold"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-brand-gold"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-brand-gold"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-brand-gold"></i>
+            </div>
+            <p class="font-serif italic text-white text-base leading-relaxed mb-8">
+              "I secured admission into TU9 with Enroute2Germany's detailed guidance. The structural review of my SOP
+              was
+              excellent."
+            </p>
+            <div class="flex items-center gap-3">
+              <div
+                class="w-10 h-10 gold-gradient-bg rounded-full flex items-center justify-center text-brand-dark font-bold text-xs">
+                S
+              </div>
+              <div>
+                <span class="block text-sm font-bold text-white">Sravya</span>
+                <span class="text-[10px] text-brand-gold uppercase tracking-wider font-semibold">MSc Data Science</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="glass-gold p-8 rounded-2xl border border-brand-gold/20 hover-lift" data-aos="fade-up"
+            data-aos-delay="100">
+            <div class="flex text-brand-gold gap-1 mb-6">
+              <i data-lucide="star" class="w-4 h-4 fill-brand-gold"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-brand-gold"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-brand-gold"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-brand-gold"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-brand-gold"></i>
+            </div>
+            <p class="font-serif italic text-white text-base leading-relaxed mb-8">
+              "First attempt visa success. The financial mock checklist saved me weeks of tracking, and I felt
+              completely
+              ready."
+            </p>
+            <div class="flex items-center gap-3">
+              <div
+                class="w-10 h-10 gold-gradient-bg rounded-full flex items-center justify-center text-brand-dark font-bold text-xs">
+                A
+              </div>
+              <div>
+                <span class="block text-sm font-bold text-white">Arun</span>
+                <span class="text-[10px] text-brand-gold uppercase tracking-wider font-semibold">MSc Mechanical</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="glass-gold p-8 rounded-2xl border border-brand-gold/20 hover-lift" data-aos="fade-up"
+            data-aos-delay="200">
+            <div class="flex text-brand-gold gap-1 mb-6">
+              <i data-lucide="star" class="w-4 h-4 fill-brand-gold"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-brand-gold"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-brand-gold"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-brand-gold"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-brand-gold"></i>
+            </div>
+            <p class="font-serif italic text-white text-base leading-relaxed mb-8">
+              "Transitioning to Hamburg was incredibly straightforward. My student housing registration was fully
+              handled
+              before landing."
+            </p>
+            <div class="flex items-center gap-3">
+              <div
+                class="w-10 h-10 gold-gradient-bg rounded-full flex items-center justify-center text-brand-dark font-bold text-xs">
+                D
+              </div>
+              <div>
+                <span class="block text-sm font-bold text-white">Divya</span>
+                <span class="text-[10px] text-brand-gold uppercase tracking-wider font-semibold">MBA Candidate</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+  RESOURCES
+  ============================================================ -->
+    <section id="resources" class="section-padding section-surface">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-2xl mx-auto mb-16" data-aos="fade-up">
+          <span class="text-xs uppercase tracking-widest text-brand-gold font-bold block mb-2">Resources</span>
+          <h2 class="text-3xl sm:text-4xl font-serif font-bold text-brand-dark">Resources</h2>
+          <div class="section-divider my-4"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="glass-card p-6 sm:p-8 rounded-2xl hover-lift hover-glow border border-brand-gold/10"
+            data-aos="fade-up" data-aos-delay="0">
+            <div
+              class="w-12 h-12 gold-gradient-bg rounded-lg flex items-center justify-center mb-4 shadow-lg shadow-brand-gold/20">
+              <i data-lucide="calendar" class="w-6 h-6 text-brand-dark"></i>
+            </div>
+            <span class="text-[10px] uppercase font-bold text-brand-accent tracking-widest block mb-2">Guide</span>
+            <h4 class="font-serif text-lg font-bold text-brand-dark mb-4">German intakes explained</h4>
+            <p class="text-sm text-brand-slate leading-relaxed mb-6">
+              Winter vs Summer — what to know.
+            </p>
+            <a href="#book"
+              class="text-xs uppercase tracking-widest font-bold text-brand-gold hover:text-brand-dark transition inline-flex items-center gap-1">
+              Read & book <i data-lucide="chevron-right" class="w-3 h-3"></i>
+            </a>
+          </div>
+
+          <div class="glass-card p-6 sm:p-8 rounded-2xl hover-lift hover-glow border border-brand-gold/10"
+            data-aos="fade-up" data-aos-delay="100">
+            <div
+              class="w-12 h-12 gold-gradient-bg rounded-lg flex items-center justify-center mb-4 shadow-lg shadow-brand-gold/20">
+              <i data-lucide="file-warning" class="w-6 h-6 text-brand-dark"></i>
+            </div>
+            <span class="text-[10px] uppercase font-bold text-brand-accent tracking-widest block mb-2">Checklist</span>
+            <h4 class="font-serif text-lg font-bold text-brand-dark mb-4">SOP: 7 common mistakes</h4>
+            <p class="text-sm text-brand-slate leading-relaxed mb-6">
+              Avoid these to stand out.
+            </p>
+            <a href="#book"
+              class="text-xs uppercase tracking-widest font-bold text-brand-gold hover:text-brand-dark transition inline-flex items-center gap-1">
+              Read & book <i data-lucide="chevron-right" class="w-3 h-3"></i>
+            </a>
+          </div>
+
+          <div class="glass-card p-6 sm:p-8 rounded-2xl hover-lift hover-glow border border-brand-gold/10"
+            data-aos="fade-up" data-aos-delay="200">
+            <div
+              class="w-12 h-12 gold-gradient-bg rounded-lg flex items-center justify-center mb-4 shadow-lg shadow-brand-gold/20">
+              <i data-lucide="mic" class="w-6 h-6 text-brand-dark"></i>
+            </div>
+            <span class="text-[10px] uppercase font-bold text-brand-accent tracking-widest block mb-2">Interview</span>
+            <h4 class="font-serif text-lg font-bold text-brand-dark mb-4">Visa interview Q&A</h4>
+            <p class="text-sm text-brand-slate leading-relaxed mb-6">
+              Be fully prepared.
+            </p>
+            <a href="#book"
+              class="text-xs uppercase tracking-widest font-bold text-brand-gold hover:text-brand-dark transition inline-flex items-center gap-1">
+              Read & book <i data-lucide="chevron-right" class="w-3 h-3"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+  BOOKING / CALENDLY
+  ============================================================ -->
+    <section id="book" class="section-padding section-surface">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-2xl mx-auto mb-16" data-aos="fade-up">
+          <span class="text-xs uppercase tracking-widest text-brand-gold font-bold block mb-2">Book your
+            consultation</span>
+          <h2 class="text-3xl sm:text-4xl font-serif font-bold text-brand-dark">Book your consultation</h2>
+          <div class="section-divider my-4"></div>
+          <p class="text-brand-slate mt-2">Choose a time in the calendar or email me your details—both reach my inbox.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+          <!-- Calendly -->
+          <div class="lg:col-span-6 glass-card rounded-2xl overflow-hidden border border-brand-gold/15"
+            data-aos="fade-right">
+            <iframe src="https://calendly.com/kmech36/15min?hide_gdpr_banner=1&primary_color=d4af37"
+              class="w-full h-[620px]" frameborder="0" title="Enroute2Germany Direct Calendar Interface"></iframe>
+          </div>
+
+          <!-- Lead Capture Form -->
+          <div class="lg:col-span-6 glass-card p-8 md:p-10 rounded-2xl border border-brand-gold/15"
+            data-aos="fade-left">
+            <form id="email-form" class="space-y-6">
+              <input type="text" name="botcheck" class="hidden" tabindex="-1" autocomplete="off">
+
+              <div>
+                <label class="block text-xs uppercase tracking-wider font-semibold text-brand-dark mb-2">Full Legal Name
+                  *</label>
+                <input type="text" name="name" required placeholder="Anjali Sharma"
+                  class="w-full bg-white border border-brand-gold/20 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-brand-gold transition">
+              </div>
+              <div>
+                <label class="block text-xs uppercase tracking-wider font-semibold text-brand-dark mb-2">Primary Email
+                  *</label>
+                <input type="email" name="email" required placeholder="anjali@domain.com"
+                  class="w-full bg-white border border-brand-gold/20 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-brand-gold transition">
+              </div>
+              <div>
+                <label class="block text-xs uppercase tracking-wider font-semibold text-brand-dark mb-2">WhatsApp Number
+                  *</label>
+                <input type="tel" name="whatsapp" required placeholder="+91 XXXXX XXXXX"
+                  class="w-full bg-white border border-brand-gold/20 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-brand-gold transition">
+              </div>
+              <div>
+                <label class="block text-xs uppercase tracking-wider font-semibold text-brand-dark mb-2">Target Academic
+                  Field *</label>
+                <input type="text" name="field" required placeholder="e.g. Mechanical Engineering"
+                  class="w-full bg-white border border-brand-gold/20 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-brand-gold transition">
+              </div>
+              <div>
+                <label class="block text-xs uppercase tracking-wider font-semibold text-brand-dark mb-2">Message
+                  *</label>
+                <textarea name="message" rows="4" required
+                  placeholder="Describe your profile parameters, CGPA, research papers..."
+                  class="w-full bg-white border border-brand-gold/20 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-brand-gold resize-none transition"></textarea>
+              </div>
+              <button type="submit"
+                class="w-full py-4 bg-brand-dark hover:bg-brand-accent text-white font-bold tracking-widest text-xs uppercase rounded-lg transition-all duration-300 shadow-xl shadow-brand-dark/20 hover:shadow-brand-accent/30">
+                Submit Direct Consultation
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+  FOOTER — Modern Redesigned
+  ============================================================ -->
+  <footer class="relative bg-brand-dark text-white overflow-hidden">
+    <!-- Wave Divider -->
+    <div class="footer-wave">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path
+          d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+          class="fill-brand-dark/20"></path>
+      </svg>
+    </div>
+
+    <div class="relative z-10 pt-24 pb-12">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Main Footer Grid -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+          <!-- Brand Column -->
+          <div class="lg:col-span-4">
+            <div class="flex items-center space-x-3 mb-6">
+              <div
+                class="w-12 h-12 gold-gradient-bg rounded-full flex items-center justify-center shadow-lg shadow-brand-gold/30">
+                <span class="font-serif text-brand-dark text-xl font-bold">E</span>
+              </div>
+              <div>
+                <h4 class="font-serif text-2xl font-bold text-white">Enroute2Germany</h4>
+                <span class="text-xs text-brand-gold uppercase tracking-widest font-bold">Elite Mentorship</span>
+              </div>
+            </div>
+            <p class="text-gray-400 leading-relaxed mb-6 max-w-md">
+              Premium direct mentorship pathways to top German public and TU9 engineering universities. Your gateway to
+              world-class education.
+            </p>
+            <div class="flex space-x-3">
+              <div aria-label="Facebook"
+                class="social-icon w-11 h-11 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-brand-gold transition-all">
+                <i class="fa-brands fa-facebook-f"></i>
+              </div>
+              <div aria-label="Instagram"
+                class="social-icon w-11 h-11 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-brand-gold transition-all">
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+              <div aria-label="Twitter"
+                class="social-icon w-11 h-11 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-brand-gold transition-all">
+                <i class="fa-brands fa-x-twitter"></i>
+              </div>
+              <div aria-label="LinkedIn"
+                class="social-icon w-11 h-11 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-brand-gold transition-all">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="lg:col-span-2">
+            <h5 class="text-xs uppercase tracking-wider font-bold text-brand-gold mb-6">Quick Links</h5>
+            <ul class="space-y-3">
+              <li><a href="#about" class="footer-link text-sm text-gray-400">About Us</a></li>
+              <li><a href="#services" class="footer-link text-sm text-gray-400">Services</a></li>
+              <li><a href="#why" class="footer-link text-sm text-gray-400">Why Germany</a></li>
+              <li><a href="#process" class="footer-link text-sm text-gray-400">Our Process</a></li>
+              <li><a href="#success" class="footer-link text-sm text-gray-400">Success Stories</a></li>
+            </ul>
+          </div>
+
+          <!-- Services -->
+          <div class="lg:col-span-2">
+            <h5 class="text-xs uppercase tracking-wider font-bold text-brand-gold mb-6">Core Services</h5>
+            <ul class="space-y-3">
+              <li><a href="#services" class="footer-link text-sm text-gray-400">University Shortlisting</a></li>
+              <li><a href="#services" class="footer-link text-sm text-gray-400">SOP Design</a></li>
+              <li><a href="#services" class="footer-link text-sm text-gray-400">Visa Assistance</a></li>
+              <li><a href="#services" class="footer-link text-sm text-gray-400">Career Prep</a></li>
+              <li><a href="#services" class="footer-link text-sm text-gray-400">Housing Support</a></li>
+            </ul>
+          </div>
+
+          <!-- Contact & Newsletter -->
+          <div class="lg:col-span-4">
+            <h5 class="text-xs uppercase tracking-wider font-bold text-brand-gold mb-6">Stay Connected</h5>
+            <p class="text-sm text-gray-400 leading-relaxed mb-4">
+              Subscribe to receive exclusive insights, application tips, and success stories directly to your inbox.
+            </p>
+            <form class="flex flex-col sm:flex-row gap-3"
+              onsubmit="event.preventDefault(); alert('Thank you for subscribing!');">
+              <input type="email" placeholder="Enter your email" required
+                class="flex-1 bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-sm text-white placeholder-gray-500 focus:outline-none focus:border-brand-gold transition">
+              <button type="submit"
+                class="px-6 py-3 gold-gradient-bg text-brand-dark font-bold text-xs uppercase tracking-widest rounded-lg hover:scale-105 transition-all duration-300 shadow-lg shadow-brand-gold/20 hover:shadow-brand-gold/40 whitespace-nowrap">
+                Subscribe
+              </button>
+            </form>
+            <div class="mt-6 flex items-center space-x-4 text-sm">
+              <div class="flex items-center space-x-2 text-gray-400">
+                <i data-lucide="phone" class="w-4 h-4 text-brand-gold"></i>
+                <span>+49 176 74415998</span>
+              </div>
+              <div class="flex items-center space-x-2 text-gray-400">
+                <i data-lucide="mail" class="w-4 h-4 text-brand-gold"></i>
+                <span>kmech36@gmail.com</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bottom Bar -->
+        <div class="mt-12 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
+          <p class="text-xs text-gray-500">
+            &copy; <span id="current-year"></span> Enroute2Germany. All rights reserved. Built with precision.
+          </p>
+          <div class="flex items-center space-x-6 text-xs">
+            <a href="#" class="text-gray-500 hover:text-brand-gold transition">Privacy Policy</a>
+            <span class="text-gray-600">|</span>
+            <a href="#" class="text-gray-500 hover:text-brand-gold transition">Terms of Service</a>
+            <span class="text-gray-600">|</span>
+            <a href="#" class="text-gray-500 hover:text-brand-gold transition">Cookie Policy</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================================================
+  POPUP MODAL
+  ============================================================ -->
+  <div id="inquiry-popup" class="hidden fixed inset-0 z-50 flex items-center justify-center p-4">
+    <div class="absolute inset-0 bg-brand-dark/70 backdrop-blur-md" onclick="closePopup()"></div>
+    <div
+      class="glass-card max-w-lg w-full rounded-2xl overflow-hidden relative z-10 shadow-2xl border border-brand-gold/20 transform scale-95 transition-all duration-300">
+      <div class="bg-gradient-to-r from-brand-dark to-brand-dark-light text-white p-6 relative">
+        <h3 class="font-serif text-2xl font-bold">Inquire for Intake Eligibility</h3>
+        <p class="text-xs text-gray-300 mt-1">Direct eligibility assessment with Anjani Padmanabhuni.</p>
+        <button onclick="closePopup()" class="absolute top-6 right-6 text-white/60 hover:text-white transition p-2">
+          <i data-lucide="x" class="w-6 h-6"></i>
+        </button>
+      </div>
+      <div class="p-8">
+        <form id="popup-form" onsubmit="handlePopupSubmit(event)" class="space-y-4">
+          <div>
+            <label class="block text-[10px] uppercase font-bold tracking-wider text-brand-dark mb-1">Your Full Name
+              *</label>
+            <input type="text" id="popup-name" required placeholder="Divya Sharma"
+              class="w-full bg-brand-canvas border border-brand-gold/20 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-brand-gold transition">
+          </div>
+          <div>
+            <label class="block text-[10px] uppercase font-bold tracking-wider text-brand-dark mb-1">Email Address
+              *</label>
+            <input type="email" id="popup-email" required placeholder="divya@gmail.com"
+              class="w-full bg-brand-canvas border border-brand-gold/20 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-brand-gold transition">
+          </div>
+          <div>
+            <label class="block text-[10px] uppercase font-bold tracking-wider text-brand-dark mb-1">Target Degree /
+              Intake Term *</label>
+            <input type="text" id="popup-degree" required placeholder="MSc Informatics, Winter 2026"
+              class="w-full bg-brand-canvas border border-brand-gold/20 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-brand-gold transition">
+          </div>
+          <button type="submit"
+            class="w-full py-4 gold-gradient-bg text-brand-dark font-bold tracking-widest text-xs uppercase rounded-lg transition-all duration-300 shadow-xl shadow-brand-gold/20 hover:shadow-brand-gold/40 hover:scale-105 mt-4">
+            Request Screen Invitation
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================================
+  BACK TO TOP
+  ============================================================ -->
+  <button id="back-to-top" onclick="scrollToTop()"
+    class="hidden fixed bottom-6 right-6 z-50 w-12 h-12 gold-gradient-bg text-brand-dark rounded-full shadow-2xl shadow-brand-gold/30 flex items-center justify-center transition-all duration-300 hover:scale-110 hover:shadow-brand-gold/50">
+    <i data-lucide="arrow-up" class="w-5 h-5"></i>
+  </button>
+
+  <!-- ============================================================
+  SCRIPTS
+  ============================================================ -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+  </script>
+
+  <script>
+    // ===== INIT AOS =====
+    AOS.init({
+      duration: 700,
+      once: true,
+      offset: 70,
+      easing: 'cubic-bezier(0.22, 1, 0.36, 1)'
+    });
+
+    // ===== LUCIDE ICONS =====
+    lucide.createIcons();
+
+    // ===== CURRENT YEAR =====
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+
+    // ===== MOBILE MENU =====
+    function toggleMobileMenu() {
+      const menu = document.getElementById('mobile-nav');
+      menu.classList.toggle('hidden');
+    }
+
+    // ===== BACK TO TOP =====
+    window.addEventListener('scroll', () => {
+      const btt = document.getElementById('back-to-top');
+      if (window.scrollY > 400) {
+        btt.classList.remove('hidden');
+      } else {
+        btt.classList.add('hidden');
+      }
+    });
+
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    // ===== POPUP =====
+    function openPopup() {
+      const popup = document.getElementById('inquiry-popup');
+      popup.classList.remove('hidden');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closePopup() {
+      const popup = document.getElementById('inquiry-popup');
+      popup.classList.add('hidden');
+      document.body.style.overflow = 'auto';
+    }
+
+    function handlePopupSubmit(event) {
+      event.preventDefault();
+      const name = document.getElementById('popup-name').value;
+      const email = document.getElementById('popup-email').value;
+      const degree = document.getElementById('popup-degree').value;
+
+      alert(`✨ Thank you, ${name}! Your eligibility request for "${degree}" has been logged. We will connect within 24 hours.`);
+      closePopup();
+      document.getElementById('popup-form').reset();
+    }
+
+    // ===== WHATSAPP ROUTING =====
+    function routeToWhatsApp(event) {
+      event.preventDefault();
+      const name = document.getElementById('wa-name').value;
+      const degree = document.getElementById('wa-degree').value;
+      const message = document.getElementById('wa-message').value;
+
+      const text =
+        `Hi Anjani, I would like to inquire about Enroute2Germany consulting path:\n\n*Name:* ${name}\n*Target Degree:* ${degree}\n*Profile Details:* ${message}`;
+      const encodedText = encodeURIComponent(text);
+
+      window.open(`https://wa.me/4917674415998?text=${encodedText}`, '_blank');
+    }
+
+    // ===== EMAILJS =====
+    (function () {
+      emailjs.init("YOUR_PUBLIC_KEY"); // Replace with actual public key
+    })();
+
+    // ===== FINDER FORM =====
+    document.getElementById('finder-form').addEventListener('submit', function (e) {
+      e.preventDefault();
+      if (this.botcheck.value) return;
+
+      const submitBtn = this.querySelector('button[type="submit"]');
+      const originalText = submitBtn.textContent;
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Analyzing and sending criteria...';
+
+      emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', this)
+        .then(() => {
+          alert('✅ Success! Criteria received. We will send you a pre-screen program shortlist within 24 hours.');
+          this.reset();
+          submitBtn.disabled = false;
+          submitBtn.textContent = originalText;
+        })
+        .catch((error) => {
+          alert('❌ Connection timeout. Please utilize the interactive WhatsApp connector for real-time validation.');
+          console.error(error);
+          submitBtn.disabled = false;
+          submitBtn.textContent = originalText;
+        });
+    });
+
+    // ===== EMAIL FORM =====
+    document.getElementById('email-form').addEventListener('submit', function (e) {
+      e.preventDefault();
+      if (this.botcheck.value) return;
+
+      const submitBtn = this.querySelector('button[type="submit"]');
+      const originalText = submitBtn.textContent;
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Routing to direct inbox...';
+
+      emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID_2', this)
+        .then(() => {
+          alert('✅ Success! Your direct consultation request is saved. Anjani will reach out shortly.');
+          this.reset();
+          submitBtn.disabled = false;
+          submitBtn.textContent = originalText;
+        })
+        .catch((error) => {
+          alert('❌ Connection issue. Please utilize the active WhatsApp interactive widget.');
+          console.error(error);
+          submitBtn.disabled = false;
+          submitBtn.textContent = originalText;
+        });
+    });
+
+    // ===== CLOSE MOBILE MENU ON OUTSIDE CLICK =====
+    document.addEventListener('click', function (event) {
+      const menu = document.getElementById('mobile-nav');
+      const menuButton = document.querySelector('[aria-label="Toggle menu"]');
+      if (!menu.classList.contains('hidden') &&
+        !menu.contains(event.target) &&
+        !menuButton.contains(event.target)) {
+        menu.classList.add('hidden');
+      }
+    });
+
+    console.log('✨ Enroute2Germany — Premium Consultation Redesign Loaded');
+    console.log('🎨 Rich colors, glassmorphism, gradients, and modern design patterns applied.');
+    console.log('📱 Footer redesigned with wave, newsletter, and modern layout.');
+  </script>
+
+</body>
+
+</html>
